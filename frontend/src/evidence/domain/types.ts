@@ -37,8 +37,8 @@ export interface CanonicalRecord {
   productCode: string;
   description: string;
   cluster: string;
-  /** ISO date as printed in the source document. */
-  date: string;
+  /** ISO date as printed in the source document. Null when the source carries no date (HU, IT). */
+  date: string | null;
   /** Signed. Credit notes are negative and are never dropped. */
   qty: number;
   unit: 'piece';
@@ -58,12 +58,14 @@ export type AbstainReason =
   | 'unit_unverified'
   | 'missing_source'
   | 'unknown_currency'
-  | 'unknown_product';
+  | 'unknown_product'
+  | 'unresolved_supplier';
 export type ConflictReason =
   | 'reconciliation_failed'
   | 'currency_mismatch'
   | 'duplicate_record_id'
-  | 'arithmetic_mismatch';
+  | 'arithmetic_mismatch'
+  | 'supplier_mismatch';
 export type RejectReason = 'wrong_scope' | 'market_mismatch' | 'unknown_lineage' | 'malformed_input';
 
 /**

@@ -1,3 +1,4 @@
+import type { ParsedSheet } from './common';
 import type { ReferenceData } from './fixtures';
 import type { Outcome, SourceRef, IngestCheck, CanonicalRecord } from '../domain/types';
 
@@ -50,11 +51,6 @@ export interface ParseContext {
   scopeSupplierId: string;
   idPrefix: string;
   ref: ReferenceData;
-}
-
-export interface ParsedSheet {
-  records: CanonicalRecord[];
-  checks: IngestCheck[];
 }
 
 export function parseFr(matrix: string[][], ctx: ParseContext): Outcome<ParsedSheet> {

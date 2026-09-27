@@ -1,12 +1,16 @@
-import type { ParsedSheet } from './parse-fr';
-import type { ReferenceData } from './fixtures';
-import type { Outcome, MergeMode, SourceEvent, LineageEntry, CanonicalRecord } from '../domain/types';
+import type { ParsedSheet } from './common';
+import type { FixtureKey, ReferenceData } from './fixtures';
+import type { Outcome, Refusal, MergeMode, SourceEvent, LineageEntry, CanonicalRecord } from '../domain/types';
 
 import { parseCsv } from './csv';
 import { parseFr } from './parse-fr';
+import { parseHu } from './parse-hu';
+import { parseIt } from './parse-it';
+import { parseXk } from './parse-xk';
 import { sealRecord } from './record';
 import { contentId } from '../domain/hash';
 import { parseCents } from '../domain/money';
+import { supplierFromPrevious } from './common';
 import { fixturePath, readFixtureText } from './fixtures';
 
 /**
@@ -145,17 +149,11 @@ export function baselineLineage(market: string): LineageEntry {
 // ---------------------------------------------------------------------------------------------
 // Raw-sheet events
 
-/** UPD-FR-002 from the raw FR-v2 sheet. `overrides` exists to test wrong-scope deliveries. */
-export function loadFrEvent(
-  lineage: LineageEntry,
-  ref: ReferenceData,
-  overrides: Partial<Pick<LineageEntry, 'mode' | 'scopeSupplierId'>> = {}
-): Outcome<SourceEvent> {
-  if (!lineage.scopeSupplierId) {
-    return { status: 'rejected', reason: 'malformed_input', detail: 'FR lineage has no scope supplier' };
-  }
-  const text = readFixtureText('FR-v2');
-  const file = fixturePath('FR-v2');
+type Overrides = Partial<Pick<LineageEntry, 'mode' | 'scopeSupplierId'>>;
+
+function readSheet(key: FixtureKey): Outcome<{ file: string; matrix: string[][] }> {
+  const file = fixturePath(key);
+  const text = readFixtureText(key);
   if (text === null) {
     return {
       status: 'abstain',
@@ -164,13 +162,80 @@ export function loadFrEvent(
       evidence: [{ file, row: 0, columns: [] }],
     };
   }
-  const parsed: Outcome<ParsedSheet> = parseFr(parseCsv(text), {
-    file,
-    market: lineage.market,
-    scopeSupplierId: lineage.scopeSupplierId,
-    idPrefix: `${lineage.market}-LATEST`,
-    ref,
-  });
+  return { status: 'ok', value: { file, matrix: parseCsv(text) } };
+}
+
+const needScope = (lineage: LineageEntry): Refusal | null =>
+  lineage.scopeSupplierId
+    ? null
+    : { status: 'rejected', reason: 'malformed_input', detail: `${lineage.id} has no scope supplier` };
+
+function parseLineage(
+  lineage: LineageEntry,
+  ref: ReferenceData,
+  previous: readonly CanonicalRecord[]
+): Outcome<ParsedSheet> {
+  const idPrefix = `${lineage.market}-LATEST`;
+  const market = lineage.market;
+
+  switch (lineage.incoming) {
+    case 'FR-v2': {
+      const bad = needScope(lineage);
+      if (bad) return bad;
+      const s = readSheet('FR-v2');
+      if (s.status !== 'ok') return s;
+      return parseFr(s.value.matrix, { file: s.value.file, market, scopeSupplierId: lineage.scopeSupplierId!, idPrefix, ref });
+    }
+    case 'HU-v2': {
+      const bad = needScope(lineage);
+      if (bad) return bad;
+      const s = readSheet('HU-v2');
+      if (s.status !== 'ok') return s;
+      return parseHu(s.value.matrix, { file: s.value.file, market, scopeSupplierId: lineage.scopeSupplierId!, idPrefix, ref });
+    }
+    case 'XK-v2': {
+      const s = readSheet('XK-v2');
+      if (s.status !== 'ok') return s;
+      return parseXk(s.value.matrix, {
+        file: s.value.file,
+        market,
+        idPrefix,
+        ref,
+        resolveSupplier: supplierFromPrevious(previous, market),
+      });
+    }
+    case 'IT-v2': {
+      const sheets = [];
+      for (const [name, key] of [['MA CARR', 'IT-v2:MA CARR'], ['MA VERN', 'IT-v2:MA VERN']] as const) {
+        const s = readSheet(key);
+        if (s.status !== 'ok') return s;
+        sheets.push({ name, ...s.value });
+      }
+      return parseIt(sheets, { market, idPrefix, ref, resolveSupplier: supplierFromPrevious(previous, market) });
+    }
+    default:
+      return { status: 'rejected', reason: 'unknown_lineage', detail: `no parser for ${lineage.incoming}` };
+  }
+}
+
+/**
+ * Builds the SourceEvent for a lineage entry from its raw sheet(s).
+ *
+ * `previous` is the canonical state the event will be applied to. It is read only by layouts
+ * without a supplier column (XK, IT), to carry each product's supplier forward.
+ * `overrides` lets tests re-label a delivery (wrong-scope cases).
+ */
+export function loadLineageEvent(
+  lineage: LineageEntry,
+  ref: ReferenceData,
+  previous: readonly CanonicalRecord[] = [],
+  overrides: Overrides = {}
+): Outcome<SourceEvent> {
+  const parsed = parseLineage(lineage, ref, previous);
   if (parsed.status !== 'ok') return parsed;
   return { status: 'ok', value: sealEvent(lineage, parsed.value.records, parsed.value.checks, overrides) };
 }
+
+/** UPD-FR-002 from the raw FR-v2 sheet. FR needs no previous state. */
+export const loadFrEvent = (lineage: LineageEntry, ref: ReferenceData, overrides: Overrides = {}) =>
+  loadLineageEvent(lineage, ref, [], overrides);

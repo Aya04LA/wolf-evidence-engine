@@ -309,6 +309,14 @@ numbers are proven.
 - **FR dates.** The raw FR sheet prints invoice dates of 5–10 Sept 2026 (Excel serial 46270–46275), but the expected records carry transaction dates of Jan–Aug 2026. The engine stores the date it can prove (the sheet's) and does not copy the fixture's. The findings group by product and supplier, not month, so totals are unaffected.
 - **FR supplier.** The FR sheet has no supplier column. `supplierId` comes from the event scope and `brand` from `suppliers.json`, and each record's `origins` field says so.
 
+### Known fixture gaps (found in Phase 3)
+
+- **XK and IT have no supplier column.** The supplier is carried forward from the previous version of the same market: a product that had exactly one supplier keeps it (`origins.supplierId = 'derived'`). If a product had zero or several suppliers, the engine abstains with `unresolved_supplier`. A real delivery that switches supplier for a product would be misattributed by this rule. **This is the case the approach cannot resolve alone. It needs a supplier column or a human label.**
+- **Dates.** HU and IT carry no date (`date: null`). XK prints Excel serials for 1–24 Jan 2026, while the expected records spread across Jan–Aug. No finding depends on dates.
+- **IT unit.** There is no unit column. The unit comes from the product catalogue (`origins.unit = 'reference'`), and a non-piece catalogue unit causes an abstention.
+- **HU conversion rule.** The unit price is HUF → EUR at 394 (rounded once, half-even), then multiplied by quantity. This reproduces the expected records exactly. Converting the line total instead would differ by cents.
+- **Price concepts.** XK uses *Total excl. VAT*, never gross. IT uses *Net position* with the *Purchasing price*, never the *Sales price*. Both are checked per line (gross − VAT = net and VAT = net × rate; PA × quantity = net).
+
 ## 11. Demo script (the Phase 6 exit check)
 
 1. Load v1 for all four markets and show the FR preferred-supplier finding. The buyer approves it.

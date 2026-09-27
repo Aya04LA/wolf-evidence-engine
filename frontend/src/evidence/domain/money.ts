@@ -28,6 +28,17 @@ export function divRoundHalfEven(numerator: number, denominator: number): number
   return sign * rounded;
 }
 
+/**
+ * Local-currency cents → EUR cents at `rate` local units per EUR (fx-rates.json convention).
+ * The rate is scaled to an integer (4 dp) so the division is exact before the single rounding.
+ */
+export function localToEURCents(localCents: number, rate: number): number | null {
+  const m = /^(\d+)(?:\.(\d{1,4}))?$/.exec(String(rate));
+  if (!m || rate <= 0) return null;
+  const scaledRate = Number(m[1]) * 10_000 + Number((m[2] ?? '').padEnd(4, '0'));
+  return divRoundHalfEven(localCents * 10_000, scaledRate);
+}
+
 export const sumCents = (values: readonly number[]): number => values.reduce((a, b) => a + b, 0);
 
 export const formatEUR = (cents: number): string =>
