@@ -1,0 +1,14 @@
+SYNTHETIC WOLF LAB INVOICE
+Invoice: INV-WLF-0013
+Date: 2026-09-10
+Supplier: sup-velora
+Customer: Wolf Automotive (fictional)
+Country: SI
+Article: WLF-1001
+Description: Graduated mixing cup
+Quantity: 34 piece
+Unit price EUR: 22.48
+Net EUR: 764.32
+VAT EUR: 152.86
+Gross EUR: 917.18
+Agreement: OFR-02-001-V3

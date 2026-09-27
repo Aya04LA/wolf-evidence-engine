@@ -1,0 +1,29 @@
+{
+  "format": "Row-major matrices preserve header positions, duplicate names and blank/group rows; all header text is translated into English.",
+  "files": {
+    "HU-v2": {
+      "columns": 7,
+      "headerRow": 1,
+      "notes": "Add supplier; localized HUF unit prices."
+    },
+    "XK-v2": {
+      "columns": 21,
+      "headerRow": 4,
+      "notes": "Replace market; grouped product headers and Excel serial dates, gross/VAT/net."
+    },
+    "IT-v2": {
+      "columns": 16,
+      "headerRows": [
+        1,
+        2
+      ],
+      "notes": "Replace market; two sheets, two English header rows, duplicate order-type columns."
+    },
+    "FR-v2": {
+      "columns": 34,
+      "headerRow": 1,
+      "notes": "Replace supplier subset; repeated invoice totals, negative cancellations, repeated payer/invoice fields. Sum line net, never repeated invoice totals."
+    }
+  },
+  "synthetic": true
+}

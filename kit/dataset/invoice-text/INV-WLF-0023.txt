@@ -1,0 +1,14 @@
+SYNTHETIC WOLF LAB INVOICE
+Invoice: INV-WLF-0023
+Date: 2026-09-10
+Supplier: sup-velora
+Customer: Wolf Automotive (fictional)
+Country: CN
+Article: WLF-1015
+Description: Paint strainers 125 µ / 200 µ
+Quantity: 110 pack
+Unit price EUR: 52.02
+Net EUR: 5722.20
+VAT EUR: 1144.44
+Gross EUR: 6866.64
+Agreement: OFR-02-015-V3

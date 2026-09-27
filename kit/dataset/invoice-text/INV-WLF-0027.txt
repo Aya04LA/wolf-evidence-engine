@@ -1,0 +1,14 @@
+SYNTHETIC WOLF LAB INVOICE
+Invoice: INV-WLF-0027
+Date: 2026-09-14
+Supplier: sup-velora
+Customer: Wolf Automotive (fictional)
+Country: CL
+Article: WLF-1021
+Description: Electric random orbital sander 150 mm
+Quantity: 90 piece
+Unit price EUR: 11.10
+Net EUR: 999.00
+VAT EUR: 199.80
+Gross EUR: 1198.80
+Agreement: OFR-02-021-V3

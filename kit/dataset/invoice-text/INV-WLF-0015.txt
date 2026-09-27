@@ -1,0 +1,14 @@
+SYNTHETIC WOLF LAB INVOICE
+Invoice: INV-WLF-0015
+Date: 2026-09-12
+Supplier: sup-velora
+Customer: Wolf Automotive (fictional)
+Country: RO
+Article: WLF-1004
+Description: Cutting compound (coarse/medium)
+Quantity: 132 piece
+Unit price EUR: 23.20
+Net EUR: 3062.40
+VAT EUR: 612.48
+Gross EUR: 3674.88
+Agreement: OFR-02-004-V3

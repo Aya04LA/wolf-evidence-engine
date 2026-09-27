@@ -1,0 +1,14 @@
+SYNTHETIC WOLF LAB INVOICE
+Invoice: INV-WLF-0003
+Date: 2026-09-10
+Supplier: sup-aster
+Customer: Wolf Automotive (fictional)
+Country: SE
+Article: WLF-1005
+Description: Solvent-based silicone remover
+Quantity: 35 piece
+Unit price EUR: 34.99
+Net EUR: 1224.65
+VAT EUR: 244.93
+Gross EUR: 1469.58
+Agreement: OFR-01-005-V3

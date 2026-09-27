@@ -1,0 +1,14 @@
+SYNTHETIC WOLF LAB INVOICE
+Invoice: INV-WLF-0002
+Date: 2026-09-09
+Supplier: sup-aster
+Customer: Wolf Automotive (fictional)
+Country: DE
+Article: WLF-1003
+Description: Standard masking tape
+Quantity: 8 piece
+Unit price EUR: 21.22
+Net EUR: 169.76
+VAT EUR: 33.95
+Gross EUR: 203.71
+Agreement: OFR-01-003-V3

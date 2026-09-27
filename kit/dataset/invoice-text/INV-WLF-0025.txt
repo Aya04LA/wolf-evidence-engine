@@ -1,0 +1,14 @@
+SYNTHETIC WOLF LAB INVOICE
+Invoice: INV-WLF-0025
+Date: 2026-09-12
+Supplier: sup-velora
+Customer: Wolf Automotive (fictional)
+Country: MY
+Article: WLF-1018
+Description: One-step cutting and polishing compound
+Quantity: 40 piece
+Unit price EUR: 26.34
+Net EUR: 1053.60
+VAT EUR: 210.72
+Gross EUR: 1264.32
+Agreement: OFR-02-018-V3

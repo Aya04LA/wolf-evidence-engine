@@ -1,0 +1,14 @@
+SYNTHETIC WOLF LAB INVOICE
+Invoice: INV-WLF-0012
+Date: 2026-09-09
+Supplier: sup-aster
+Customer: Wolf Automotive (fictional)
+Country: HU
+Article: WLF-1020
+Description: P3 particulate filters
+Quantity: 17 piece
+Unit price EUR: 23.88
+Net EUR: 405.96
+VAT EUR: 81.19
+Gross EUR: 487.15
+Agreement: NOT PROVIDED

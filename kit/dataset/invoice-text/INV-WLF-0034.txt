@@ -1,0 +1,14 @@
+SYNTHETIC WOLF LAB INVOICE
+Invoice: INV-WLF-0034
+Date: 2026-09-11
+Supplier: sup-lumen
+Customer: Wolf Automotive (fictional)
+Country: IT
+Article: MISSING
+Description: Fine-line tape
+Quantity: 135 piece
+Unit price EUR: 15.41
+Net EUR: 2080.35
+VAT EUR: 416.07
+Gross EUR: 2496.42
+Agreement: OFR-03-010-V3

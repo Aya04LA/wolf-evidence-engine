@@ -1,0 +1,14 @@
+SYNTHETIC WOLF LAB INVOICE
+Invoice: INV-WLF-0032
+Date: 2026-09-09
+Supplier: sup-lumen
+Customer: Wolf Automotive (fictional)
+Country: SE
+Article: WLF-1007
+Description: Random orbital sander 150 mm, 5 mm orbit
+Quantity: 77 piece
+Unit price EUR: 43.28
+Net EUR: 3332.56
+VAT EUR: 666.51
+Gross EUR: 3999.07
+Agreement: OFR-03-007-V3

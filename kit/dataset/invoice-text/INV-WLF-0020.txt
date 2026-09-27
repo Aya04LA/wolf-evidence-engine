@@ -1,0 +1,14 @@
+SYNTHETIC WOLF LAB INVOICE
+Invoice: INV-WLF-0020
+Date: 2026-09-17
+Supplier: sup-velora
+Customer: Wolf Automotive (fictional)
+Country: MK
+Article: WLF-1011
+Description: Polish (fine / anti-hologram)
+Quantity: 46 piece
+Unit price EUR: 11.07
+Net EUR: 509.22
+VAT EUR: 101.84
+Gross EUR: 611.06
+Agreement: OFR-02-011-V3

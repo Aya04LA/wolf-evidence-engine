@@ -1,0 +1,14 @@
+SYNTHETIC WOLF LAB INVOICE
+Invoice: INV-WLF-0010
+Date: 2026-09-17
+Supplier: sup-aster
+Customer: Wolf Automotive (fictional)
+Country: CZ
+Article: MISSING
+Description: Contour tape
+Quantity: 76 piece
+Unit price EUR: 15.92
+Net EUR: 1209.92
+VAT EUR: 241.98
+Gross EUR: 1451.90
+Agreement: OFR-01-017-V3

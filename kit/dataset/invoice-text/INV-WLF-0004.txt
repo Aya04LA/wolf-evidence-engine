@@ -1,0 +1,14 @@
+SYNTHETIC WOLF LAB INVOICE
+Invoice: INV-WLF-0004
+Date: 2026-09-11
+Supplier: sup-aster
+Customer: Wolf Automotive (fictional)
+Country: FR
+Article: MISSING
+Description: Half mask / spray-painting respirator
+Quantity: 89 piece
+Unit price EUR: 26.93
+Net EUR: 2396.77
+VAT EUR: 479.35
+Gross EUR: 2876.12
+Agreement: OFR-01-006-V3

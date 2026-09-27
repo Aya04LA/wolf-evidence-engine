@@ -1,0 +1,233 @@
+[
+  {
+    "nr": 1,
+    "cluster": "lack",
+    "kategorie": "Mixing cups and paint cups",
+    "artikel": "Graduated mixing cup",
+    "spezifikation": "125 ml, 250 ml, 400 ml, 600 ml, 1,000 ml",
+    "einheit": "piece",
+    "prioritaet": 3,
+    "marken": "Glasurit (BASF), Finixa, SATA, tesa, Würth, Kovax",
+    "anmerkung": "Synthetic dataset"
+  },
+  {
+    "nr": 2,
+    "cluster": "schleif",
+    "kategorie": "Sanding discs 150 mm",
+    "artikel": "Sanding discs 150 mm, coarse",
+    "spezifikation": "P40, P60, P80, P100",
+    "einheit": "piece",
+    "prioritaet": 3,
+    "marken": "3M, Glasurit (BASF), Mirka, SATA, PPG / Nexa, Würth, Starcke",
+    "anmerkung": "Synthetic dataset"
+  },
+  {
+    "nr": 3,
+    "cluster": "kleb",
+    "kategorie": "Masking tapes",
+    "artikel": "Standard masking tape",
+    "spezifikation": "18 mm, 24 mm, 30 mm, 36 mm, 48 mm × 50 m",
+    "einheit": "piece",
+    "prioritaet": 3,
+    "marken": "3M, Finixa, Mirka, tesa, PPG / Nexa, Kovax, Starcke",
+    "anmerkung": "Synthetic dataset"
+  },
+  {
+    "nr": 4,
+    "cluster": "polier",
+    "kategorie": "Cutting compounds and polishes",
+    "artikel": "Cutting compound (coarse/medium)",
+    "spezifikation": "1-step or 2-stage, 500 ml / 1 L",
+    "einheit": "piece",
+    "prioritaet": 3,
+    "marken": "Glasurit (BASF), Finixa, SATA, tesa, Würth, Kovax",
+    "anmerkung": "Synthetic dataset"
+  },
+  {
+    "nr": 5,
+    "cluster": "kabine",
+    "kategorie": "Degreasers / cleaners",
+    "artikel": "Solvent-based silicone remover",
+    "spezifikation": "1 L, 5 L",
+    "einheit": "piece",
+    "prioritaet": 3,
+    "marken": "3M, Glasurit (BASF), Mirka, SATA, PPG / Nexa, Würth, Starcke",
+    "anmerkung": "Synthetic dataset"
+  },
+  {
+    "nr": 6,
+    "cluster": "psa",
+    "kategorie": "Respiratory protection",
+    "artikel": "Half mask / spray-painting respirator",
+    "spezifikation": "Sizes S, M, L - A2/P3 filter",
+    "einheit": "piece",
+    "prioritaet": 3,
+    "marken": "3M, Finixa, Mirka, tesa, PPG / Nexa, Kovax, Starcke",
+    "anmerkung": "Synthetic dataset"
+  },
+  {
+    "nr": 7,
+    "cluster": "werkstatt",
+    "kategorie": "Pneumatic random orbital sanders",
+    "artikel": "Random orbital sander 150 mm, 5 mm orbit",
+    "spezifikation": "Pneumatic, for bodywork sanding",
+    "einheit": "piece",
+    "prioritaet": 3,
+    "marken": "Glasurit (BASF), Finixa, SATA, tesa, Würth, Kovax",
+    "anmerkung": "Synthetic dataset"
+  },
+  {
+    "nr": 8,
+    "cluster": "lack",
+    "kategorie": "Mixing cups and paint cups",
+    "artikel": "Paint cup for compressed-air spray gun",
+    "spezifikation": "PPS system or universal, 125 µ filter",
+    "einheit": "piece",
+    "prioritaet": 3,
+    "marken": "Glasurit (BASF), Finixa, SATA, tesa, Würth, Kovax",
+    "anmerkung": "Synthetic dataset"
+  },
+  {
+    "nr": 9,
+    "cluster": "schleif",
+    "kategorie": "Sanding discs 150 mm",
+    "artikel": "Sanding discs 150 mm, intermediate",
+    "spezifikation": "P120, P150, P180, P220, P240",
+    "einheit": "piece",
+    "prioritaet": 3,
+    "marken": "3M, Glasurit (BASF), Mirka, SATA, PPG / Nexa, Würth, Starcke",
+    "anmerkung": "Synthetic dataset"
+  },
+  {
+    "nr": 10,
+    "cluster": "kleb",
+    "kategorie": "Masking tapes",
+    "artikel": "Fine-line tape",
+    "spezifikation": "3 mm, 6 mm, 9 mm × 33 m transparent",
+    "einheit": "piece",
+    "prioritaet": 3,
+    "marken": "3M, Finixa, Mirka, tesa, PPG / Nexa, Kovax, Starcke",
+    "anmerkung": "Synthetic dataset"
+  },
+  {
+    "nr": 11,
+    "cluster": "polier",
+    "kategorie": "Cutting compounds and polishes",
+    "artikel": "Polish (fine / anti-hologram)",
+    "spezifikation": "500 ml / 1 L",
+    "einheit": "piece",
+    "prioritaet": 3,
+    "marken": "Glasurit (BASF), Finixa, SATA, tesa, Würth, Kovax",
+    "anmerkung": "Synthetic dataset"
+  },
+  {
+    "nr": 12,
+    "cluster": "kabine",
+    "kategorie": "Degreasers / cleaners",
+    "artikel": "Water-based silicone remover",
+    "spezifikation": "1 L, 5 L",
+    "einheit": "piece",
+    "prioritaet": 3,
+    "marken": "3M, Glasurit (BASF), Mirka, SATA, PPG / Nexa, Würth, Starcke",
+    "anmerkung": "Synthetic dataset"
+  },
+  {
+    "nr": 13,
+    "cluster": "psa",
+    "kategorie": "Respiratory protection",
+    "artikel": "A2 filter cartridges",
+    "spezifikation": "Compatible with the mask in use",
+    "einheit": "piece",
+    "prioritaet": 3,
+    "marken": "3M, Finixa, Mirka, tesa, PPG / Nexa, Kovax, Starcke",
+    "anmerkung": "Synthetic dataset"
+  },
+  {
+    "nr": 14,
+    "cluster": "werkstatt",
+    "kategorie": "Pneumatic random orbital sanders",
+    "artikel": "Random orbital sander 77 mm",
+    "spezifikation": "Pneumatic, for detail work",
+    "einheit": "piece",
+    "prioritaet": 3,
+    "marken": "Glasurit (BASF), Finixa, SATA, tesa, Würth, Kovax",
+    "anmerkung": "Synthetic dataset"
+  },
+  {
+    "nr": 15,
+    "cluster": "lack",
+    "kategorie": "Mixing cups and paint cups",
+    "artikel": "Paint strainers 125 µ / 200 µ",
+    "spezifikation": "Compatible with the cup type",
+    "einheit": "piece",
+    "prioritaet": 3,
+    "marken": "Glasurit (BASF), Finixa, SATA, tesa, Würth, Kovax",
+    "anmerkung": "Synthetic dataset"
+  },
+  {
+    "nr": 16,
+    "cluster": "schleif",
+    "kategorie": "Sanding discs 150 mm",
+    "artikel": "Sanding discs 150 mm, fine",
+    "spezifikation": "P280, P320, P400, P500, P600",
+    "einheit": "piece",
+    "prioritaet": 3,
+    "marken": "3M, Glasurit (BASF), Mirka, SATA, PPG / Nexa, Würth, Starcke",
+    "anmerkung": "Synthetic dataset"
+  },
+  {
+    "nr": 17,
+    "cluster": "kleb",
+    "kategorie": "Masking tapes",
+    "artikel": "Contour tape",
+    "spezifikation": "3 mm, 6 mm, 9 mm, 12 mm, 19 mm",
+    "einheit": "piece",
+    "prioritaet": 2,
+    "marken": "3M, Finixa, Mirka, tesa, PPG / Nexa, Kovax, Starcke",
+    "anmerkung": "Synthetic dataset"
+  },
+  {
+    "nr": 18,
+    "cluster": "polier",
+    "kategorie": "Cutting compounds and polishes",
+    "artikel": "One-step cutting and polishing compound",
+    "spezifikation": "500 ml / 1 L",
+    "einheit": "piece",
+    "prioritaet": 2,
+    "marken": "Glasurit (BASF), Finixa, SATA, tesa, Würth, Kovax",
+    "anmerkung": "Synthetic dataset"
+  },
+  {
+    "nr": 19,
+    "cluster": "kabine",
+    "kategorie": "Degreasers / cleaners",
+    "artikel": "Pre-saturated cleaning wipes",
+    "spezifikation": "38×38 cm, box of 200 pieces",
+    "einheit": "piece",
+    "prioritaet": 2,
+    "marken": "3M, Glasurit (BASF), Mirka, SATA, PPG / Nexa, Würth, Starcke",
+    "anmerkung": "Synthetic dataset"
+  },
+  {
+    "nr": 20,
+    "cluster": "psa",
+    "kategorie": "Respiratory protection",
+    "artikel": "P3 particulate filters",
+    "spezifikation": "Compatible with the mask in use",
+    "einheit": "piece",
+    "prioritaet": 2,
+    "marken": "3M, Finixa, Mirka, tesa, PPG / Nexa, Kovax, Starcke",
+    "anmerkung": "Synthetic dataset"
+  },
+  {
+    "nr": 21,
+    "cluster": "werkstatt",
+    "kategorie": "Pneumatic random orbital sanders",
+    "artikel": "Electric random orbital sander 150 mm",
+    "spezifikation": "For locations without compressed air",
+    "einheit": "piece",
+    "prioritaet": 2,
+    "marken": "Glasurit (BASF), Finixa, SATA, tesa, Würth, Kovax",
+    "anmerkung": "Synthetic dataset"
+  }
+]

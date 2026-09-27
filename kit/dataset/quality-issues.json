@@ -1,0 +1,272 @@
+[
+  {
+    "id": "ISS-0002",
+    "invoiceId": "INV-WLF-0002",
+    "kind": "overcharge_review",
+    "severity": "review",
+    "status": "open",
+    "sourceFile": "invoice-text/INV-WLF-0002.txt",
+    "synthetic": true
+  },
+  {
+    "id": "ISS-0003",
+    "invoiceId": "INV-WLF-0003",
+    "kind": "below_agreement_review",
+    "severity": "review",
+    "status": "open",
+    "sourceFile": "invoice-text/INV-WLF-0003.txt",
+    "synthetic": true
+  },
+  {
+    "id": "ISS-0004",
+    "invoiceId": "INV-WLF-0004",
+    "kind": "missing_article_review",
+    "severity": "review",
+    "status": "open",
+    "sourceFile": "invoice-text/INV-WLF-0004.txt",
+    "synthetic": true
+  },
+  {
+    "id": "ISS-0005",
+    "invoiceId": "INV-WLF-0005",
+    "kind": "unit_review",
+    "severity": "review",
+    "status": "open",
+    "sourceFile": "invoice-text/INV-WLF-0005.txt",
+    "synthetic": true
+  },
+  {
+    "id": "ISS-0006",
+    "invoiceId": "INV-WLF-0006",
+    "kind": "missing_agreement_review",
+    "severity": "review",
+    "status": "open",
+    "sourceFile": "invoice-text/INV-WLF-0006.txt",
+    "synthetic": true
+  },
+  {
+    "id": "ISS-0008",
+    "invoiceId": "INV-WLF-0008",
+    "kind": "overcharge_review",
+    "severity": "review",
+    "status": "open",
+    "sourceFile": "invoice-text/INV-WLF-0008.txt",
+    "synthetic": true
+  },
+  {
+    "id": "ISS-0009",
+    "invoiceId": "INV-WLF-0009",
+    "kind": "below_agreement_review",
+    "severity": "review",
+    "status": "open",
+    "sourceFile": "invoice-text/INV-WLF-0009.txt",
+    "synthetic": true
+  },
+  {
+    "id": "ISS-0010",
+    "invoiceId": "INV-WLF-0010",
+    "kind": "missing_article_review",
+    "severity": "review",
+    "status": "open",
+    "sourceFile": "invoice-text/INV-WLF-0010.txt",
+    "synthetic": true
+  },
+  {
+    "id": "ISS-0011",
+    "invoiceId": "INV-WLF-0011",
+    "kind": "unit_review",
+    "severity": "review",
+    "status": "open",
+    "sourceFile": "invoice-text/INV-WLF-0011.txt",
+    "synthetic": true
+  },
+  {
+    "id": "ISS-0012",
+    "invoiceId": "INV-WLF-0012",
+    "kind": "missing_agreement_review",
+    "severity": "review",
+    "status": "open",
+    "sourceFile": "invoice-text/INV-WLF-0012.txt",
+    "synthetic": true
+  },
+  {
+    "id": "ISS-0014",
+    "invoiceId": "INV-WLF-0014",
+    "kind": "overcharge_review",
+    "severity": "review",
+    "status": "open",
+    "sourceFile": "invoice-text/INV-WLF-0014.txt",
+    "synthetic": true
+  },
+  {
+    "id": "ISS-0015",
+    "invoiceId": "INV-WLF-0015",
+    "kind": "below_agreement_review",
+    "severity": "review",
+    "status": "open",
+    "sourceFile": "invoice-text/INV-WLF-0015.txt",
+    "synthetic": true
+  },
+  {
+    "id": "ISS-0016",
+    "invoiceId": "INV-WLF-0016",
+    "kind": "missing_article_review",
+    "severity": "review",
+    "status": "open",
+    "sourceFile": "invoice-text/INV-WLF-0016.txt",
+    "synthetic": true
+  },
+  {
+    "id": "ISS-0017",
+    "invoiceId": "INV-WLF-0017",
+    "kind": "unit_review",
+    "severity": "review",
+    "status": "open",
+    "sourceFile": "invoice-text/INV-WLF-0017.txt",
+    "synthetic": true
+  },
+  {
+    "id": "ISS-0018",
+    "invoiceId": "INV-WLF-0018",
+    "kind": "missing_agreement_review",
+    "severity": "review",
+    "status": "open",
+    "sourceFile": "invoice-text/INV-WLF-0018.txt",
+    "synthetic": true
+  },
+  {
+    "id": "ISS-0020",
+    "invoiceId": "INV-WLF-0020",
+    "kind": "overcharge_review",
+    "severity": "review",
+    "status": "open",
+    "sourceFile": "invoice-text/INV-WLF-0020.txt",
+    "synthetic": true
+  },
+  {
+    "id": "ISS-0021",
+    "invoiceId": "INV-WLF-0021",
+    "kind": "below_agreement_review",
+    "severity": "review",
+    "status": "open",
+    "sourceFile": "invoice-text/INV-WLF-0021.txt",
+    "synthetic": true
+  },
+  {
+    "id": "ISS-0022",
+    "invoiceId": "INV-WLF-0022",
+    "kind": "missing_article_review",
+    "severity": "review",
+    "status": "open",
+    "sourceFile": "invoice-text/INV-WLF-0022.txt",
+    "synthetic": true
+  },
+  {
+    "id": "ISS-0023",
+    "invoiceId": "INV-WLF-0023",
+    "kind": "unit_review",
+    "severity": "review",
+    "status": "open",
+    "sourceFile": "invoice-text/INV-WLF-0023.txt",
+    "synthetic": true
+  },
+  {
+    "id": "ISS-0024",
+    "invoiceId": "INV-WLF-0024",
+    "kind": "missing_agreement_review",
+    "severity": "review",
+    "status": "open",
+    "sourceFile": "invoice-text/INV-WLF-0024.txt",
+    "synthetic": true
+  },
+  {
+    "id": "ISS-0026",
+    "invoiceId": "INV-WLF-0026",
+    "kind": "overcharge_review",
+    "severity": "review",
+    "status": "open",
+    "sourceFile": "invoice-text/INV-WLF-0026.txt",
+    "synthetic": true
+  },
+  {
+    "id": "ISS-0027",
+    "invoiceId": "INV-WLF-0027",
+    "kind": "below_agreement_review",
+    "severity": "review",
+    "status": "open",
+    "sourceFile": "invoice-text/INV-WLF-0027.txt",
+    "synthetic": true
+  },
+  {
+    "id": "ISS-0028",
+    "invoiceId": "INV-WLF-0028",
+    "kind": "missing_article_review",
+    "severity": "review",
+    "status": "open",
+    "sourceFile": "invoice-text/INV-WLF-0028.txt",
+    "synthetic": true
+  },
+  {
+    "id": "ISS-0029",
+    "invoiceId": "INV-WLF-0029",
+    "kind": "unit_review",
+    "severity": "review",
+    "status": "open",
+    "sourceFile": "invoice-text/INV-WLF-0029.txt",
+    "synthetic": true
+  },
+  {
+    "id": "ISS-0030",
+    "invoiceId": "INV-WLF-0030",
+    "kind": "missing_agreement_review",
+    "severity": "review",
+    "status": "open",
+    "sourceFile": "invoice-text/INV-WLF-0030.txt",
+    "synthetic": true
+  },
+  {
+    "id": "ISS-0032",
+    "invoiceId": "INV-WLF-0032",
+    "kind": "overcharge_review",
+    "severity": "review",
+    "status": "open",
+    "sourceFile": "invoice-text/INV-WLF-0032.txt",
+    "synthetic": true
+  },
+  {
+    "id": "ISS-0033",
+    "invoiceId": "INV-WLF-0033",
+    "kind": "below_agreement_review",
+    "severity": "review",
+    "status": "open",
+    "sourceFile": "invoice-text/INV-WLF-0033.txt",
+    "synthetic": true
+  },
+  {
+    "id": "ISS-0034",
+    "invoiceId": "INV-WLF-0034",
+    "kind": "missing_article_review",
+    "severity": "review",
+    "status": "open",
+    "sourceFile": "invoice-text/INV-WLF-0034.txt",
+    "synthetic": true
+  },
+  {
+    "id": "ISS-0035",
+    "invoiceId": "INV-WLF-0035",
+    "kind": "unit_review",
+    "severity": "review",
+    "status": "open",
+    "sourceFile": "invoice-text/INV-WLF-0035.txt",
+    "synthetic": true
+  },
+  {
+    "id": "ISS-0036",
+    "invoiceId": "INV-WLF-0036",
+    "kind": "missing_agreement_review",
+    "severity": "review",
+    "status": "open",
+    "sourceFile": "invoice-text/INV-WLF-0036.txt",
+    "synthetic": true
+  }
+]

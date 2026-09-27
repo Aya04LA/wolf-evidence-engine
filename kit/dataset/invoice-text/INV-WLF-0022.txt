@@ -1,0 +1,14 @@
+SYNTHETIC WOLF LAB INVOICE
+Invoice: INV-WLF-0022
+Date: 2026-09-09
+Supplier: sup-velora
+Customer: Wolf Automotive (fictional)
+Country: UA
+Article: MISSING
+Description: Random orbital sander 77 mm
+Quantity: 12 piece
+Unit price EUR: 30.05
+Net EUR: 360.60
+VAT EUR: 72.12
+Gross EUR: 432.72
+Agreement: OFR-02-014-V3

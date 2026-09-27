@@ -1,0 +1,14 @@
+SYNTHETIC WOLF LAB INVOICE
+Invoice: INV-WLF-0033
+Date: 2026-09-10
+Supplier: sup-lumen
+Customer: Wolf Automotive (fictional)
+Country: FR
+Article: WLF-1008
+Description: Paint cup for compressed-air spray gun
+Quantity: 103 piece
+Unit price EUR: 62.89
+Net EUR: 6477.67
+VAT EUR: 1295.53
+Gross EUR: 7773.20
+Agreement: OFR-03-008-V3

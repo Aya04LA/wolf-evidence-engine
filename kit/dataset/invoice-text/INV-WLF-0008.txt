@@ -1,0 +1,14 @@
+SYNTHETIC WOLF LAB INVOICE
+Invoice: INV-WLF-0008
+Date: 2026-09-15
+Supplier: sup-aster
+Customer: Wolf Automotive (fictional)
+Country: CH
+Article: WLF-1013
+Description: A2 filter cartridges
+Quantity: 53 piece
+Unit price EUR: 5.72
+Net EUR: 303.16
+VAT EUR: 60.63
+Gross EUR: 363.79
+Agreement: OFR-01-013-V3

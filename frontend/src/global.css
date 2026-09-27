@@ -1,0 +1,1101 @@
+/** **************************************
+* Fonts: app
+*************************************** */
+@import "@fontsource-variable/public-sans";
+
+@import "@fontsource/barlow/400.css";
+@import "@fontsource/barlow/500.css";
+@import "@fontsource/barlow/600.css";
+@import "@fontsource/barlow/700.css";
+@import "@fontsource/barlow/800.css";
+
+/** **************************************
+* Fonts: options
+*************************************** */
+@import "@fontsource-variable/dm-sans";
+@import "@fontsource-variable/inter";
+@import "@fontsource-variable/nunito-sans";
+
+/** **************************************
+* Plugins
+*************************************** */
+/* scrollbar */
+@import "./components/scrollbar/styles.css";
+
+/** **************************************
+* Baseline
+*************************************** */
+html {
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+body,
+#root,
+#root__layout {
+  display: flex;
+  flex: 1 1 auto;
+  min-height: 100%;
+  flex-direction: column;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: none;
+}
+input[type="number"]::-webkit-outer-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+}
+input[type="number"]::-webkit-inner-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+}
+
+@media print {
+  @page { size: A4 landscape; margin: 12mm; }
+  header, nav, button, [role="dialog"] { display: none !important; }
+  body { overflow: visible !important; background: white !important; }
+  main { padding: 0 !important; margin: 0 !important; max-width: 100% !important; }
+  .MuiCard-root { break-inside: avoid; box-shadow: none !important; }
+  table { font-size: 9pt; }
+}
+/* Participant hub. Dark-green event palette from the current dail.info site. */
+.wolf-hub {
+  --paper: #0e1e1d;
+  --soft: #122422;
+  --ink: #ffffff;
+  --muted: #b9c4c0;
+  --line: rgba(237, 222, 208, 0.16);
+  --yellow: #ff7900;
+  --teal: #8cffa7;
+  --pink: #f5b463;
+  --violet: #edded0;
+  --surface-2: #17302d;
+  --accent-ink: #0e1e1d;
+  /* Preserve the Unicode fallback range and primary typeface. */
+  --display: "HN-Pfeil", "HelveticaNeueLTPro-Lt", "Helvetica Neue", Arial, sans-serif;
+  --sans: "HN-Pfeil", "HelveticaNeueLTPro-Roman", "Helvetica Neue", Arial, sans-serif;
+  --shell: min(1360px, calc(100% - 80px));
+}
+.wolf-hub {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  overflow-wrap: break-word;
+}
+.wolf-hub *,
+.wolf-hub *::before,
+.wolf-hub *::after {
+  box-sizing: border-box;
+}
+.wolf-hub ::selection {
+  background: var(--yellow);
+  color: var(--accent-ink);
+}
+.wolf-hub a {
+  color: inherit;
+  text-decoration: none;
+}
+.wolf-hub a:focus-visible {
+  outline: 2px solid var(--yellow);
+  outline-offset: 5px;
+}
+.wolf-hub .hub-shell,
+.wolf-hub .wolf-shell {
+  width: var(--shell);
+  margin: 0 auto;
+}
+.wolf-hub .hub-label {
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  line-height: 1.7;
+}
+.wolf-hub .hub-kicker {
+  margin: 0 0 26px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+.wolf-hub .hub-body,
+.wolf-hub p {
+  font-size: 14px;
+  line-height: 1.7;
+}
+.wolf-hub .hub-body {
+  max-width: 720px;
+  color: var(--muted);
+}
+.wolf-hub .hub-small {
+  font-size: 11px;
+  color: var(--muted);
+  line-height: 1.65;
+  max-width: 760px;
+}
+.wolf-hub h1,
+.wolf-hub h2,
+.wolf-hub h3 {
+  margin: 0;
+  font-family: var(--display);
+  font-weight: 300;
+  letter-spacing: normal;
+  text-wrap: balance;
+}
+.wolf-hub .hub-lead {
+  font-family: var(--display);
+  font-size: clamp(24px, 2.1vw, 34px);
+  font-weight: 300;
+  line-height: 1.3;
+  max-width: 690px;
+}
+.wolf-hub .hub-skip {
+  position: fixed;
+  top: -100px;
+  left: 20px;
+  padding: 12px 18px;
+  z-index: 1000;
+  background: var(--ink);
+  color: var(--paper);
+}
+.wolf-hub .hub-skip:focus {
+  top: 14px;
+}
+.wolf-hub .hub-header {
+  min-height: 108px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+.wolf-hub .hub-header > p {
+  font-size: 9px;
+  text-align: right;
+  color: var(--muted);
+}
+.wolf-hub .hub-wordmark {
+  font-family: var(--display);
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+.wolf-hub .hub-wordmark span {
+  border-left: 1px solid var(--line);
+  padding: 7px 0 7px 22px;
+  font-family: var(--sans);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+.wolf-hub .hub-nav {
+  background: var(--paper);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+.wolf-hub .hub-nav > div {
+  display: flex;
+  align-items: center;
+  gap: 34px;
+  flex-wrap: wrap;
+}
+.wolf-hub .hub-nav a {
+  padding: 17px 0;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.wolf-hub .hub-nav a:hover {
+  box-shadow: inset 0 -2px var(--teal);
+}
+.wolf-hub .hub-hero {
+  padding: 85px 0 76px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 290px;
+  gap: 65px;
+  align-items: end;
+}
+.wolf-hub .hub-hero h1 {
+  font-size: clamp(50px, 4.6vw, 72px);
+  line-height: 1.04;
+  max-width: 900px;
+}
+.wolf-hub .hub-hero h1 em {
+  font-style: normal;
+  position: relative;
+}
+.wolf-hub .hub-hero h1 em::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -0.08em;
+  height: 4px;
+  background: var(--yellow);
+}
+.wolf-hub .hub-hero .hub-lead {
+  margin: 34px 0 20px;
+}
+.wolf-hub .hub-hero .hub-body {
+  max-width: 640px;
+}
+.wolf-hub .hub-hero .hub-small {
+  margin-top: 18px;
+  max-width: 610px;
+}
+.wolf-hub .hub-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.wolf-hub .hub-button {
+  min-height: 52px;
+  padding: 14px 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  font-size: 13px;
+  line-height: 1.5;
+  border: 1px solid var(--ink);
+}
+.wolf-hub .hub-button:hover {
+  background: var(--soft);
+}
+.wolf-hub .hub-button-primary {
+  background: var(--ink);
+  color: var(--accent-ink);
+}
+.wolf-hub .hub-button-primary:hover {
+  background: var(--violet);
+  color: var(--accent-ink);
+}
+.wolf-hub .hub-file-type {
+  font-size: 9px;
+  letter-spacing: 0.08em;
+}
+.wolf-hub .hub-start-note {
+  border-top: 1px solid var(--ink);
+  padding-top: 18px;
+}
+.wolf-hub .hub-start-note > .hub-label {
+  margin: 0 0 23px;
+}
+.wolf-hub .hub-start-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.wolf-hub .hub-start-list li {
+  display: grid;
+  grid-template-columns: 25px 1fr;
+  gap: 12px;
+  margin: 0 0 22px;
+}
+.wolf-hub .hub-start-list li > span {
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  padding-top: 3px;
+  color: var(--muted);
+}
+.wolf-hub .hub-start-list a {
+  font-size: 14px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-color: var(--line);
+}
+.wolf-hub .hub-start-list a:hover {
+  text-decoration-color: var(--ink);
+}
+.wolf-hub .hub-start-list p {
+  margin: 7px 0 0;
+  font-size: 12px;
+  color: var(--muted);
+  line-height: 1.6;
+}
+.wolf-hub .hub-access-note {
+  padding: 17px 18px;
+  background: var(--surface-2);
+}
+.wolf-hub .hub-access-note .hub-label {
+  font-size: 9px;
+  margin: 0 0 8px;
+}
+.wolf-hub .hub-access-note p:last-child {
+  font-size: 12px;
+  line-height: 1.6;
+  margin: 0;
+}
+.wolf-hub .hub-data-band {
+  padding: 27px 0 30px;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+.wolf-hub .hub-band-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.wolf-hub .hub-band-heading h2 {
+  font-family: var(--sans);
+  font-size: 10px;
+}
+.wolf-hub .hub-text-link {
+  font-size: 12px;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-color: var(--muted);
+}
+.wolf-hub .hub-text-link:hover {
+  text-decoration-color: var(--teal);
+}
+.wolf-hub .hub-metrics {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  margin: 30px 0 18px;
+}
+.wolf-hub .hub-metrics > div {
+  padding: 0 25px;
+  border-left: 1px solid var(--line);
+}
+.wolf-hub .hub-metrics > div:first-child {
+  padding-left: 0;
+  border: 0;
+}
+.wolf-hub .hub-metrics dt {
+  font-size: 9px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.wolf-hub .hub-metrics dd {
+  font-family: var(--display);
+  font-size: clamp(36px, 3.8vw, 52px);
+  font-weight: 300;
+  margin: 10px 0 0;
+  line-height: 1.1;
+}
+.wolf-hub .hub-data-band .hub-small {
+  max-width: none;
+  margin: 22px 0 0;
+}
+.wolf-hub .hub-section {
+  padding: 105px 0;
+  scroll-margin-top: 20px;
+}
+.wolf-hub .hub-section h2 {
+  font-size: clamp(42px, 4vw, 58px);
+  line-height: 1.14;
+}
+.wolf-hub .hub-section-heading {
+  display: grid;
+  grid-template-columns: 1.25fr 0.75fr;
+  gap: 72px;
+  align-items: end;
+  margin-bottom: 48px;
+}
+.wolf-hub .hub-section-heading .hub-body {
+  margin: 0 0 3px;
+}
+.wolf-hub .hub-track {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+  gap: 55px;
+  padding: 38px 0;
+  border-top: 1px solid var(--line);
+}
+.wolf-hub .hub-track-index > span {
+  font-family: var(--display);
+  font-size: 40px;
+  font-weight: 300;
+}
+.wolf-hub .hub-track-index .hub-label {
+  max-width: 170px;
+  font-size: 10px;
+  margin: 15px 0 0;
+}
+.wolf-hub .hub-track-main h3 {
+  font-size: 30px;
+  line-height: 1.2;
+}
+.wolf-hub .hub-track-main p {
+  color: var(--muted);
+  max-width: 760px;
+}
+.wolf-hub .hub-track-detail {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 35px;
+  margin-top: 26px;
+}
+.wolf-hub .hub-track-detail h4 {
+  margin: 0;
+}
+.wolf-hub .hub-track-detail p {
+  font-size: 13px;
+  margin: 8px 0 0;
+}
+.wolf-hub .hub-track-main .hub-file-note {
+  font-size: 11px;
+  margin: 25px 0 0;
+}
+.wolf-hub .hub-optional {
+  background: var(--soft);
+  padding: 32px;
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 50px;
+  margin-top: 16px;
+  border-left: 3px solid var(--pink);
+}
+.wolf-hub .hub-optional h3 {
+  font-size: 28px;
+  line-height: 1.2;
+}
+.wolf-hub .hub-optional .hub-label {
+  font-size: 9px;
+  margin: 0 0 18px;
+}
+.wolf-hub .hub-optional p {
+  font-size: 13px;
+  margin-top: 0;
+  color: var(--muted);
+}
+.wolf-hub .hub-optional p:last-child {
+  margin-bottom: 0;
+}
+.wolf-hub .hub-resources-band {
+  background: var(--soft);
+}
+.wolf-hub .hub-resource-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1px;
+  background: var(--line);
+  border: 1px solid var(--line);
+}
+.wolf-hub .hub-resource {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 29px 25px;
+  background: var(--paper);
+  min-height: 278px;
+}
+.wolf-hub .hub-resource:hover {
+  background: var(--surface-2);
+  box-shadow: inset 0 -3px var(--yellow);
+}
+.wolf-hub .hub-resource > .hub-label {
+  color: var(--muted);
+  font-size: 9px;
+}
+.wolf-hub .hub-resource h3 {
+  font-size: 26px;
+  margin-top: 29px;
+  line-height: 1.2;
+}
+.wolf-hub .hub-resource p {
+  font-size: 13px;
+  color: var(--muted);
+  margin: 15px 0 28px;
+}
+.wolf-hub .hub-resource-action {
+  width: 100%;
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  font-size: 12px;
+}
+.wolf-hub .hub-download-row {
+  display: flex;
+  gap: 34px;
+  flex-wrap: wrap;
+  margin-top: 28px;
+}
+.wolf-hub .hub-schedule-wrap {
+  max-width: 100%;
+}
+.wolf-hub .hub-schedule {
+  border-collapse: collapse;
+  text-align: left;
+  width: 100%;
+}
+.wolf-hub .hub-schedule caption {
+  text-align: left;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  padding-bottom: 20px;
+}
+.wolf-hub .hub-schedule thead th {
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 400;
+  padding: 14px 20px 14px 0;
+  border-top: 1px solid var(--ink);
+  border-bottom: 1px solid var(--line);
+}
+.wolf-hub .hub-schedule tbody th,
+.wolf-hub .hub-schedule td {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.65;
+  padding: 25px 24px 25px 0;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+.wolf-hub .hub-schedule tbody th {
+  width: 22%;
+}
+.wolf-hub .hub-schedule td:nth-child(2) {
+  width: 45%;
+}
+.wolf-hub .hub-schedule td:last-child {
+  padding-right: 0;
+  color: var(--muted);
+}
+.wolf-hub .hub-schedule p {
+  font-size: 13px;
+  margin: 5px 0 0;
+  color: var(--muted);
+}
+.wolf-hub .hub-schedule strong {
+  font-weight: 500;
+}
+.wolf-hub .hub-status {
+  display: inline-block;
+  padding: 2px 6px;
+  background: var(--yellow);
+  color: var(--accent-ink);
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 8px;
+}
+.wolf-hub .hub-handoff {
+  background: var(--soft);
+}
+.wolf-hub .hub-handoff-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+}
+.wolf-hub .hub-handoff .hub-lead {
+  font-size: 26px;
+  margin-top: 28px;
+  max-width: 440px;
+}
+.wolf-hub .hub-deliver-list {
+  list-style: decimal-leading-zero;
+  padding: 0 0 0 26px;
+  margin: 0;
+}
+.wolf-hub .hub-deliver-list li {
+  padding-left: 16px;
+  margin-bottom: 25px;
+}
+.wolf-hub .hub-deliver-list li::marker {
+  font-size: 10px;
+  color: var(--muted);
+}
+.wolf-hub .hub-deliver-list h3 {
+  font-size: 25px;
+}
+.wolf-hub .hub-deliver-list p {
+  font-size: 13px;
+  margin: 9px 0 0;
+  color: var(--muted);
+}
+.wolf-hub .hub-handoff-note {
+  border-top: 1px solid var(--line);
+  padding-top: 22px;
+  font-size: 12px;
+  color: var(--muted);
+}
+.wolf-hub .hub-footer {
+  border-top: 5px solid var(--yellow);
+}
+.wolf-hub .hub-footer > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  padding: 28px 0;
+}
+.wolf-hub .hub-footer p {
+  font-size: 9px;
+  color: var(--muted);
+}
+.wolf-hub .hub-footer a {
+  font-size: 12px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+/* Resource pages use the same public hub scope. */
+.wolf-hub .wolf-resource {
+  max-width: 1000px;
+  padding-top: 48px;
+  padding-bottom: 100px;
+}
+.wolf-hub .wolf-resource h1 {
+  font-size: clamp(42px, 5vw, 64px);
+  line-height: 1.1;
+  margin: 45px 0 30px;
+}
+.wolf-hub .wolf-resource h2 {
+  font-size: clamp(30px, 3.5vw, 42px);
+  line-height: 1.2;
+  margin: 55px 0 22px;
+}
+.wolf-hub .wolf-resource h3 {
+  font-size: 25px;
+  margin: 32px 0 16px;
+}
+.wolf-hub .wolf-resource p,
+.wolf-hub .wolf-resource li {
+  max-width: 760px;
+  font-size: 14px;
+  line-height: 1.75;
+}
+.wolf-hub .wolf-resource p {
+  color: var(--muted);
+}
+.wolf-hub .wolf-resource a {
+  text-decoration: underline;
+  text-decoration-color: var(--teal);
+  text-underline-offset: 4px;
+}
+.wolf-hub .wolf-resource ul,
+.wolf-hub .wolf-resource ol {
+  padding-left: 23px;
+  margin: 18px 0;
+}
+.wolf-hub .wolf-resource ul {
+  list-style: disc;
+}
+.wolf-hub .wolf-resource li {
+  margin: 8px 0;
+}
+.wolf-hub .wolf-resource pre {
+  background: #0a1716;
+  padding: 22px;
+  overflow-x: auto;
+  font-size: 12px;
+  line-height: 1.7;
+  border: 1px solid var(--line);
+}
+.wolf-hub .wolf-resource code {
+  font-size: 0.9em;
+  overflow-wrap: anywhere;
+}
+.wolf-hub .wolf-resource table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 12px;
+  line-height: 1.65;
+  margin: 28px 0;
+}
+.wolf-hub .wolf-resource th,
+.wolf-hub .wolf-resource td {
+  padding: 12px;
+  border: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+.wolf-hub .wolf-resource th {
+  background: var(--soft);
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.wolf-hub .wolf-resource nav {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  font-size: 12px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid var(--line);
+}
+@media (max-width: 1100px) {
+  .wolf-hub .hub-hero {
+    grid-template-columns: minmax(0, 1fr) 255px;
+    gap: 38px;
+  }
+  .wolf-hub .hub-resource-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .wolf-hub .hub-resource {
+    min-height: 240px;
+  }
+  .wolf-hub .hub-section-heading {
+    gap: 40px;
+  }
+  .wolf-hub .hub-track {
+    grid-template-columns: 170px minmax(0, 1fr);
+    gap: 35px;
+  }
+  .wolf-hub .hub-handoff-grid {
+    gap: 55px;
+  }
+}
+@media (max-width: 760px) {
+  .wolf-hub {
+    --shell: calc(100% - 40px);
+  }
+  .wolf-hub .hub-header {
+    min-height: 93px;
+    gap: 15px;
+  }
+  .wolf-hub .hub-header > p {
+    max-width: 145px;
+    font-size: 8px;
+  }
+  .wolf-hub .hub-wordmark {
+    font-size: 29px;
+    gap: 12px;
+  }
+  .wolf-hub .hub-wordmark span {
+    padding-left: 12px;
+    font-size: 8px;
+    max-width: 78px;
+    line-height: 1.6;
+  }
+  .wolf-hub .hub-nav > div {
+    gap: 0 23px;
+    padding: 5px 0;
+  }
+  .wolf-hub .hub-nav a {
+    font-size: 9px;
+    padding: 10px 0;
+  }
+  .wolf-hub .hub-hero {
+    display: block;
+    padding: 55px 0;
+  }
+  .wolf-hub .hub-hero h1 {
+    font-size: clamp(40px, 8.5vw, 59px);
+  }
+  .wolf-hub .hub-kicker {
+    font-size: 9px;
+    line-height: 1.7;
+  }
+  .wolf-hub .hub-hero .hub-lead {
+    font-size: 25px;
+  }
+  .wolf-hub .hub-start-note {
+    margin-top: 38px;
+  }
+  .wolf-hub .hub-start-list {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+  }
+  .wolf-hub .hub-start-list li {
+    display: block;
+  }
+  .wolf-hub .hub-start-list li > span {
+    display: block;
+    margin-bottom: 8px;
+  }
+  .wolf-hub .hub-start-list a {
+    font-size: 12px;
+  }
+  .wolf-hub .hub-start-list p {
+    font-size: 11px;
+  }
+  .wolf-hub .hub-metrics {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px 0;
+  }
+  .wolf-hub .hub-metrics > div {
+    padding: 0 15px;
+  }
+  .wolf-hub .hub-metrics > div:nth-child(4) {
+    border-left: 0;
+    padding-left: 0;
+  }
+  .wolf-hub .hub-metrics dd {
+    font-size: 37px;
+  }
+  .wolf-hub .hub-metrics dt {
+    font-size: 8px;
+    min-height: 27px;
+  }
+  .wolf-hub .hub-band-heading {
+    align-items: flex-start;
+  }
+  .wolf-hub .hub-band-heading .hub-text-link {
+    font-size: 11px;
+    text-align: right;
+  }
+  .wolf-hub .hub-section {
+    padding: 66px 0;
+  }
+  .wolf-hub .hub-section-heading {
+    display: block;
+    margin-bottom: 33px;
+  }
+  .wolf-hub .hub-section-heading .hub-body {
+    margin-top: 24px;
+  }
+  .wolf-hub .hub-section h2 {
+    font-size: 41px;
+  }
+  .wolf-hub .hub-track {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    padding: 30px 0;
+  }
+  .wolf-hub .hub-track-index {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+  }
+  .wolf-hub .hub-track-index > span {
+    font-size: 29px;
+  }
+  .wolf-hub .hub-track-index .hub-label {
+    max-width: none;
+    margin: 0;
+    font-size: 9px;
+  }
+  .wolf-hub .hub-track-main h3 {
+    font-size: 28px;
+  }
+  .wolf-hub .hub-track-detail {
+    gap: 22px;
+  }
+  .wolf-hub .hub-optional {
+    display: block;
+    padding: 26px;
+  }
+  .wolf-hub .hub-optional > div + div {
+    margin-top: 24px;
+  }
+  .wolf-hub .hub-resource {
+    padding: 25px 20px;
+    min-height: 255px;
+  }
+  .wolf-hub .hub-resource h3 {
+    font-size: 24px;
+  }
+  .wolf-hub .hub-download-row {
+    gap: 22px;
+  }
+  .wolf-hub .hub-schedule thead {
+    display: none;
+  }
+  .wolf-hub .hub-schedule tr {
+    display: block;
+    border-top: 1px solid var(--line);
+    padding: 20px 0;
+  }
+  .wolf-hub .hub-schedule tbody th,
+  .wolf-hub .hub-schedule td {
+    display: block;
+    width: 100% !important;
+    border: 0;
+    padding: 5px 0;
+  }
+  .wolf-hub .hub-schedule tbody th {
+    font-size: 10px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  .wolf-hub .hub-schedule td:last-child {
+    margin-top: 8px;
+  }
+  .wolf-hub .hub-handoff-grid {
+    display: block;
+  }
+  .wolf-hub .hub-deliver-list {
+    margin-top: 40px;
+  }
+  .wolf-hub .hub-footer > div {
+    align-items: flex-start;
+  }
+  .wolf-hub .hub-footer p {
+    max-width: 230px;
+  }
+  .wolf-hub .wolf-resource table {
+    display: block;
+    overflow-x: auto;
+    min-width: 760px;
+  }
+  .wolf-hub .wolf-resource-table {
+    max-width: 100%;
+    overflow-x: auto;
+    border-right: 1px solid var(--line);
+  }
+}
+@media (max-width: 420px) {
+  .wolf-hub .hub-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .wolf-hub .hub-resource-grid,
+  .wolf-hub .hub-track-detail {
+    grid-template-columns: 1fr;
+  }
+  .wolf-hub .hub-resource {
+    min-height: 220px;
+  }
+  .wolf-hub .hub-start-list {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .wolf-hub .hub-start-list li {
+    display: grid;
+    grid-template-columns: 22px 1fr;
+    gap: 12px;
+  }
+  .wolf-hub .hub-start-list p {
+    font-size: 12px;
+  }
+  .wolf-hub .hub-start-list a {
+    font-size: 14px;
+  }
+  .wolf-hub .hub-hero h1 {
+    font-size: 39px;
+  }
+}
+@media print {
+  @page wolf-hub {
+    size: A4 portrait;
+    margin: 16mm 14mm;
+  }
+  .wolf-hub {
+    page: wolf-hub;
+    --shell: 100%;
+    color: var(--ink);
+  }
+  .wolf-hub,
+  .wolf-hub *,
+  .wolf-hub *::before,
+  .wolf-hub *::after {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+  .wolf-hub .hub-skip,
+  .wolf-hub .hub-nav,
+  .wolf-hub .hub-actions,
+  .wolf-hub .hub-download-row,
+  .wolf-hub .hub-footer,
+  .wolf-hub .hub-start-note {
+    display: none !important;
+  }
+  .wolf-hub .hub-hero {
+    display: block;
+    padding: 25px 0 45px;
+  }
+  .wolf-hub .hub-hero h1 {
+    font-size: 48px;
+  }
+  .wolf-hub .hub-section {
+    break-before: page;
+    padding: 0;
+  }
+  .wolf-hub .hub-section-heading {
+    display: block;
+    margin: 0 0 22px;
+  }
+  .wolf-hub .hub-section-heading .hub-body {
+    margin-top: 18px;
+  }
+  .wolf-hub .hub-section h2 {
+    font-size: 36px;
+  }
+  .wolf-hub .hub-kicker {
+    margin-bottom: 15px;
+  }
+  .wolf-hub .hub-track {
+    grid-template-columns: 130px 1fr;
+    gap: 20px;
+    padding: 18px 0;
+    break-inside: avoid;
+  }
+  .wolf-hub .hub-track h3 {
+    font-size: 25px;
+  }
+  .wolf-hub .hub-track p {
+    font-size: 11px;
+    line-height: 1.5;
+  }
+  .wolf-hub .hub-track-detail {
+    margin-top: 12px;
+    gap: 18px;
+  }
+  .wolf-hub .hub-track-main .hub-file-note {
+    margin-top: 12px;
+    font-size: 9px;
+  }
+  .wolf-hub .hub-track-index > span {
+    font-size: 29px;
+  }
+  .wolf-hub .hub-optional {
+    margin-top: 15px;
+    padding: 20px;
+    gap: 25px;
+    break-inside: avoid;
+  }
+  .wolf-hub .hub-optional p {
+    font-size: 11px;
+  }
+  .wolf-hub .hub-resources-band,
+  .wolf-hub .hub-handoff {
+    background: var(--paper);
+  }
+  .wolf-hub .hub-resource-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .wolf-hub .hub-resource,
+  .wolf-hub .hub-schedule tr,
+  .wolf-hub .hub-deliver-list li {
+    break-inside: avoid;
+  }
+  .wolf-hub .hub-handoff-grid {
+    display: block;
+  }
+  .wolf-hub .hub-deliver-list {
+    margin-top: 40px;
+  }
+  .wolf-hub h1,
+  .wolf-hub h2,
+  .wolf-hub h3 {
+    break-after: avoid;
+    break-inside: avoid;
+  }
+  .wolf-hub .wolf-resource {
+    padding: 0;
+    max-width: 100%;
+  }
+  .wolf-hub .wolf-resource pre {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+  }
+  .wolf-hub .wolf-resource table {
+    width: 100%;
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,14 @@
+SYNTHETIC WOLF LAB INVOICE
+Invoice: INV-WLF-0019
+Date: 2026-09-16
+Supplier: sup-velora
+Customer: Wolf Automotive (fictional)
+Country: AL
+Article: WLF-1009
+Description: Sanding discs 150 mm, intermediate
+Quantity: 130 piece
+Unit price EUR: 51.04
+Net EUR: 6635.20
+VAT EUR: 1327.04
+Gross EUR: 7962.24
+Agreement: OFR-02-009-V3

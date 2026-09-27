@@ -1,0 +1,14 @@
+SYNTHETIC WOLF LAB INVOICE
+Invoice: INV-WLF-0026
+Date: 2026-09-13
+Supplier: sup-velora
+Customer: Wolf Automotive (fictional)
+Country: SG
+Article: WLF-1019
+Description: Pre-saturated cleaning wipes
+Quantity: 112 piece
+Unit price EUR: 75.76
+Net EUR: 8485.12
+VAT EUR: 1697.02
+Gross EUR: 10182.14
+Agreement: OFR-02-019-V3

@@ -1,0 +1,14 @@
+Company,Order no.,Sub,Order type,Order type,Position,PE,Code,Description,Gross position,Net position,PA,PV,Quantity,Internal operation abbreviation,Order category
+Company,Order no.,Sub,Order Type,Order Type,,,Product ID,Description,Gross position,Net position,Purchasing price,Sales price,Quantity,Internal operation abbreviation,Order Category
+WOLF-2,ORD-IT-00002,1,Order,Demo supply,RC,,WLF-1001,Graduated mixing cup,2875.74,2357.16,30.22,33.24,78,MA VERN,Demo purchase
+WOLF-2,ORD-IT-00004,1,Order,Demo supply,RC,,WLF-1001,Graduated mixing cup,5714.6,4684.1,30.22,33.24,155,MA VERN,Demo purchase
+WOLF-2,ORD-IT-00006,1,Order,Demo supply,RC,,WLF-1001,Graduated mixing cup,3760.58,3082.44,30.22,33.24,102,MA VERN,Demo purchase
+WOLF-2,ORD-IT-00008,1,Order,Demo supply,RC,,WLF-1001,Graduated mixing cup,11023.65,9035.78,30.22,33.24,299,MA VERN,Demo purchase
+WOLF-2,ORD-IT-00010,1,Order,Demo supply,RC,,WLF-1002,"Sanding discs 150 mm, coarse",13269.57,10876.7,94.58,104.04,115,MA VERN,Demo purchase
+WOLF-2,ORD-IT-00012,1,Order,Demo supply,RC,,WLF-1002,"Sanding discs 150 mm, coarse",37039.42,30360.18,94.58,104.04,321,MA VERN,Demo purchase
+WOLF-2,ORD-IT-00014,1,Order,Demo supply,RC,,WLF-1002,"Sanding discs 150 mm, coarse",18577.4,15227.38,94.58,104.04,161,MA VERN,Demo purchase
+WOLF-2,ORD-IT-00016,1,Order,Demo supply,RC,,WLF-1002,"Sanding discs 150 mm, coarse",15808.1,12957.46,94.58,104.04,137,MA VERN,Demo purchase
+WOLF-2,ORD-IT-00018,1,Order,Demo supply,RC,,WLF-1003,Standard masking tape,3662.12,3001.74,20.42,22.46,147,MA VERN,Demo purchase
+WOLF-2,ORD-IT-00020,1,Order,Demo supply,RC,,WLF-1003,Standard masking tape,4135.46,3389.72,20.42,22.46,166,MA VERN,Demo purchase
+WOLF-2,ORD-IT-00022,1,Order,Demo supply,RC,,WLF-1003,Standard masking tape,4110.55,3369.3,20.42,22.46,165,MA VERN,Demo purchase
+WOLF-2,ORD-IT-00024,1,Order,Demo supply,RC,,WLF-1003,Standard masking tape,2914.75,2389.14,20.42,22.46,117,MA VERN,Demo purchase

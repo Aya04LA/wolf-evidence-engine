@@ -1,0 +1,14 @@
+Company,Order no.,Sub,Order type,Order type,Position,PE,Code,Description,Gross position,Net position,PA,PV,Quantity,Internal operation abbreviation,Order category
+Company,Order no.,Sub,Order Type,Order Type,,,Product ID,Description,Gross position,Net position,Purchasing price,Sales price,Quantity,Internal operation abbreviation,Order Category
+WOLF-1,ORD-IT-00001,1,Order,Demo supply,RC,,WLF-1001,Graduated mixing cup,12055.97,9881.94,30.22,33.24,327,MA CARR,Demo purchase
+WOLF-1,ORD-IT-00003,1,Order,Demo supply,RC,,WLF-1001,Graduated mixing cup,10876.18,8914.9,30.22,33.24,295,MA CARR,Demo purchase
+WOLF-1,ORD-IT-00005,1,Order,Demo supply,RC,,WLF-1001,Graduated mixing cup,6820.65,5590.7,30.22,33.24,185,MA CARR,Demo purchase
+WOLF-1,ORD-IT-00007,1,Order,Demo supply,RC,,WLF-1001,Graduated mixing cup,2580.79,2115.4,30.22,33.24,70,MA CARR,Demo purchase
+WOLF-1,ORD-IT-00009,1,Order,Demo supply,RC,,WLF-1002,"Sanding discs 150 mm, coarse",17423.53,14281.58,94.58,104.04,151,MA CARR,Demo purchase
+WOLF-1,ORD-IT-00011,1,Order,Demo supply,RC,,WLF-1002,"Sanding discs 150 mm, coarse",5769.38,4729.0,94.58,104.04,50,MA CARR,Demo purchase
+WOLF-1,ORD-IT-00013,1,Order,Demo supply,RC,,WLF-1002,"Sanding discs 150 mm, coarse",34616.28,28374.0,94.58,104.04,300,MA CARR,Demo purchase
+WOLF-1,ORD-IT-00015,1,Order,Demo supply,RC,,WLF-1002,"Sanding discs 150 mm, coarse",21923.64,17970.2,94.58,104.04,190,MA CARR,Demo purchase
+WOLF-1,ORD-IT-00017,1,Order,Demo supply,RC,,WLF-1003,Standard masking tape,2391.59,1960.32,20.42,22.46,96,MA CARR,Demo purchase
+WOLF-1,ORD-IT-00019,1,Order,Demo supply,RC,,WLF-1003,Standard masking tape,6203.19,5084.58,20.42,22.46,249,MA CARR,Demo purchase
+WOLF-1,ORD-IT-00021,1,Order,Demo supply,RC,,WLF-1003,Standard masking tape,4882.83,4002.32,20.42,22.46,196,MA CARR,Demo purchase
+WOLF-1,ORD-IT-00023,1,Order,Demo supply,RC,,WLF-1003,Standard masking tape,1644.22,1347.72,20.42,22.46,66,MA CARR,Demo purchase

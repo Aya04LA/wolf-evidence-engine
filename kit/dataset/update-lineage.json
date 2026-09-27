@@ -1,0 +1,62 @@
+[
+  {
+    "id": "UPD-XK-002",
+    "market": "XK",
+    "mode": "replace_market",
+    "previous": "XK-v1",
+    "incoming": "XK-v2",
+    "effectiveDate": "2026-09-01",
+    "sourceDate": "2026-09-01",
+    "description": "Synthetic scenario: New supplier-sourced market delivery supersedes v1",
+    "scopeSupplierId": null,
+    "previousRows": 24,
+    "incomingRows": 24,
+    "currentRows": 24,
+    "provenance": "Newly generated fixtures, no original values or files."
+  },
+  {
+    "id": "UPD-IT-002",
+    "market": "IT",
+    "mode": "replace_market",
+    "previous": "IT-v1",
+    "incoming": "IT-v2",
+    "effectiveDate": "2026-09-01",
+    "sourceDate": "2026-09-01",
+    "description": "Synthetic scenario: Revised two-sheet market delivery supersedes v1",
+    "scopeSupplierId": null,
+    "previousRows": 24,
+    "incomingRows": 24,
+    "currentRows": 24,
+    "provenance": "Newly generated fixtures, no original values or files."
+  },
+  {
+    "id": "UPD-HU-002",
+    "market": "HU",
+    "mode": "add_supplier",
+    "previous": "HU-v1",
+    "incoming": "HU-v2",
+    "effectiveDate": "2026-09-01",
+    "sourceDate": "2026-09-01",
+    "description": "Synthetic scenario: New supplier delivery appends without deleting existing suppliers",
+    "scopeSupplierId": "sup-orbit",
+    "previousRows": 24,
+    "incomingRows": 24,
+    "currentRows": 48,
+    "provenance": "Newly generated fixtures, no original values or files."
+  },
+  {
+    "id": "UPD-FR-002",
+    "market": "FR",
+    "mode": "replace_supplier_subset",
+    "previous": "FR-v1",
+    "incoming": "FR-v2",
+    "effectiveDate": "2026-09-01",
+    "sourceDate": "2026-09-01",
+    "description": "Synthetic scenario: Repaired supplier subset supersedes invalid v1 rows",
+    "scopeSupplierId": "sup-aster",
+    "previousRows": 24,
+    "incomingRows": 16,
+    "currentRows": 24,
+    "provenance": "Newly generated fixtures, no original values or files."
+  }
+]

@@ -1,0 +1,14 @@
+SYNTHETIC WOLF LAB INVOICE
+Invoice: INV-WLF-0035
+Date: 2026-09-12
+Supplier: sup-lumen
+Customer: Wolf Automotive (fictional)
+Country: ES
+Article: WLF-1011
+Description: Polish (fine / anti-hologram)
+Quantity: 112 pack
+Unit price EUR: 9.24
+Net EUR: 1034.88
+VAT EUR: 206.98
+Gross EUR: 1241.86
+Agreement: OFR-03-011-V3

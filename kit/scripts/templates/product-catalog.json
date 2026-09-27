@@ -1,0 +1,956 @@
+[
+  {
+    "referenceId": "CAT-001",
+    "cluster": "psa",
+    "category": "Respiratory protection",
+    "name": "Half mask / spray-painting respirator",
+    "specification": "Sizes S, M, L - A2/P3 filter",
+    "referenceUnit": "piece/size",
+    "referenceBrands": "3M, Dräger, SATA, EMM"
+  },
+  {
+    "referenceId": "CAT-002",
+    "cluster": "psa",
+    "category": "Respiratory protection",
+    "name": "A2 filter cartridges",
+    "specification": "Compatible with the mask in use",
+    "referenceUnit": "pair",
+    "referenceBrands": "3M, Dräger, SATA, EMM"
+  },
+  {
+    "referenceId": "CAT-003",
+    "cluster": "psa",
+    "category": "Respiratory protection",
+    "name": "P3 particulate filters",
+    "specification": "Compatible with the mask in use",
+    "referenceUnit": "pair",
+    "referenceBrands": "3M, Dräger, SATA, EMM"
+  },
+  {
+    "referenceId": "CAT-004",
+    "cluster": "psa",
+    "category": "Respiratory protection",
+    "name": "Disposable A2/P3 painting mask",
+    "specification": "FFP2/FFP3",
+    "referenceUnit": "piece",
+    "referenceBrands": "3M, Dräger, SATA, EMM"
+  },
+  {
+    "referenceId": "CAT-005",
+    "cluster": "psa",
+    "category": "Respiratory protection",
+    "name": "Compressed-air / battery-powered respirator system",
+    "specification": "Wall-mounted with air hose or battery-powered",
+    "referenceUnit": "set",
+    "referenceBrands": "3M, Dräger, SATA, Sundström"
+  },
+  {
+    "referenceId": "CAT-006",
+    "cluster": "psa",
+    "category": "Eye protection",
+    "name": "Clear safety glasses",
+    "specification": "Scratch-resistant, anti-fog",
+    "referenceUnit": "piece",
+    "referenceBrands": "uvex, 3M, Honeywell"
+  },
+  {
+    "referenceId": "CAT-007",
+    "cluster": "psa",
+    "category": "Eye protection",
+    "name": "Full-vision goggles / UV goggles",
+    "specification": "For chemical or UV work",
+    "referenceUnit": "piece",
+    "referenceBrands": "uvex, 3M, Honeywell"
+  },
+  {
+    "referenceId": "CAT-008",
+    "cluster": "psa",
+    "category": "Body protection / clothing",
+    "name": "Disposable painting coverall",
+    "specification": "Sizes M, L, XL, XXL, XXXL",
+    "referenceUnit": "piece/size",
+    "referenceBrands": "DuPont Tyvek, 3M, Finixa"
+  },
+  {
+    "referenceId": "CAT-009",
+    "cluster": "psa",
+    "category": "Body protection / clothing",
+    "name": "Reusable painting suit",
+    "specification": "Sizes M, L, XL, XXL",
+    "referenceUnit": "piece/size",
+    "referenceBrands": "Finixa, Colad, Hamach"
+  },
+  {
+    "referenceId": "CAT-010",
+    "cluster": "psa",
+    "category": "Body protection / clothing",
+    "name": "Protective hood",
+    "specification": "Disposable, viscose rayon",
+    "referenceUnit": "piece",
+    "referenceBrands": "Finixa, Colad, Hamach"
+  },
+  {
+    "referenceId": "CAT-011",
+    "cluster": "psa",
+    "category": "Hand protection",
+    "name": "Disposable nitrile gloves",
+    "specification": "Sizes M, L, XL - powder-free, silicone-free",
+    "referenceUnit": "box/size",
+    "referenceBrands": "Ansell, uvex, Finixa"
+  },
+  {
+    "referenceId": "CAT-012",
+    "cluster": "psa",
+    "category": "Hand protection",
+    "name": "Heavy-duty nitrile gloves (black)",
+    "specification": "Sizes M, L, XL, XXL",
+    "referenceUnit": "piece/size",
+    "referenceBrands": "Ansell, uvex, Finixa"
+  },
+  {
+    "referenceId": "CAT-013",
+    "cluster": "psa",
+    "category": "Hand protection",
+    "name": "PU gloves",
+    "specification": "Sizes M, L, XL",
+    "referenceUnit": "pair/size",
+    "referenceBrands": "Ansell, uvex, Honeywell"
+  },
+  {
+    "referenceId": "CAT-014",
+    "cluster": "psa",
+    "category": "Hearing protection",
+    "name": "Disposable earplugs",
+    "specification": "SNR ≥ 30 dB",
+    "referenceUnit": "pair",
+    "referenceBrands": "3M, uvex,"
+  },
+  {
+    "referenceId": "CAT-015",
+    "cluster": "psa",
+    "category": "Hearing protection",
+    "name": "Banded hearing protection",
+    "specification": "SNR ≥ 28 dB",
+    "referenceUnit": "piece",
+    "referenceBrands": "3M, uvex, Honeywell"
+  },
+  {
+    "referenceId": "CAT-016",
+    "cluster": "kleb",
+    "category": "Masking tapes",
+    "name": "Standard masking tape",
+    "specification": "18 mm, 24 mm, 30 mm, 36 mm, 48 mm × 50 m",
+    "referenceUnit": "roll/size",
+    "referenceBrands": "Tesa, 3M, Finixa"
+  },
+  {
+    "referenceId": "CAT-017",
+    "cluster": "kleb",
+    "category": "Masking tapes",
+    "name": "Fine-line tape",
+    "specification": "3 mm, 6 mm, 9 mm × 33 m transparent",
+    "referenceUnit": "roll/size",
+    "referenceBrands": "3M, Tesa, Finixa"
+  },
+  {
+    "referenceId": "CAT-018",
+    "cluster": "kleb",
+    "category": "Masking tapes",
+    "name": "Contour tape",
+    "specification": "3 mm, 6 mm, 9 mm, 12 mm, 19 mm",
+    "referenceUnit": "roll/size",
+    "referenceBrands": "3M, Tesa, Finixa"
+  },
+  {
+    "referenceId": "CAT-019",
+    "cluster": "kleb",
+    "category": "Masking tapes",
+    "name": "Cloth tape",
+    "specification": "50 mm × 50 m, silver/black",
+    "referenceUnit": "roll",
+    "referenceBrands": "Tesa, 3M"
+  },
+  {
+    "referenceId": "CAT-020",
+    "cluster": "kleb",
+    "category": "Masking tapes",
+    "name": "Aluminium tape",
+    "specification": "50 mm × 18 m",
+    "referenceUnit": "roll",
+    "referenceBrands": "3M, Tesa, Finixa"
+  },
+  {
+    "referenceId": "CAT-021",
+    "cluster": "kleb",
+    "category": "Masking paper",
+    "name": "Masking paper 40-50 g/m²",
+    "specification": "21 cm, 60 cm, 90 cm, 120 cm, 150 cm × 300-450 m",
+    "referenceUnit": "roll/width",
+    "referenceBrands": "Finixa, Colad, Indasa"
+  },
+  {
+    "referenceId": "CAT-022",
+    "cluster": "kleb",
+    "category": "Masking paper",
+    "name": "Self-adhesive bodywork masking paper",
+    "specification": "61 cm × 46 m",
+    "referenceUnit": "roll",
+    "referenceBrands": "Finixa, Colad, 3M"
+  },
+  {
+    "referenceId": "CAT-023",
+    "cluster": "kleb",
+    "category": "Masking films and covers",
+    "name": "Paint masking film",
+    "specification": "60 cm, 90 cm, 200 cm, 400 cm × length",
+    "referenceUnit": "roll/width",
+    "referenceBrands": "Finixa, Colad, 3M"
+  },
+  {
+    "referenceId": "CAT-024",
+    "cluster": "kleb",
+    "category": "Masking films and covers",
+    "name": "Vehicle cover",
+    "specification": "Size M (mid-size), size L (full-size)",
+    "referenceUnit": "piece",
+    "referenceBrands": "Finixa, Colad, Hamach"
+  },
+  {
+    "referenceId": "CAT-025",
+    "cluster": "kleb",
+    "category": "Masking films and covers",
+    "name": "Elasticated tyre cover",
+    "specification": "Universal size",
+    "referenceUnit": "set/4 pieces",
+    "referenceBrands": "Finixa, Colad, Hamach"
+  },
+  {
+    "referenceId": "CAT-026",
+    "cluster": "kleb",
+    "category": "Masking films and covers",
+    "name": "Seat / footwell protective film",
+    "specification": "Seat approx. 840×1420 mm, footwell approx. 420×530 mm",
+    "referenceUnit": "piece",
+    "referenceBrands": "Finixa, Colad, Hamach"
+  },
+  {
+    "referenceId": "CAT-027",
+    "cluster": "kleb",
+    "category": "Masking systems / lifting tape",
+    "name": "Lift 'n' Stick / lifting tape",
+    "specification": "5 mm, 9 mm, 10 mm, 15 mm, 18 mm, 25 mm",
+    "referenceUnit": "roll/width",
+    "referenceBrands": "3M, Finixa, Colad"
+  },
+  {
+    "referenceId": "CAT-028",
+    "cluster": "schleif",
+    "category": "Sanding discs 150 mm",
+    "name": "Sanding discs 150 mm, coarse",
+    "specification": "P40, P60, P80, P100",
+    "referenceUnit": "pack of 50/100",
+    "referenceBrands": "Mirka, 3M, Indasa"
+  },
+  {
+    "referenceId": "CAT-029",
+    "cluster": "schleif",
+    "category": "Sanding discs 150 mm",
+    "name": "Sanding discs 150 mm, intermediate",
+    "specification": "P120, P150, P180, P220, P240",
+    "referenceUnit": "pack of 50/100",
+    "referenceBrands": "Mirka, 3M, Indasa"
+  },
+  {
+    "referenceId": "CAT-030",
+    "cluster": "schleif",
+    "category": "Sanding discs 150 mm",
+    "name": "Sanding discs 150 mm, fine",
+    "specification": "P280, P320, P400, P500, P600",
+    "referenceUnit": "pack of 50/100",
+    "referenceBrands": "Mirka, 3M, Indasa"
+  },
+  {
+    "referenceId": "CAT-031",
+    "cluster": "schleif",
+    "category": "Sanding discs 150 mm",
+    "name": "Sanding discs 150 mm, finishing",
+    "specification": "P800 - P5000",
+    "referenceUnit": "pack of 50",
+    "referenceBrands": "Mirka, 3M, Kovax"
+  },
+  {
+    "referenceId": "CAT-032",
+    "cluster": "schleif",
+    "category": "Sanding discs 77/90 mm",
+    "name": "Sanding discs 77/90 mm",
+    "specification": "P80 - P600, each grit",
+    "referenceUnit": "pack of 50",
+    "referenceBrands": "Mirka, 3M, Festool"
+  },
+  {
+    "referenceId": "CAT-033",
+    "cluster": "schleif",
+    "category": "Sanding strips",
+    "name": "Sanding strips 70×400 mm",
+    "specification": "P80, P120, P150, P180, P220, P240, P320, P400",
+    "referenceUnit": "pack of 50",
+    "referenceBrands": "Mirka, 3M, sia Abrasives"
+  },
+  {
+    "referenceId": "CAT-034",
+    "cluster": "schleif",
+    "category": "Sanding strips",
+    "name": "Sanding strips 115×230 mm",
+    "specification": "P80, P120, P150, P180, P240, P320, P400",
+    "referenceUnit": "pack of 50",
+    "referenceBrands": "Mirka, 3M, Indasa"
+  },
+  {
+    "referenceId": "CAT-035",
+    "cluster": "schleif",
+    "category": "Sanding strips",
+    "name": "Sanding strips 80×133 mm",
+    "specification": "P80, P120, P180, P240, P320, P400",
+    "referenceUnit": "pack of 50",
+    "referenceBrands": "Mirka, 3M, sia Abrasives"
+  },
+  {
+    "referenceId": "CAT-036",
+    "cluster": "schleif",
+    "category": "Abrasive paper sheets",
+    "name": "Waterproof sanding sheets 230×280 mm",
+    "specification": "P80, P120, P180, P240, P320, P400, P600, P800, P1000, P1200",
+    "referenceUnit": "pack of 25",
+    "referenceBrands": "Mirka, 3M, Indasa"
+  },
+  {
+    "referenceId": "CAT-037",
+    "cluster": "schleif",
+    "category": "Sanding rolls / hand rolls",
+    "name": "Sanding roll 115 mm × 25 m",
+    "specification": "P180, P240, P320, P400, P600, P800, P1000",
+    "referenceUnit": "roll/grit",
+    "referenceBrands": "Mirka, 3M, Indasa"
+  },
+  {
+    "referenceId": "CAT-038",
+    "cluster": "schleif",
+    "category": "Non-woven abrasives / Scotch-Brite",
+    "name": "Non-woven abrasive hand pad",
+    "specification": "Very Fine (red), Ultra Fine (grey)",
+    "referenceUnit": "piece",
+    "referenceBrands": "3M Scotch-Brite, Mirka, Indasa"
+  },
+  {
+    "referenceId": "CAT-039",
+    "cluster": "schleif",
+    "category": "Non-woven abrasives / Scotch-Brite",
+    "name": "Non-woven abrasive roll 115 mm × 10 m",
+    "specification": "Very Fine, Ultra Fine",
+    "referenceUnit": "roll",
+    "referenceBrands": "3M Scotch-Brite, Mirka"
+  },
+  {
+    "referenceId": "CAT-040",
+    "cluster": "schleif",
+    "category": "Non-woven abrasives / Scotch-Brite",
+    "name": "Scuffing sponge",
+    "specification": "Very Fine, Ultra Fine",
+    "referenceUnit": "piece",
+    "referenceBrands": "3M, Mirka, Finixa"
+  },
+  {
+    "referenceId": "CAT-041",
+    "cluster": "schleif",
+    "category": "Hand sanding blocks",
+    "name": "Hard rubber hand sanding block",
+    "specification": "67×120 mm",
+    "referenceUnit": "piece",
+    "referenceBrands": "Mirka, Festool, 3M"
+  },
+  {
+    "referenceId": "CAT-042",
+    "cluster": "schleif",
+    "category": "Hand sanding blocks",
+    "name": "Soft hand sanding block",
+    "specification": "70×125 mm, 70×198 mm",
+    "referenceUnit": "piece",
+    "referenceBrands": "Mirka, Festool, 3M"
+  },
+  {
+    "referenceId": "CAT-043",
+    "cluster": "schleif",
+    "category": "Hand sanding blocks",
+    "name": "Interface pad",
+    "specification": "150 mm, 5 mm and 10 mm thickness",
+    "referenceUnit": "piece",
+    "referenceBrands": "Mirka, Festool, 3M"
+  },
+  {
+    "referenceId": "CAT-044",
+    "cluster": "polier",
+    "category": "Cutting compounds and polishes",
+    "name": "Cutting compound (coarse/medium)",
+    "specification": "1-step or 2-stage, 500 ml / 1 L",
+    "referenceUnit": "bottle",
+    "referenceBrands": "Menzerna, 3M, Rupes, Visomax, Mirka etc."
+  },
+  {
+    "referenceId": "CAT-045",
+    "cluster": "polier",
+    "category": "Cutting compounds and polishes",
+    "name": "Polish (fine / anti-hologram)",
+    "specification": "500 ml / 1 L",
+    "referenceUnit": "bottle",
+    "referenceBrands": "Menzerna, 3M, Rupes, Visomax, Mirka etc."
+  },
+  {
+    "referenceId": "CAT-046",
+    "cluster": "polier",
+    "category": "Cutting compounds and polishes",
+    "name": "One-step cutting and polishing compound",
+    "specification": "500 ml / 1 L",
+    "referenceUnit": "bottle",
+    "referenceBrands": "Menzerna, 3M, Rupes, Visomax, Mirka etc."
+  },
+  {
+    "referenceId": "CAT-047",
+    "cluster": "polier",
+    "category": "Polishing discs and pads",
+    "name": "Dimpled foam polishing pad 150 mm",
+    "specification": "Orange (medium), yellow (fine), green (ultrafine)",
+    "referenceUnit": "pack of 2",
+    "referenceBrands": "Menzerna, 3M, Rupes, Visomax, Mirka etc."
+  },
+  {
+    "referenceId": "CAT-048",
+    "cluster": "polier",
+    "category": "Polishing discs and pads",
+    "name": "Foam polishing pad 77 mm",
+    "specification": "Orange, yellow",
+    "referenceUnit": "pack of 4",
+    "referenceBrands": "Menzerna, 3M, Rupes, Visomax, Mirka etc."
+  },
+  {
+    "referenceId": "CAT-049",
+    "cluster": "polier",
+    "category": "Polishing discs and pads",
+    "name": "Lambswool polishing pad 150 mm",
+    "specification": "For coarse polishing",
+    "referenceUnit": "pack of 2",
+    "referenceBrands": "Menzerna, 3M, Rupes, Visomax, Mirka etc."
+  },
+  {
+    "referenceId": "CAT-050",
+    "cluster": "polier",
+    "category": "Polishing discs and pads",
+    "name": "Lambswool polishing pad 77 mm",
+    "specification": "For coarse polishing",
+    "referenceUnit": "pack of 2",
+    "referenceBrands": "Menzerna, 3M, Rupes, Visomax, Mirka etc."
+  },
+  {
+    "referenceId": "CAT-051",
+    "cluster": "polier",
+    "category": "Polishing cloths",
+    "name": "Microfibre polishing cloth",
+    "specification": "Approx. 32×36 cm, 275-500 pieces/roll",
+    "referenceUnit": "roll",
+    "referenceBrands": "Menzerna, 3M, Rupes, Visomax, Mirka etc."
+  },
+  {
+    "referenceId": "CAT-052",
+    "cluster": "polier",
+    "category": "Polishing cloths",
+    "name": "Disposable polishing / cleaning cloth",
+    "specification": "36×40 cm",
+    "referenceUnit": "roll",
+    "referenceBrands": "Menzerna, 3M, Rupes, Visomax, Mirka etc."
+  },
+  {
+    "referenceId": "CAT-053",
+    "cluster": "polier",
+    "category": "Inspection aids",
+    "name": "Guide coat powder / sanding indicator",
+    "specification": "White and black, 100 g",
+    "referenceUnit": "bottle",
+    "referenceBrands": "Mirka, Finixa, Colad"
+  },
+  {
+    "referenceId": "CAT-054",
+    "cluster": "lack",
+    "category": "Mixing cups and paint cups",
+    "name": "Graduated mixing cup",
+    "specification": "125 ml, 250 ml, 400 ml, 600 ml, 1,000 ml",
+    "referenceUnit": "pack/size",
+    "referenceBrands": "Sata, 3M, Mirka, Indasa, Carsystem etc."
+  },
+  {
+    "referenceId": "CAT-055",
+    "cluster": "lack",
+    "category": "Mixing cups and paint cups",
+    "name": "Paint cup for compressed-air spray gun",
+    "specification": "PPS system or universal, 125 µ filter",
+    "referenceUnit": "set",
+    "referenceBrands": "Sata, 3M, Mirka, Indasa, Carsystem etc."
+  },
+  {
+    "referenceId": "CAT-056",
+    "cluster": "lack",
+    "category": "Mixing cups and paint cups",
+    "name": "Paint strainers 125 µ / 200 µ",
+    "specification": "Compatible with the cup type",
+    "referenceUnit": "pack of 25",
+    "referenceBrands": "3M, Finixa, Colad"
+  },
+  {
+    "referenceId": "CAT-057",
+    "cluster": "lack",
+    "category": "Mixing cups and paint cups",
+    "name": "Stirring sticks / spatulas",
+    "specification": "Plastic",
+    "referenceUnit": "piece",
+    "referenceBrands": "Colad, Finixa, Hamach"
+  },
+  {
+    "referenceId": "CAT-058",
+    "cluster": "lack",
+    "category": "Spray booth filter mats",
+    "name": "Ceiling filter / inlet filter",
+    "specification": "G4, cut to size, approx. 20 m²/set depending on booth",
+    "referenceUnit": "m²",
+    "referenceBrands": "Volz, Freudenberg"
+  },
+  {
+    "referenceId": "CAT-059",
+    "cluster": "lack",
+    "category": "Spray booth filter mats",
+    "name": "Floor filter / exhaust filter",
+    "specification": "70 mm depth, roll material as required",
+    "referenceUnit": "m²",
+    "referenceBrands": "Volz, Freudenberg"
+  },
+  {
+    "referenceId": "CAT-060",
+    "cluster": "lack",
+    "category": "Spray booth filter mats",
+    "name": "G4 pocket filter",
+    "specification": "287×592×360 mm or 592×592×360 mm",
+    "referenceUnit": "piece",
+    "referenceBrands": "Volz, Freudenberg"
+  },
+  {
+    "referenceId": "CAT-061",
+    "cluster": "lack",
+    "category": "Spray booth filter mats",
+    "name": "PSB290 prefilter",
+    "specification": "Can be cut to size",
+    "referenceUnit": "m²",
+    "referenceBrands": "Volz, Freudenberg"
+  },
+  {
+    "referenceId": "CAT-062",
+    "cluster": "lack",
+    "category": "Painting equipment accessories",
+    "name": "Tack cloth / dust removal cloth",
+    "specification": "43×30 cm, approx. 10 pieces/pack",
+    "referenceUnit": "pack",
+    "referenceBrands": "Finixa, Colad, 3M"
+  },
+  {
+    "referenceId": "CAT-063",
+    "cluster": "lack",
+    "category": "Painting equipment accessories",
+    "name": "Compressed-air spray gun cleaner",
+    "specification": "Solvent-resistant",
+    "referenceUnit": "bottle",
+    "referenceBrands": "Finixa, Colad, SATA"
+  },
+  {
+    "referenceId": "CAT-064",
+    "cluster": "lack",
+    "category": "Spray guns and spraying equipment",
+    "name": "HVLP spray gun, basecoat",
+    "specification": "Gravity cup, nozzle 1.2-1.3 mm",
+    "referenceUnit": "piece",
+    "referenceBrands": "SATA, Iwata"
+  },
+  {
+    "referenceId": "CAT-065",
+    "cluster": "lack",
+    "category": "Spray guns and spraying equipment",
+    "name": "RP spray gun, clearcoat",
+    "specification": "Gravity cup, nozzle 1-1.2 mm",
+    "referenceUnit": "piece",
+    "referenceBrands": "SATA, Iwata"
+  },
+  {
+    "referenceId": "CAT-066",
+    "cluster": "lack",
+    "category": "Spray guns and spraying equipment",
+    "name": "Large spray gun for primer / filler",
+    "specification": "Nozzle 1.6-1.9 mm, high material throughput",
+    "referenceUnit": "piece",
+    "referenceBrands": "SATA, Iwata"
+  },
+  {
+    "referenceId": "CAT-067",
+    "cluster": "lack",
+    "category": "Spray guns and spraying equipment",
+    "name": "Replacement nozzle set (nozzle/needle/air cap)",
+    "specification": "Depending on spray gun model",
+    "referenceUnit": "set/size",
+    "referenceBrands": "SATA, Iwata"
+  },
+  {
+    "referenceId": "CAT-068",
+    "cluster": "lack",
+    "category": "Spray guns and spraying equipment",
+    "name": "Automatic spray gun cleaner",
+    "specification": "Closed system, solvent-based",
+    "referenceUnit": "piece",
+    "referenceBrands": "SATA, Iwata"
+  },
+  {
+    "referenceId": "CAT-069",
+    "cluster": "lack",
+    "category": "Spray guns and spraying equipment",
+    "name": "Air micrometer / spray gun pressure regulator",
+    "specification": "Mounted directly on spray gun, with pressure gauge",
+    "referenceUnit": "piece",
+    "referenceBrands": "SATA, Iwata"
+  },
+  {
+    "referenceId": "CAT-070",
+    "cluster": "kabine",
+    "category": "Degreasers / cleaners",
+    "name": "Solvent-based silicone remover",
+    "specification": "1 L, 5 L",
+    "referenceUnit": "bottle",
+    "referenceBrands": "PPG/Nexa, 3M, Finixa"
+  },
+  {
+    "referenceId": "CAT-071",
+    "cluster": "kabine",
+    "category": "Degreasers / cleaners",
+    "name": "Water-based silicone remover",
+    "specification": "1 L, 5 L",
+    "referenceUnit": "bottle",
+    "referenceBrands": "PPG/Nexa, 3M, Finixa"
+  },
+  {
+    "referenceId": "CAT-072",
+    "cluster": "kabine",
+    "category": "Degreasers / cleaners",
+    "name": "Pre-saturated cleaning wipes",
+    "specification": "38×38 cm, box of 200 pieces",
+    "referenceUnit": "box",
+    "referenceBrands": "3M, Finixa, Colad"
+  },
+  {
+    "referenceId": "CAT-073",
+    "cluster": "kabine",
+    "category": "Cleaning rolls and cloths",
+    "name": "Blue wiping paper roll",
+    "specification": "38×38 cm, 500 sheets",
+    "referenceUnit": "roll",
+    "referenceBrands": "Finixa, Colad, Hamach"
+  },
+  {
+    "referenceId": "CAT-074",
+    "cluster": "kabine",
+    "category": "Cleaning rolls and cloths",
+    "name": "White lint-free wiping paper roll",
+    "specification": "40×39 cm, 500-1000 sheets",
+    "referenceUnit": "roll",
+    "referenceBrands": "Finixa, Colad, Hamach"
+  },
+  {
+    "referenceId": "CAT-075",
+    "cluster": "kabine",
+    "category": "Cleaning rolls and cloths",
+    "name": "Floor stand / wall holder",
+    "specification": "For wiping paper rolls",
+    "referenceUnit": "piece",
+    "referenceBrands": "Finixa, Colad, Hamach"
+  },
+  {
+    "referenceId": "CAT-076",
+    "cluster": "kabine",
+    "category": "Hand cleaning",
+    "name": "Hand cleaner for paint and sealants",
+    "specification": "250 ml tube / 1.4 L refill pouch",
+    "referenceUnit": "piece",
+    "referenceBrands": "Stockolino, Finixa, Colad"
+  },
+  {
+    "referenceId": "CAT-077",
+    "cluster": "kabine",
+    "category": "Hand cleaning",
+    "name": "Hand care cream",
+    "specification": "250 ml tube",
+    "referenceUnit": "tube",
+    "referenceBrands": "Stockolino, Finixa, Colad"
+  },
+  {
+    "referenceId": "CAT-078",
+    "cluster": "kabine",
+    "category": "Hand cleaning",
+    "name": "Barrier cream (before work)",
+    "specification": "250 ml",
+    "referenceUnit": "tube",
+    "referenceBrands": "Stockolino, Finixa, Colad"
+  },
+  {
+    "referenceId": "CAT-079",
+    "cluster": "kabine",
+    "category": "Hand cleaning",
+    "name": "Wall dispenser",
+    "specification": "Compatible with refill pouches",
+    "referenceUnit": "piece",
+    "referenceBrands": "Stockolino, Finixa, Colad"
+  },
+  {
+    "referenceId": "CAT-080",
+    "cluster": "werkstatt",
+    "category": "Pneumatic random orbital sanders",
+    "name": "Random orbital sander 150 mm, 5 mm orbit",
+    "specification": "Pneumatic, for bodywork sanding",
+    "referenceUnit": "piece",
+    "referenceBrands": "Festool, Mirka, Rupes"
+  },
+  {
+    "referenceId": "CAT-081",
+    "cluster": "werkstatt",
+    "category": "Pneumatic random orbital sanders",
+    "name": "Random orbital sander 77 mm",
+    "specification": "Pneumatic, for detail work",
+    "referenceUnit": "piece",
+    "referenceBrands": "Festool, Mirka, Rupes"
+  },
+  {
+    "referenceId": "CAT-082",
+    "cluster": "werkstatt",
+    "category": "Pneumatic random orbital sanders",
+    "name": "Electric random orbital sander 150 mm",
+    "specification": "For locations without compressed air",
+    "referenceUnit": "piece",
+    "referenceBrands": "Festool, Mirka, Rupes"
+  },
+  {
+    "referenceId": "CAT-083",
+    "cluster": "werkstatt",
+    "category": "Long-reach sanders",
+    "name": "Pneumatic long-reach sander",
+    "specification": "With dust extraction, for roof panels / bodywork",
+    "referenceUnit": "piece",
+    "referenceBrands": "Festool, Mirka, Rupes"
+  },
+  {
+    "referenceId": "CAT-084",
+    "cluster": "werkstatt",
+    "category": "Random orbital polishers",
+    "name": "Random orbital polisher 150 mm",
+    "specification": "Electric, 150 mm pad",
+    "referenceUnit": "piece",
+    "referenceBrands": "Rupes, Festool, Menzerna"
+  },
+  {
+    "referenceId": "CAT-085",
+    "cluster": "werkstatt",
+    "category": "Random orbital polishers",
+    "name": "Rotary polisher",
+    "specification": "Electric, for coarse polishing",
+    "referenceUnit": "piece",
+    "referenceBrands": "Rupes, Festool, Menzerna"
+  },
+  {
+    "referenceId": "CAT-086",
+    "cluster": "werkstatt",
+    "category": "Machine accessories",
+    "name": "Standard backing pad 150 mm",
+    "specification": "Hard and soft, M8 / 5/16\" thread",
+    "referenceUnit": "piece",
+    "referenceBrands": "Mirka, Festool, Rupes"
+  },
+  {
+    "referenceId": "CAT-087",
+    "cluster": "werkstatt",
+    "category": "Machine accessories",
+    "name": "Backing pad 77 mm",
+    "specification": "Standard and soft",
+    "referenceUnit": "piece",
+    "referenceBrands": "Mirka, Festool, Rupes"
+  },
+  {
+    "referenceId": "CAT-088",
+    "cluster": "werkstatt",
+    "category": "Machine accessories",
+    "name": "Polishing backing pad 150 mm",
+    "specification": "M14 thread",
+    "referenceUnit": "piece",
+    "referenceBrands": "Rupes, Festool, Menzerna"
+  },
+  {
+    "referenceId": "CAT-089",
+    "cluster": "kabine",
+    "category": "Spray booth film and tack coating",
+    "name": "Spray booth tack coating / anti-dust coating",
+    "specification": "5 L / 20 L",
+    "referenceUnit": "canister",
+    "referenceBrands": "3M, Colad, Finixa, KLM"
+  },
+  {
+    "referenceId": "CAT-090",
+    "cluster": "kabine",
+    "category": "Spray booth film and tack coating",
+    "name": "Self-adhesive spray booth protection film",
+    "specification": "45 cm × 30 m transparent",
+    "referenceUnit": "roll",
+    "referenceBrands": "Finixa, Colad, 3M"
+  },
+  {
+    "referenceId": "CAT-091",
+    "cluster": "kabine",
+    "category": "Spray booth film and tack coating",
+    "name": "Dirt-Trap spray booth protection",
+    "specification": "71 cm × 91 m white",
+    "referenceUnit": "roll",
+    "referenceBrands": "Finixa, Colad, 3M"
+  },
+  {
+    "referenceId": "CAT-092",
+    "cluster": "kabine",
+    "category": "Spray booth film and tack coating",
+    "name": "PVC tape for spray booths",
+    "specification": "50 mm × 33 m",
+    "referenceUnit": "roll",
+    "referenceBrands": "Tesa, 3M, Finixa"
+  },
+  {
+    "referenceId": "CAT-093",
+    "cluster": "werkstatt",
+    "category": "Filler tools and accessories",
+    "name": "Filler mixing boards",
+    "specification": "Plastic, various widths",
+    "referenceUnit": "piece",
+    "referenceBrands": "Colad, Finixa, Hamach"
+  },
+  {
+    "referenceId": "CAT-094",
+    "cluster": "werkstatt",
+    "category": "Filler tools and accessories",
+    "name": "Plastic repair material",
+    "specification": "Black / natural, 50 ml cartridge",
+    "referenceUnit": "cartridge",
+    "referenceBrands": "Sika, Teroson (Henkel), 3M"
+  },
+  {
+    "referenceId": "CAT-095",
+    "cluster": "werkstatt",
+    "category": "Filler tools and accessories",
+    "name": "Mixing nozzles for cartridges",
+    "specification": "Compatible with the respective cartridge",
+    "referenceUnit": "pack of 10-12",
+    "referenceBrands": "Sika, Teroson (Henkel), 3M"
+  },
+  {
+    "referenceId": "CAT-096",
+    "cluster": "werkstatt",
+    "category": "Filler tools and accessories",
+    "name": "Pneumatic cartridge gun",
+    "specification": "Universal 310 ml / 50 ml",
+    "referenceUnit": "piece",
+    "referenceBrands": "Sika, Colad, Cox"
+  },
+  {
+    "referenceId": "CAT-097",
+    "cluster": "werkstatt",
+    "category": "Filler tools and accessories",
+    "name": "Stone-chip protection spray",
+    "specification": "Black, grey, 500 ml",
+    "referenceUnit": "can",
+    "referenceBrands": "PPG, 3M, Finixa"
+  },
+  {
+    "referenceId": "CAT-098",
+    "cluster": "werkstatt",
+    "category": "Filler tools and accessories",
+    "name": "Sprayable seam sealer",
+    "specification": "Beige / black, 310 ml",
+    "referenceUnit": "cartridge",
+    "referenceBrands": "Sika, Teroson (Henkel), PPG"
+  },
+  {
+    "referenceId": "CAT-099",
+    "cluster": "werkstatt",
+    "category": "Coating measurement and inspection",
+    "name": "Coating thickness gauge",
+    "specification": "For steel and aluminium, digital",
+    "referenceUnit": "piece",
+    "referenceBrands": "PosiTector (DeFelsko), Elcometer, Byko"
+  },
+  {
+    "referenceId": "CAT-100",
+    "cluster": "werkstatt",
+    "category": "Coating measurement and inspection",
+    "name": "Daylight lamp / UV inspection lamp",
+    "specification": "For colour matching",
+    "referenceUnit": "piece",
+    "referenceBrands": "Sata"
+  },
+  {
+    "referenceId": "CAT-101",
+    "cluster": "werkstatt",
+    "category": "Coating measurement and inspection",
+    "name": "DIN 6 / DIN 4 viscosity cup",
+    "specification": "For measuring paint viscosity",
+    "referenceUnit": "piece",
+    "referenceBrands": "BYK, PPG, SATA"
+  },
+  {
+    "referenceId": "CAT-102",
+    "cluster": "kabine",
+    "category": "Compressed air / spray gun accessories",
+    "name": "Compressed-air filter / water separator",
+    "specification": "Wall-mounted, for spray booth",
+    "referenceUnit": "piece",
+    "referenceBrands": "SATA, Iwata"
+  },
+  {
+    "referenceId": "CAT-103",
+    "cluster": "kabine",
+    "category": "Compressed air / spray gun accessories",
+    "name": "Compressed-air hose",
+    "specification": "9 mm × 1.2-5 m, quick-coupling compatible",
+    "referenceUnit": "piece",
+    "referenceBrands": "SATA, Iwata"
+  },
+  {
+    "referenceId": "CAT-104",
+    "cluster": "kabine",
+    "category": "Compressed air / spray gun accessories",
+    "name": "Masking paper / film dispenser",
+    "specification": "For masking paper and film",
+    "referenceUnit": "piece",
+    "referenceBrands": "Finixa, Colad, 3M etc."
+  },
+  {
+    "referenceId": "CAT-105",
+    "cluster": "kabine",
+    "category": "Waste and disposal",
+    "name": "Large refuse sacks",
+    "specification": "120 L blue, 25 pieces/roll",
+    "referenceUnit": "roll",
+    "referenceBrands": "Deiss, Hamach, local wholesaler"
+  },
+  {
+    "referenceId": "CAT-106",
+    "cluster": "kabine",
+    "category": "Waste and disposal",
+    "name": "Solvent canister / waste container",
+    "specification": "10 L, approved for hazardous waste",
+    "referenceUnit": "piece",
+    "referenceBrands": "Denios, Hamach, Colad"
+  }
+]

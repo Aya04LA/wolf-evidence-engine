@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "INV-WLF-0001",
+    "iso": "AT",
+    "supplierId": "sup-aster",
+    "date": "2026-09-08",
+    "sourceFile": "invoice-text/INV-WLF-0001.txt",
+    "synthetic": true,
+    "currency": "EUR",
+    "format": "text_invoice",
+    "lines": [
+      {
+        "lineNo": 1,
+        "productCode": "WLF-1002",
+        "description": "Sanding discs 150 mm, coarse",
+        "qty": 132,
+        "unit": "piece",
+        "packQuantity": 1,
+        "unitPriceEUR": 67.79,
+        "netEUR": 8948.28
+      }
+    ],
+    "netEUR": 8948.28,
+    "vatPct": 20,
+    "vatEUR": 1789.66,
+    "grossEUR": 10737.94,
+    "agreementId": "OFR-01-002-V3",
+    "expectedOutcome": "matched",
+    "agreedUnitPriceEUR": 67.79,
+    "expectedVarianceEUR": 0.0
+  },
+  {
+    "id": "INV-WLF-0002",
+    "iso": "DE",
+    "supplierId": "sup-aster",
+    "date": "2026-09-09",
+    "sourceFile": "invoice-text/INV-WLF-0002.txt",
+    "synthetic": true,
+    "currency": "EUR",
+    "format": "text_invoice",
+    "lines": [
+      {
+        "lineNo": 1,
+        "productCode": "WLF-1003",
+        "description": "Standard masking tape",
+        "qty": 8,
+        "unit": "piece",
+        "packQuantity": 1,
+        "unitPriceEUR": 21.22,
+        "netEUR": 169.76
+      }
+    ],
+    "netEUR": 169.76,
+    "vatPct": 20,
+    "vatEUR": 33.95,
+    "grossEUR": 203.71,
+    "agreementId": "OFR-01-003-V3",
+    "expectedOutcome": "overcharge_review",
+    "agreedUnitPriceEUR": 18.14,
+    "expectedVarianceEUR": 24.64
+  },
+  {
+    "id": "INV-WLF-0003",
+    "iso": "SE",
+    "supplierId": "sup-aster",
+    "date": "2026-09-10",
+    "sourceFile": "invoice-text/INV-WLF-0003.txt",
+    "synthetic": true,
+    "currency": "EUR",
+    "format": "text_invoice",
+    "lines": [
+      {
+        "lineNo": 1,
+        "productCode": "WLF-1005",
+        "description": "Solvent-based silicone remover",
+        "qty": 35,
+        "unit": "piece",
+        "packQuantity": 1,
+        "unitPriceEUR": 34.99,
+        "netEUR": 1224.65
+      }
+    ],
+    "netEUR": 1224.65,
+    "vatPct": 20,
+    "vatEUR": 244.93,
+    "grossEUR": 1469.58,
+    "agreementId": "OFR-01-005-V3",
+    "expectedOutcome": "below_agreement_review",
+    "agreedUnitPriceEUR": 37.22,
+    "expectedVarianceEUR": -78.05
+  },
+  {
+    "id": "INV-WLF-0004",
+    "iso": "FR",
+    "supplierId": "sup-aster",
+    "date": "2026-09-11",
+    "sourceFile": "invoice-text/INV-WLF-0004.txt",
+    "synthetic": true,
+    "currency": "EUR",
+    "format": "text_invoice",
+    "lines": [
+      {
+        "lineNo": 1,
+        "productCode": null,
+        "description": "Half mask / spray-painting respirator",
+        "qty": 89,
+        "unit": "piece",
+        "packQuantity": 1,
+        "unitPriceEUR": 26.93,
+        "netEUR": 2396.77
+      }
+    ],
+    "netEUR": 2396.77,
+    "vatPct": 20,
+    "vatEUR": 479.35,
+    "grossEUR": 2876.12,
+    "agreementId": "OFR-01-006-V3",
+    "expectedOutcome": "missing_article_review",
+    "agreedUnitPriceEUR": 26.93,
+    "expectedVarianceEUR": null
+  },
+  {
+    "id": "INV-WLF-0005",
+    "iso": "IT",
+    "supplierId": "sup-aster",
+    "date": "2026-09-12",
+    "sourceFile": "invoice-text/INV-WLF-0005.txt",
+    "synthetic": true,
+    "currency": "EUR",
+    "format": "text_invoice",
+    "lines": [
+      {
+        "lineNo": 1,
+        "productCode": "WLF-1009",
+        "description": "Sanding discs 150 mm, intermediate",
+        "qty": 104,
+        "unit": "pack",
+        "packQuantity": null,
+        "unitPriceEUR": 52.21,
+        "netEUR": 5429.84
+      }
+    ],
+    "netEUR": 5429.84,
+    "vatPct": 20,
+    "vatEUR": 1085.97,
+    "grossEUR": 6515.81,
+    "agreementId": "OFR-01-009-V3",
+    "expectedOutcome": "unit_review",
+    "agreedUnitPriceEUR": 52.21,
+    "expectedVarianceEUR": null
+  },
+  {
+    "id": "INV-WLF-0006",
+    "iso": "ES",
+    "supplierId": "sup-aster",
+    "date": "2026-09-13",
+    "sourceFile": "invoice-text/INV-WLF-0006.txt",
+    "synthetic": true,
+    "currency": "EUR",
+    "format": "text_invoice",
+    "lines": [
+      {
+        "lineNo": 1,
+        "productCode": "WLF-1010",
+        "description": "Fine-line tape",
+        "qty": 80,
+        "unit": "piece",
+        "packQuantity": 1,
+        "unitPriceEUR": 16.13,
+        "netEUR": 1290.4
+      }
+    ],
+    "netEUR": 1290.4,
+    "vatPct": 20,
+    "vatEUR": 258.08,
+    "grossEUR": 1548.48,
+    "agreementId": null,
+    "expectedOutcome": "missing_agreement_review",
+    "agreedUnitPriceEUR": null,
+    "expectedVarianceEUR": null
+  },
+  {
+    "id": "INV-WLF-0007",
+    "iso": "PT",
+    "supplierId": "sup-aster",
+    "date": "2026-09-14",
+    "sourceFile": "invoice-text/INV-WLF-0007.txt",
+    "synthetic": true,
+    "currency": "EUR",
+    "format": "text_invoice",
+    "lines": [
+      {
+        "lineNo": 1,
+        "productCode": "WLF-1012",
+        "description": "Water-based silicone remover",
+        "qty": 45,
+        "unit": "piece",
+        "packQuantity": 1,
+        "unitPriceEUR": 28.18,
+        "netEUR": 1268.1
+      }
+    ],
+    "netEUR": 1268.1,
+    "vatPct": 20,
+    "vatEUR": 253.62,
+    "grossEUR": 1521.72,
+    "agreementId": "OFR-01-012-V3",
+    "expectedOutcome": "matched",
+    "agreedUnitPriceEUR": 28.18,
+    "expectedVarianceEUR": 0.0
+  },
+  {
+    "id": "INV-WLF-0008",
+    "iso": "CH",
+    "supplierId": "sup-aster",
+    "date": "2026-09-15",
+    "sourceFile": "invoice-text/INV-WLF-0008.txt",
+    "synthetic": true,
+    "currency": "EUR",
+    "format": "text_invoice",
+    "lines": [
+      {
+        "lineNo": 1,
+        "productCode": "WLF-1013",
+        "description": "A2 filter cartridges",
+        "qty": 53,
+        "unit": "piece",
+        "packQuantity": 1,
+        "unitPriceEUR": 5.72,
+        "netEUR": 303.16
+      }
+    ],
+    "netEUR": 303.16,
+    "vatPct": 20,
+    "vatEUR": 60.63,
+    "grossEUR": 363.79,
+    "agreementId": "OFR-01-013-V3",
+    "expectedOutcome": "overcharge_review",
+    "agreedUnitPriceEUR": 4.89,
+    "expectedVarianceEUR": 43.99
+  },
+  {
+    "id": "INV-WLF-0009",
+    "iso": "PL",
+    "supplierId": "sup-aster",
+    "date": "2026-09-16",
+    "sourceFile": "invoice-text/INV-WLF-0009.txt",
+    "synthetic": true,
+    "currency": "EUR",
+    "format": "text_invoice",
+    "lines": [
+      {
+        "lineNo": 1,
+        "productCode": "WLF-1016",
+        "description": "Sanding discs 150 mm, fine",
+        "qty": 114,
+        "unit": "piece",
+        "packQuantity": 1,
+        "unitPriceEUR": 46.39,
+        "netEUR": 5288.46
+      }
+    ],
+    "netEUR": 5288.46,
+    "vatPct": 20,
+    "vatEUR": 1057.69,
+    "grossEUR": 6346.15,
+    "agreementId": "OFR-01-016-V3",
+    "expectedOutcome": "below_agreement_review",
+    "agreedUnitPriceEUR": 49.35,
+    "expectedVarianceEUR": -337.44
+  },
+  {
+    "id": "INV-WLF-0010",
+    "iso": "CZ",
+    "supplierId": "sup-aster",
+    "date": "2026-09-17",
+    "sourceFile": "invoice-text/INV-WLF-0010.txt",
+    "synthetic": true,
+    "currency": "EUR",
+    "format": "text_invoice",
+    "lines": [
+      {
+        "lineNo": 1,
+        "productCode": null,
+        "description": "Contour tape",
+        "qty": 76,
+        "unit": "piece",
+        "packQuantity": 1,
+        "unitPriceEUR": 15.92,
+        "netEUR": 1209.92
+      }
+    ],
+    "netEUR": 1209.92,
+    "vatPct": 20,
+    "vatEUR": 241.98,
+    "grossEUR": 1451.9,
+    "agreementId": "OFR-01-017-V3",
+    "expectedOutcome": "missing_article_review",
+    "agreedUnitPriceEUR": 15.92,
+    "expectedVarianceEUR": null
+  },
+  {
+    "id": "INV-WLF-0011",
+    "iso": "SK",
+    "supplierId": "sup-aster",
+    "date": "2026-09-08",
+    "sourceFile": "invoice-text/INV-WLF-0011.txt",
+    "synthetic": true,
+    "currency": "EUR",
+    "format": "text_invoice",
+    "lines": [
+      {
+        "lineNo": 1,
+        "productCode": "WLF-1019",
+        "description": "Pre-saturated cleaning wipes",
+        "qty": 26,
+        "unit": "pack",
+        "packQuantity": null,
+        "unitPriceEUR": 66.23,
+        "netEUR": 1721.98
+      }
+    ],
+    "netEUR": 1721.98,
+    "vatPct": 20,
+    "vatEUR": 344.4,
+    "grossEUR": 2066.38,
+    "agreementId": "OFR-01-019-V3",
+    "expectedOutcome": "unit_review",
+    "agreedUnitPriceEUR": 66.23,
+    "expectedVarianceEUR": null
+  },
+  {
+    "id": "INV-WLF-0012",
+    "iso": "HU",
+    "supplierId": "sup-aster",
+    "date": "2026-09-09",
+    "sourceFile": "invoice-text/INV-WLF-0012.txt",
+    "synthetic": true,
+    "currency": "EUR",
+    "format": "text_invoice",
+    "lines": [
+      {
+        "lineNo": 1,
+        "productCode": "WLF-1020",
+        "description": "P3 particulate filters",
+        "qty": 17,
+        "unit": "piece",
+        "packQuantity": 1,
+        "unitPriceEUR": 23.88,
+        "netEUR": 405.96
+      }
+    ],
+    "netEUR": 405.96,
+    "vatPct": 20,
+    "vatEUR": 81.19,
+    "grossEUR": 487.15,
+    "agreementId": null,
+    "expectedOutcome": "missing_agreement_review",
+    "agreedUnitPriceEUR": null,
+    "expectedVarianceEUR": null
+  },
+  {
+    "id": "INV-WLF-0013",
+    "iso": "SI",
+    "supplierId": "sup-velora",
+    "date": "2026-09-10",
+    "sourceFile": "invoice-text/INV-WLF-0013.txt",
+    "synthetic": true,
+    "currency": "EUR",
+    "format": "text_invoice",
+    "lines": [
+      {
+        "lineNo": 1,
+        "productCode": "WLF-1001",
+        "description": "Graduated mixing cup",
+        "qty": 34,
+        "unit": "piece",
+        "packQuantity": 1,
+        "unitPriceEUR": 22.48,
+        "netEUR": 764.32
+      }
+    ],
+    "netEUR": 764.32,
+    "vatPct": 20,
+    "vatEUR": 152.86,
+    "grossEUR": 917.18,
+    "agreementId": "OFR-02-001-V3",
+    "expectedOutcome": "matched",
+    "agreedUnitPriceEUR": 22.48,
+    "expectedVarianceEUR": 0.0
+  },
+  {
+    "id": "INV-WLF-0014",
+    "iso": "HR",
+    "supplierId": "sup-velora",
+    "date": "2026-09-11",
+    "sourceFile": "invoice-text/INV-WLF-0014.txt",
+    "synthetic": true,
+    "currency": "EUR",
+    "format": "text_invoice",
+    "lines": [
+      {
+        "lineNo": 1,
+        "productCode": "WLF-1002",
+        "description": "Sanding discs 150 mm, coarse",
+        "qty": 25,
+        "unit": "piece",
+        "packQuantity": 1,
+        "unitPriceEUR": 77.55,
+        "netEUR": 1938.75
+      }
+    ],
+    "netEUR": 1938.75,
+    "vatPct": 20,
+    "vatEUR": 387.75,
+    "grossEUR": 2326.5,
+    "agreementId": "OFR-02-002-V3",
+    "expectedOutcome": "overcharge_review",
+    "agreedUnitPriceEUR": 66.28,
+    "expectedVarianceEUR": 281.75
+  },
+  {
+    "id": "INV-WLF-0015",
+    "iso": "RO",
+    "supplierId": "sup-velora",
+    "date": "2026-09-12",
+    "sourceFile": "invoice-text/INV-WLF-0015.txt",
+    "synthetic": true,
+    "currency": "EUR",
+    "format": "text_invoice",
+    "lines": [
+      {
+        "lineNo": 1,
+        "productCode": "WLF-1004",
+        "description": "Cutting compound (coarse/medium)",
+        "qty": 132,
+        "unit": "piece",
+        "packQuantity": 1,
+        "unitPriceEUR": 23.2,
+        "netEUR": 3062.4
+      }
+    ],
+    "netEUR": 3062.4,
+    "vatPct": 20,
+    "vatEUR": 612.48,
+    "grossEUR": 3674.88,
+    "agreementId": "OFR-02-004-V3",
+    "expectedOutcome": "below_agreement_review",
+    "agreedUnitPriceEUR": 24.68,
+    "expectedVarianceEUR": -195.36
+  },
+  {
+    "id": "INV-WLF-0016",
+    "iso": "BG",
+    "supplierId": "sup-velora",
+    "date": "2026-09-13",
+    "sourceFile": "invoice-text/INV-WLF-0016.txt",
+    "synthetic": true,
+    "currency": "EUR",
+    "format": "text_invoice",
+    "lines": [
+      {
+        "lineNo": 1,
+        "productCode": null,
+        "description": "Solvent-based silicone remover",
+        "qty": 107,
+        "unit": "piece",
+        "packQuantity": 1,
+        "unitPriceEUR": 36.39,
+        "netEUR": 3893.73
+      }
+    ],
+    "netEUR": 3893.73,
+    "vatPct": 20,
+    "vatEUR": 778.75,
+    "grossEUR": 4672.48,
+    "agreementId": "OFR-02-005-V3",
+    "expectedOutcome": "missing_article_review",
+    "agreedUnitPriceEUR": 36.39,
+    "expectedVarianceEUR": null
+  },
+  {
+    "id": "INV-WLF-0017",
+    "iso": "RS",
+    "supplierId": "sup-velora",
+    "date": "2026-09-14",
+    "sourceFile": "invoice-text/INV-WLF-0017.txt",
+    "synthetic": true,
+    "currency": "EUR",
+    "format": "text_invoice",
+    "lines": [
+      {
+        "lineNo": 1,
+        "productCode": "WLF-1007",
+        "description": "Random orbital sander 150 mm, 5 mm orbit",
+        "qty": 98,
+        "unit": "pack",
+        "packQuantity": null,
+        "unitPriceEUR": 37.86,
+        "netEUR": 3710.28
+      }
+    ],
+    "netEUR": 3710.28,
+    "vatPct": 20,
+    "vatEUR": 742.06,
+    "grossEUR": 4452.34,
+    "agreementId": "OFR-02-007-V3",
+    "expectedOutcome": "unit_review",
+    "agreedUnitPriceEUR": 37.86,
+    "expectedVarianceEUR": null
+  },
+  {
+    "id": "INV-WLF-0018",
+    "iso": "BA",
+    "supplierId": "sup-velora",
+    "date": "2026-09-15",
+    "sourceFile": "invoice-text/INV-WLF-0018.txt",
+    "synthetic": true,
+    "currency": "EUR",
+    "format": "text_invoice",
+    "lines": [
+      {
+        "lineNo": 1,
+        "productCode": "WLF-1008",
+        "description": "Paint cup for compressed-air spray gun",
+        "qty": 54,
+        "unit": "piece",
+        "packQuantity": 1,
+        "unitPriceEUR": 68.46,
+        "netEUR": 3696.84
+      }
+    ],
+    "netEUR": 3696.84,
+    "vatPct": 20,
+    "vatEUR": 739.37,
+    "grossEUR": 4436.21,
+    "agreementId": null,
+    "expectedOutcome": "missing_agreement_review",
+    "agreedUnitPriceEUR": null,
+    "expectedVarianceEUR": null
+  },
+  {
+    "id": "INV-WLF-0019",
+    "iso": "AL",
+    "supplierId": "sup-velora",
+    "date": "2026-09-16",
+    "sourceFile": "invoice-text/INV-WLF-0019.txt",
+    "synthetic": true,
+    "currency": "EUR",
+    "format": "text_invoice",
+    "lines": [
+      {
+        "lineNo": 1,
+        "productCode": "WLF-1009",
+        "description": "Sanding discs 150 mm, intermediate",
+        "qty": 130,
+        "unit": "piece",
+        "packQuantity": 1,
+        "unitPriceEUR": 51.04,
+        "netEUR": 6635.2
+      }
+    ],
+    "netEUR": 6635.2,
+    "vatPct": 20,
+    "vatEUR": 1327.04,
+    "grossEUR": 7962.24,
+    "agreementId": "OFR-02-009-V3",
+    "expectedOutcome": "matched",
+    "agreedUnitPriceEUR": 51.04,
+    "expectedVarianceEUR": 0.0
+  },
+  {
+    "id": "INV-WLF-0020",
+    "iso": "MK",
+    "supplierId": "sup-velora",
+    "date": "2026-09-17",
+    "sourceFile": "invoice-text/INV-WLF-0020.txt",
+    "synthetic": true,
+    "currency": "EUR",
+    "format": "text_invoice",
+    "lines": [
+      {
+        "lineNo": 1,
+        "productCode": "WLF-1011",
+        "description": "Polish (fine / anti-hologram)",
+        "qty": 46,
+        "unit": "piece",
+        "packQuantity": 1,
+        "unitPriceEUR": 11.07,
+        "netEUR": 509.22
+      }
+    ],
+    "netEUR": 509.22,
+    "vatPct": 20,
+    "vatEUR": 101.84,
+    "grossEUR": 611.06,
+    "agreementId": "OFR-02-011-V3",
+    "expectedOutcome": "overcharge_review",
+    "agreedUnitPriceEUR": 9.46,
+    "expectedVarianceEUR": 74.06
+  },
+  {
+    "id": "INV-WLF-0021",
+    "iso": "ME",
+    "supplierId": "sup-velora",
+    "date": "2026-09-08",
+    "sourceFile": "invoice-text/INV-WLF-0021.txt",
+    "synthetic": true,
+    "currency": "EUR",
+    "format": "text_invoice",
+    "lines": [
+      {
+        "lineNo": 1,
+        "productCode": "WLF-1012",
+        "description": "Water-based silicone remover",
+        "qty": 91,
+        "unit": "piece",
+        "packQuantity": 1,
+        "unitPriceEUR": 25.9,
+        "netEUR": 2356.9
+      }
+    ],
+    "netEUR": 2356.9,
+    "vatPct": 20,
+    "vatEUR": 471.38,
+    "grossEUR": 2828.28,
+    "agreementId": "OFR-02-012-V3",
+    "expectedOutcome": "below_agreement_review",
+    "agreedUnitPriceEUR": 27.55,
+    "expectedVarianceEUR": -150.15
+  },
+  {
+    "id": "INV-WLF-0022",
+    "iso": "UA",
+    "supplierId": "sup-velora",
+    "date": "2026-09-09",
+    "sourceFile": "invoice-text/INV-WLF-0022.txt",
+    "synthetic": true,
+    "currency": "EUR",
+    "format": "text_invoice",
+    "lines": [
+      {
+        "lineNo": 1,
+        "productCode": null,
+        "description": "Random orbital sander 77 mm",
+        "qty": 12,
+        "unit": "piece",
+        "packQuantity": 1,
+        "unitPriceEUR": 30.05,
+        "netEUR": 360.6
+      }
+    ],
+    "netEUR": 360.6,
+    "vatPct": 20,
+    "vatEUR": 72.12,
+    "grossEUR": 432.72,
+    "agreementId": "OFR-02-014-V3",
+    "expectedOutcome": "missing_article_review",
+    "agreedUnitPriceEUR": 30.05,
+    "expectedVarianceEUR": null
+  },
+  {
+    "id": "INV-WLF-0023",
+    "iso": "CN",
+    "supplierId": "sup-velora",
+    "date": "2026-09-10",
+    "sourceFile": "invoice-text/INV-WLF-0023.txt",
+    "synthetic": true,
+    "currency": "EUR",
+    "format": "text_invoice",
+    "lines": [
+      {
+        "lineNo": 1,
+        "productCode": "WLF-1015",
+        "description": "Paint strainers 125 µ / 200 µ",
+        "qty": 110,
+        "unit": "pack",
+        "packQuantity": null,
+        "unitPriceEUR": 52.02,
+        "netEUR": 5722.2
+      }
+    ],
+    "netEUR": 5722.2,
+    "vatPct": 20,
+    "vatEUR": 1144.44,
+    "grossEUR": 6866.64,
+    "agreementId": "OFR-02-015-V3",
+    "expectedOutcome": "unit_review",
+    "agreedUnitPriceEUR": 52.02,
+    "expectedVarianceEUR": null
+  },
+  {
+    "id": "INV-WLF-0024",
+    "iso": "JP",
+    "supplierId": "sup-velora",
+    "date": "2026-09-11",
+    "sourceFile": "invoice-text/INV-WLF-0024.txt",
+    "synthetic": true,
+    "currency": "EUR",
+    "format": "text_invoice",
+    "lines": [
+      {
+        "lineNo": 1,
+        "productCode": "WLF-1016",
+        "description": "Sanding discs 150 mm, fine",
+        "qty": 64,
+        "unit": "piece",
+        "packQuantity": 1,
+        "unitPriceEUR": 48.25,
+        "netEUR": 3088.0
+      }
+    ],
+    "netEUR": 3088.0,
+    "vatPct": 20,
+    "vatEUR": 617.6,
+    "grossEUR": 3705.6,
+    "agreementId": null,
+    "expectedOutcome": "missing_agreement_review",
+    "agreedUnitPriceEUR": null,
+    "expectedVarianceEUR": null
+  },
+  {
+    "id": "INV-WLF-0025",
+    "iso": "MY",
+    "supplierId": "sup-velora",
+    "date": "2026-09-12",
+    "sourceFile": "invoice-text/INV-WLF-0025.txt",
+    "synthetic": true,
+    "currency": "EUR",
+    "format": "text_invoice",
+    "lines": [
+      {
+        "lineNo": 1,
+        "productCode": "WLF-1018",
+        "description": "One-step cutting and polishing compound",
+        "qty": 40,
+        "unit": "piece",
+        "packQuantity": 1,
+        "unitPriceEUR": 26.34,
+        "netEUR": 1053.6
+      }
+    ],
+    "netEUR": 1053.6,
+    "vatPct": 20,
+    "vatEUR": 210.72,
+    "grossEUR": 1264.32,
+    "agreementId": "OFR-02-018-V3",
+    "expectedOutcome": "matched",
+    "agreedUnitPriceEUR": 26.34,
+    "expectedVarianceEUR": 0.0
+  },
+  {
+    "id": "INV-WLF-0026",
+    "iso": "SG",
+    "supplierId": "sup-velora",
+    "date": "2026-09-13",
+    "sourceFile": "invoice-text/INV-WLF-0026.txt",
+    "synthetic": true,
+    "currency": "EUR",
+    "format": "text_invoice",
+    "lines": [
+      {
+        "lineNo": 1,
+        "productCode": "WLF-1019",
+        "description": "Pre-saturated cleaning wipes",
+        "qty": 112,
+        "unit": "piece",
+        "packQuantity": 1,
+        "unitPriceEUR": 75.76,
+        "netEUR": 8485.12
+      }
+    ],
+    "netEUR": 8485.12,
+    "vatPct": 20,
+    "vatEUR": 1697.02,
+    "grossEUR": 10182.14,
+    "agreementId": "OFR-02-019-V3",
+    "expectedOutcome": "overcharge_review",
+    "agreedUnitPriceEUR": 64.75,
+    "expectedVarianceEUR": 1233.12
+  },
+  {
+    "id": "INV-WLF-0027",
+    "iso": "CL",
+    "supplierId": "sup-velora",
+    "date": "2026-09-14",
+    "sourceFile": "invoice-text/INV-WLF-0027.txt",
+    "synthetic": true,
+    "currency": "EUR",
+    "format": "text_invoice",
+    "lines": [
+      {
+        "lineNo": 1,
+        "productCode": "WLF-1021",
+        "description": "Electric random orbital sander 150 mm",
+        "qty": 90,
+        "unit": "piece",
+        "packQuantity": 1,
+        "unitPriceEUR": 11.1,
+        "netEUR": 999.0
+      }
+    ],
+    "netEUR": 999.0,
+    "vatPct": 20,
+    "vatEUR": 199.8,
+    "grossEUR": 1198.8,
+    "agreementId": "OFR-02-021-V3",
+    "expectedOutcome": "below_agreement_review",
+    "agreedUnitPriceEUR": 11.81,
+    "expectedVarianceEUR": -63.9
+  },
+  {
+    "id": "INV-WLF-0028",
+    "iso": "CO",
+    "supplierId": "sup-lumen",
+    "date": "2026-09-15",
+    "sourceFile": "invoice-text/INV-WLF-0028.txt",
+    "synthetic": true,
+    "currency": "EUR",
+    "format": "text_invoice",
+    "lines": [
+      {
+        "lineNo": 1,
+        "productCode": null,
+        "description": "Graduated mixing cup",
+        "qty": 106,
+        "unit": "piece",
+        "packQuantity": 1,
+        "unitPriceEUR": 21.96,
+        "netEUR": 2327.76
+      }
+    ],
+    "netEUR": 2327.76,
+    "vatPct": 20,
+    "vatEUR": 465.55,
+    "grossEUR": 2793.31,
+    "agreementId": "OFR-03-001-V3",
+    "expectedOutcome": "missing_article_review",
+    "agreedUnitPriceEUR": 21.96,
+    "expectedVarianceEUR": null
+  },
+  {
+    "id": "INV-WLF-0029",
+    "iso": "XK",
+    "supplierId": "sup-lumen",
+    "date": "2026-09-16",
+    "sourceFile": "invoice-text/INV-WLF-0029.txt",
+    "synthetic": true,
+    "currency": "EUR",
+    "format": "text_invoice",
+    "lines": [
+      {
+        "lineNo": 1,
+        "productCode": "WLF-1003",
+        "description": "Standard masking tape",
+        "qty": 88,
+        "unit": "pack",
+        "packQuantity": null,
+        "unitPriceEUR": 17.33,
+        "netEUR": 1525.04
+      }
+    ],
+    "netEUR": 1525.04,
+    "vatPct": 20,
+    "vatEUR": 305.01,
+    "grossEUR": 1830.05,
+    "agreementId": "OFR-03-003-V3",
+    "expectedOutcome": "unit_review",
+    "agreedUnitPriceEUR": 17.33,
+    "expectedVarianceEUR": null
+  },
+  {
+    "id": "INV-WLF-0030",
+    "iso": "AT",
+    "supplierId": "sup-lumen",
+    "date": "2026-09-17",
+    "sourceFile": "invoice-text/INV-WLF-0030.txt",
+    "synthetic": true,
+    "currency": "EUR",
+    "format": "text_invoice",
+    "lines": [
+      {
+        "lineNo": 1,
+        "productCode": "WLF-1004",
+        "description": "Cutting compound (coarse/medium)",
+        "qty": 126,
+        "unit": "piece",
+        "packQuantity": 1,
+        "unitPriceEUR": 24.12,
+        "netEUR": 3039.12
+      }
+    ],
+    "netEUR": 3039.12,
+    "vatPct": 20,
+    "vatEUR": 607.82,
+    "grossEUR": 3646.94,
+    "agreementId": null,
+    "expectedOutcome": "missing_agreement_review",
+    "agreedUnitPriceEUR": null,
+    "expectedVarianceEUR": null
+  },
+  {
+    "id": "INV-WLF-0031",
+    "iso": "DE",
+    "supplierId": "sup-lumen",
+    "date": "2026-09-08",
+    "sourceFile": "invoice-text/INV-WLF-0031.txt",
+    "synthetic": true,
+    "currency": "EUR",
+    "format": "text_invoice",
+    "lines": [
+      {
+        "lineNo": 1,
+        "productCode": "WLF-1006",
+        "description": "Half mask / spray-painting respirator",
+        "qty": 105,
+        "unit": "piece",
+        "packQuantity": 1,
+        "unitPriceEUR": 25.73,
+        "netEUR": 2701.65
+      }
+    ],
+    "netEUR": 2701.65,
+    "vatPct": 20,
+    "vatEUR": 540.33,
+    "grossEUR": 3241.98,
+    "agreementId": "OFR-03-006-V3",
+    "expectedOutcome": "matched",
+    "agreedUnitPriceEUR": 25.73,
+    "expectedVarianceEUR": 0.0
+  },
+  {
+    "id": "INV-WLF-0032",
+    "iso": "SE",
+    "supplierId": "sup-lumen",
+    "date": "2026-09-09",
+    "sourceFile": "invoice-text/INV-WLF-0032.txt",
+    "synthetic": true,
+    "currency": "EUR",
+    "format": "text_invoice",
+    "lines": [
+      {
+        "lineNo": 1,
+        "productCode": "WLF-1007",
+        "description": "Random orbital sander 150 mm, 5 mm orbit",
+        "qty": 77,
+        "unit": "piece",
+        "packQuantity": 1,
+        "unitPriceEUR": 43.28,
+        "netEUR": 3332.56
+      }
+    ],
+    "netEUR": 3332.56,
+    "vatPct": 20,
+    "vatEUR": 666.51,
+    "grossEUR": 3999.07,
+    "agreementId": "OFR-03-007-V3",
+    "expectedOutcome": "overcharge_review",
+    "agreedUnitPriceEUR": 36.99,
+    "expectedVarianceEUR": 484.33
+  },
+  {
+    "id": "INV-WLF-0033",
+    "iso": "FR",
+    "supplierId": "sup-lumen",
+    "date": "2026-09-10",
+    "sourceFile": "invoice-text/INV-WLF-0033.txt",
+    "synthetic": true,
+    "currency": "EUR",
+    "format": "text_invoice",
+    "lines": [
+      {
+        "lineNo": 1,
+        "productCode": "WLF-1008",
+        "description": "Paint cup for compressed-air spray gun",
+        "qty": 103,
+        "unit": "piece",
+        "packQuantity": 1,
+        "unitPriceEUR": 62.89,
+        "netEUR": 6477.67
+      }
+    ],
+    "netEUR": 6477.67,
+    "vatPct": 20,
+    "vatEUR": 1295.53,
+    "grossEUR": 7773.2,
+    "agreementId": "OFR-03-008-V3",
+    "expectedOutcome": "below_agreement_review",
+    "agreedUnitPriceEUR": 66.9,
+    "expectedVarianceEUR": -413.03
+  },
+  {
+    "id": "INV-WLF-0034",
+    "iso": "IT",
+    "supplierId": "sup-lumen",
+    "date": "2026-09-11",
+    "sourceFile": "invoice-text/INV-WLF-0034.txt",
+    "synthetic": true,
+    "currency": "EUR",
+    "format": "text_invoice",
+    "lines": [
+      {
+        "lineNo": 1,
+        "productCode": null,
+        "description": "Fine-line tape",
+        "qty": 135,
+        "unit": "piece",
+        "packQuantity": 1,
+        "unitPriceEUR": 15.41,
+        "netEUR": 2080.35
+      }
+    ],
+    "netEUR": 2080.35,
+    "vatPct": 20,
+    "vatEUR": 416.07,
+    "grossEUR": 2496.42,
+    "agreementId": "OFR-03-010-V3",
+    "expectedOutcome": "missing_article_review",
+    "agreedUnitPriceEUR": 15.41,
+    "expectedVarianceEUR": null
+  },
+  {
+    "id": "INV-WLF-0035",
+    "iso": "ES",
+    "supplierId": "sup-lumen",
+    "date": "2026-09-12",
+    "sourceFile": "invoice-text/INV-WLF-0035.txt",
+    "synthetic": true,
+    "currency": "EUR",
+    "format": "text_invoice",
+    "lines": [
+      {
+        "lineNo": 1,
+        "productCode": "WLF-1011",
+        "description": "Polish (fine / anti-hologram)",
+        "qty": 112,
+        "unit": "pack",
+        "packQuantity": null,
+        "unitPriceEUR": 9.24,
+        "netEUR": 1034.88
+      }
+    ],
+    "netEUR": 1034.88,
+    "vatPct": 20,
+    "vatEUR": 206.98,
+    "grossEUR": 1241.86,
+    "agreementId": "OFR-03-011-V3",
+    "expectedOutcome": "unit_review",
+    "agreedUnitPriceEUR": 9.24,
+    "expectedVarianceEUR": null
+  },
+  {
+    "id": "INV-WLF-0036",
+    "iso": "PT",
+    "supplierId": "sup-lumen",
+    "date": "2026-09-13",
+    "sourceFile": "invoice-text/INV-WLF-0036.txt",
+    "synthetic": true,
+    "currency": "EUR",
+    "format": "text_invoice",
+    "lines": [
+      {
+        "lineNo": 1,
+        "productCode": "WLF-1013",
+        "description": "A2 filter cartridges",
+        "qty": 58,
+        "unit": "piece",
+        "packQuantity": 1,
+        "unitPriceEUR": 4.67,
+        "netEUR": 270.86
+      }
+    ],
+    "netEUR": 270.86,
+    "vatPct": 20,
+    "vatEUR": 54.17,
+    "grossEUR": 325.03,
+    "agreementId": null,
+    "expectedOutcome": "missing_agreement_review",
+    "agreedUnitPriceEUR": null,
+    "expectedVarianceEUR": null
+  }
+]

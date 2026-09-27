@@ -1,0 +1,108 @@
+{
+  "bewertung.ts": {
+    "bewertungMeta": null,
+    "matrixRows": "MatrixRow[]",
+    "matrixSums": "Record<string, number>",
+    "scoreRows": "ScoreRow[]"
+  },
+  "ki-kontext.ts": {
+    "internalSupplyChain": null
+  },
+  "lieferlinie.ts": {
+    "COUNTRY_NAMES": "Record<Iso2, string>",
+    "countryName": null,
+    "domesticWarehouses": "DomesticWarehouse[]",
+    "hubs": "Hub[]",
+    "hubSurcharge": null,
+    "inCountryParams": "InCountryParams",
+    "supplierG2M": "SupplierG2M[]",
+    "referenceArticles": "ReferenceArticle[]",
+    "painPointHighlights": "PainPointHighlight[]"
+  },
+  "live-intake.ts": {
+    "liveIntakeQueue": "LiveIntakeEntry[]"
+  },
+  "nullmessung.ts": {
+    "nullmessungMeta": "NullmessungMeta",
+    "rawSamples": "RawSample[]",
+    "monthlyVolumes": "MonthlyPoint[]",
+    "monthlyCoverage": "MonthlyCoverage[]",
+    "nullmessungCountries": "NullmessungCountry[]",
+    "refProducts": "RefProduct[]",
+    "rfiSuppliers": "RfiSupplier[]",
+    "nullmessungInsights": "Insight[]",
+    "agentFeed": "FeedEvent[]",
+    "deltaRows": "DeltaRow[]",
+    "priceIndex": "PriceIndexRow[]",
+    "priceBenchmark": "{ iso: string; name: string; wins: number; articles: number }",
+    "priceStatements": "PriceStatement[]",
+    "priceIndexNote": null,
+    "deltaSummary": "{ totalEUR: number; note: string }",
+    "bonusRows": "BonusRow[]",
+    "bonusTotalEUR": null,
+    "bonusNote": null,
+    "BRAND_COLORS": "Record<string, string>",
+    "SUPPLIER_PALETTE": "string[]",
+    "OTHER_COLOR": null,
+    "brandColor": null,
+    "fmtEURk": null
+  },
+  "company-kennzahlen.ts": {
+    "companyKennzahlenQuelle": null,
+    "companyKennzahlen": "CompanyKennzahl[]"
+  },
+  "platform.ts": {
+    "countries": "Country[]",
+    "company": null,
+    "standardsortiment": "SortimentItem[]",
+    "clusters": "MaterialCluster[]",
+    "suppliers": "Supplier[]",
+    "maturityDimensions": "MaturityDimension[]",
+    "maturityProfiles": "MaturityProfile[]",
+    "trainings": "Training[]",
+    "roleplayScenarios": "RoleplayScenario[]",
+    "intakeSubmissions": "IntakeSubmission[]",
+    "totals": null,
+    "fmtEUR": null,
+    "clusterById": null,
+    "countryByIso": null,
+    "trainingById": null,
+    "maturityByIso": null,
+    "contracts": "Contract[]",
+    "contractStages": "ContractStage[]",
+    "supplierById": null,
+    "contractById": null
+  },
+  "produkte-recherche.ts": {
+    "dossiers": "Dossier[]",
+    "rechercheHinweis": null
+  },
+  "produkte.ts": {
+    "produktSpecs": "ProduktSpec[]",
+    "kategorien": "Kategorie[]"
+  },
+  "systemvergleich.ts": {
+    "DEFAULT_HOURLY_RATE": null,
+    "repairCases": "RepairCase[]",
+    "SOURCE_LABEL": "Record<ValueSource, string>"
+  },
+  "tiefenanalyse.ts": {
+    "taMeta": null,
+    "kernzahlen": "Kernzahl[]",
+    "basketRows": "BasketRow[]",
+    "paretoRows": "ParetoRow[]",
+    "routeRows": "RouteRow[]",
+    "monthRows": "MonthRow[]",
+    "monthCoverageNotes": "Record<string, string>",
+    "regeln": "Regel[]",
+    "monitorRows": "MonitorRow[]",
+    "sichtRows": "SichtRow[]",
+    "grenzen": "string[]"
+  },
+  "vertraege-extras.ts": {
+    "trainingPackageFor": null,
+    "pilotRatings": "PilotRating[]",
+    "pilotRatingAvg": null,
+    "pilotRatingsContractId": null
+  }
+}

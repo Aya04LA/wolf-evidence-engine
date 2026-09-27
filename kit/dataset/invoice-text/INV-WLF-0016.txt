@@ -1,0 +1,14 @@
+SYNTHETIC WOLF LAB INVOICE
+Invoice: INV-WLF-0016
+Date: 2026-09-13
+Supplier: sup-velora
+Customer: Wolf Automotive (fictional)
+Country: BG
+Article: MISSING
+Description: Solvent-based silicone remover
+Quantity: 107 piece
+Unit price EUR: 36.39
+Net EUR: 3893.73
+VAT EUR: 778.75
+Gross EUR: 4672.48
+Agreement: OFR-02-005-V3

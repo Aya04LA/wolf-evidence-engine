@@ -1,0 +1,14 @@
+SYNTHETIC WOLF LAB INVOICE
+Invoice: INV-WLF-0021
+Date: 2026-09-08
+Supplier: sup-velora
+Customer: Wolf Automotive (fictional)
+Country: ME
+Article: WLF-1012
+Description: Water-based silicone remover
+Quantity: 91 piece
+Unit price EUR: 25.90
+Net EUR: 2356.90
+VAT EUR: 471.38
+Gross EUR: 2828.28
+Agreement: OFR-02-012-V3

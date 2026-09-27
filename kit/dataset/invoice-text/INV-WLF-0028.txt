@@ -1,0 +1,14 @@
+SYNTHETIC WOLF LAB INVOICE
+Invoice: INV-WLF-0028
+Date: 2026-09-15
+Supplier: sup-lumen
+Customer: Wolf Automotive (fictional)
+Country: CO
+Article: MISSING
+Description: Graduated mixing cup
+Quantity: 106 piece
+Unit price EUR: 21.96
+Net EUR: 2327.76
+VAT EUR: 465.55
+Gross EUR: 2793.31
+Agreement: OFR-03-001-V3

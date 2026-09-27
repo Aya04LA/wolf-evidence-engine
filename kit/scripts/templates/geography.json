@@ -1,0 +1,226 @@
+[
+  {
+    "iso": "AT",
+    "name": "Austria",
+    "region": "Austria",
+    "lat": 47.6,
+    "lon": 14.1,
+    "language": "German"
+  },
+  {
+    "iso": "DE",
+    "name": "Germany",
+    "region": "Northern Europe",
+    "lat": 51.2,
+    "lon": 10.4,
+    "language": "German"
+  },
+  {
+    "iso": "SE",
+    "name": "Sweden",
+    "region": "Northern Europe",
+    "lat": 62,
+    "lon": 15,
+    "language": "Swedish"
+  },
+  {
+    "iso": "FR",
+    "name": "France",
+    "region": "Southwestern Europe",
+    "lat": 46.6,
+    "lon": 2.4,
+    "language": "French"
+  },
+  {
+    "iso": "IT",
+    "name": "Italy",
+    "region": "Southwestern Europe",
+    "lat": 42.8,
+    "lon": 12.5,
+    "language": "Italian"
+  },
+  {
+    "iso": "ES",
+    "name": "Spain",
+    "region": "Southwestern Europe",
+    "lat": 40.4,
+    "lon": -3.7,
+    "language": "Spanish"
+  },
+  {
+    "iso": "PT",
+    "name": "Portugal",
+    "region": "Southwestern Europe",
+    "lat": 39.6,
+    "lon": -8,
+    "language": "Portuguese"
+  },
+  {
+    "iso": "CH",
+    "name": "Switzerland",
+    "region": "Southwestern Europe",
+    "lat": 46.8,
+    "lon": 8.2,
+    "language": "German / French"
+  },
+  {
+    "iso": "PL",
+    "name": "Poland",
+    "region": "Central and Eastern Europe",
+    "lat": 52,
+    "lon": 19.3,
+    "language": "Polish"
+  },
+  {
+    "iso": "CZ",
+    "name": "Czechia",
+    "region": "Central and Eastern Europe",
+    "lat": 49.8,
+    "lon": 15.5,
+    "language": "Czech"
+  },
+  {
+    "iso": "SK",
+    "name": "Slovakia",
+    "region": "Central and Eastern Europe",
+    "lat": 48.7,
+    "lon": 19.5,
+    "language": "Slovak"
+  },
+  {
+    "iso": "HU",
+    "name": "Hungary",
+    "region": "Central and Eastern Europe",
+    "lat": 47.2,
+    "lon": 19.5,
+    "language": "Hungarian"
+  },
+  {
+    "iso": "SI",
+    "name": "Slovenia",
+    "region": "Central and Eastern Europe",
+    "lat": 46.1,
+    "lon": 14.8,
+    "language": "Slovenian"
+  },
+  {
+    "iso": "HR",
+    "name": "Croatia",
+    "region": "Central and Eastern Europe",
+    "lat": 45.5,
+    "lon": 16,
+    "language": "Croatian"
+  },
+  {
+    "iso": "RO",
+    "name": "Romania",
+    "region": "Central and Eastern Europe",
+    "lat": 45.9,
+    "lon": 25,
+    "language": "Romanian"
+  },
+  {
+    "iso": "BG",
+    "name": "Bulgaria",
+    "region": "Central and Eastern Europe",
+    "lat": 42.8,
+    "lon": 25.2,
+    "language": "Bulgarian"
+  },
+  {
+    "iso": "RS",
+    "name": "Serbia",
+    "region": "Central and Eastern Europe",
+    "lat": 44.2,
+    "lon": 20.9,
+    "language": "Serbian"
+  },
+  {
+    "iso": "BA",
+    "name": "Bosnia and Herzegovina",
+    "region": "Central and Eastern Europe",
+    "lat": 44.2,
+    "lon": 17.8,
+    "language": "Bosnian"
+  },
+  {
+    "iso": "AL",
+    "name": "Albania",
+    "region": "Central and Eastern Europe",
+    "lat": 41.1,
+    "lon": 20.1,
+    "language": "Albanian"
+  },
+  {
+    "iso": "MK",
+    "name": "North Macedonia",
+    "region": "Central and Eastern Europe",
+    "lat": 41.6,
+    "lon": 21.7,
+    "language": "Macedonian"
+  },
+  {
+    "iso": "ME",
+    "name": "Montenegro",
+    "region": "Central and Eastern Europe",
+    "lat": 42.7,
+    "lon": 19.4,
+    "language": "Montenegrin"
+  },
+  {
+    "iso": "UA",
+    "name": "Ukraine",
+    "region": "Central and Eastern Europe",
+    "lat": 49,
+    "lon": 32,
+    "language": "Ukrainian"
+  },
+  {
+    "iso": "CN",
+    "name": "China",
+    "region": "Asia",
+    "lat": 35,
+    "lon": 104,
+    "language": "Mandarin"
+  },
+  {
+    "iso": "JP",
+    "name": "Japan",
+    "region": "Asia",
+    "lat": 36.2,
+    "lon": 138.3,
+    "language": "Japanese"
+  },
+  {
+    "iso": "MY",
+    "name": "Malaysia",
+    "region": "Asia",
+    "lat": 3.9,
+    "lon": 102,
+    "language": "Malay / English"
+  },
+  {
+    "iso": "SG",
+    "name": "Singapore",
+    "region": "Asia",
+    "lat": 1.35,
+    "lon": 103.8,
+    "language": "English"
+  },
+  {
+    "iso": "CL",
+    "name": "Chile",
+    "region": "South America",
+    "lat": -33.5,
+    "lon": -70.7,
+    "language": "Spanish"
+  },
+  {
+    "iso": "CO",
+    "name": "Colombia",
+    "region": "South America",
+    "lat": 4.6,
+    "lon": -74,
+    "language": "Spanish"
+  }
+]

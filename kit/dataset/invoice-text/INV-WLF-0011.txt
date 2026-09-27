@@ -1,0 +1,14 @@
+SYNTHETIC WOLF LAB INVOICE
+Invoice: INV-WLF-0011
+Date: 2026-09-08
+Supplier: sup-aster
+Customer: Wolf Automotive (fictional)
+Country: SK
+Article: WLF-1019
+Description: Pre-saturated cleaning wipes
+Quantity: 26 pack
+Unit price EUR: 66.23
+Net EUR: 1721.98
+VAT EUR: 344.40
+Gross EUR: 2066.38
+Agreement: OFR-01-019-V3

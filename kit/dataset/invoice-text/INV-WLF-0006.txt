@@ -1,0 +1,14 @@
+SYNTHETIC WOLF LAB INVOICE
+Invoice: INV-WLF-0006
+Date: 2026-09-13
+Supplier: sup-aster
+Customer: Wolf Automotive (fictional)
+Country: ES
+Article: WLF-1010
+Description: Fine-line tape
+Quantity: 80 piece
+Unit price EUR: 16.13
+Net EUR: 1290.40
+VAT EUR: 258.08
+Gross EUR: 1548.48
+Agreement: NOT PROVIDED

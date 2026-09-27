@@ -1,0 +1,326 @@
+[
+  {
+    "invoiceId": "INV-WLF-0001",
+    "lineNo": 1,
+    "productCode": "WLF-1002",
+    "netEUR": 8948.28,
+    "agreementId": "OFR-01-002-V3",
+    "expectedOutcome": "matched",
+    "expectedVarianceEUR": 0.0
+  },
+  {
+    "invoiceId": "INV-WLF-0002",
+    "lineNo": 1,
+    "productCode": "WLF-1003",
+    "netEUR": 169.76,
+    "agreementId": "OFR-01-003-V3",
+    "expectedOutcome": "overcharge_review",
+    "expectedVarianceEUR": 24.64
+  },
+  {
+    "invoiceId": "INV-WLF-0003",
+    "lineNo": 1,
+    "productCode": "WLF-1005",
+    "netEUR": 1224.65,
+    "agreementId": "OFR-01-005-V3",
+    "expectedOutcome": "below_agreement_review",
+    "expectedVarianceEUR": -78.05
+  },
+  {
+    "invoiceId": "INV-WLF-0004",
+    "lineNo": 1,
+    "productCode": null,
+    "netEUR": 2396.77,
+    "agreementId": "OFR-01-006-V3",
+    "expectedOutcome": "missing_article_review",
+    "expectedVarianceEUR": null
+  },
+  {
+    "invoiceId": "INV-WLF-0005",
+    "lineNo": 1,
+    "productCode": "WLF-1009",
+    "netEUR": 5429.84,
+    "agreementId": "OFR-01-009-V3",
+    "expectedOutcome": "unit_review",
+    "expectedVarianceEUR": null
+  },
+  {
+    "invoiceId": "INV-WLF-0006",
+    "lineNo": 1,
+    "productCode": "WLF-1010",
+    "netEUR": 1290.4,
+    "agreementId": null,
+    "expectedOutcome": "missing_agreement_review",
+    "expectedVarianceEUR": null
+  },
+  {
+    "invoiceId": "INV-WLF-0007",
+    "lineNo": 1,
+    "productCode": "WLF-1012",
+    "netEUR": 1268.1,
+    "agreementId": "OFR-01-012-V3",
+    "expectedOutcome": "matched",
+    "expectedVarianceEUR": 0.0
+  },
+  {
+    "invoiceId": "INV-WLF-0008",
+    "lineNo": 1,
+    "productCode": "WLF-1013",
+    "netEUR": 303.16,
+    "agreementId": "OFR-01-013-V3",
+    "expectedOutcome": "overcharge_review",
+    "expectedVarianceEUR": 43.99
+  },
+  {
+    "invoiceId": "INV-WLF-0009",
+    "lineNo": 1,
+    "productCode": "WLF-1016",
+    "netEUR": 5288.46,
+    "agreementId": "OFR-01-016-V3",
+    "expectedOutcome": "below_agreement_review",
+    "expectedVarianceEUR": -337.44
+  },
+  {
+    "invoiceId": "INV-WLF-0010",
+    "lineNo": 1,
+    "productCode": null,
+    "netEUR": 1209.92,
+    "agreementId": "OFR-01-017-V3",
+    "expectedOutcome": "missing_article_review",
+    "expectedVarianceEUR": null
+  },
+  {
+    "invoiceId": "INV-WLF-0011",
+    "lineNo": 1,
+    "productCode": "WLF-1019",
+    "netEUR": 1721.98,
+    "agreementId": "OFR-01-019-V3",
+    "expectedOutcome": "unit_review",
+    "expectedVarianceEUR": null
+  },
+  {
+    "invoiceId": "INV-WLF-0012",
+    "lineNo": 1,
+    "productCode": "WLF-1020",
+    "netEUR": 405.96,
+    "agreementId": null,
+    "expectedOutcome": "missing_agreement_review",
+    "expectedVarianceEUR": null
+  },
+  {
+    "invoiceId": "INV-WLF-0013",
+    "lineNo": 1,
+    "productCode": "WLF-1001",
+    "netEUR": 764.32,
+    "agreementId": "OFR-02-001-V3",
+    "expectedOutcome": "matched",
+    "expectedVarianceEUR": 0.0
+  },
+  {
+    "invoiceId": "INV-WLF-0014",
+    "lineNo": 1,
+    "productCode": "WLF-1002",
+    "netEUR": 1938.75,
+    "agreementId": "OFR-02-002-V3",
+    "expectedOutcome": "overcharge_review",
+    "expectedVarianceEUR": 281.75
+  },
+  {
+    "invoiceId": "INV-WLF-0015",
+    "lineNo": 1,
+    "productCode": "WLF-1004",
+    "netEUR": 3062.4,
+    "agreementId": "OFR-02-004-V3",
+    "expectedOutcome": "below_agreement_review",
+    "expectedVarianceEUR": -195.36
+  },
+  {
+    "invoiceId": "INV-WLF-0016",
+    "lineNo": 1,
+    "productCode": null,
+    "netEUR": 3893.73,
+    "agreementId": "OFR-02-005-V3",
+    "expectedOutcome": "missing_article_review",
+    "expectedVarianceEUR": null
+  },
+  {
+    "invoiceId": "INV-WLF-0017",
+    "lineNo": 1,
+    "productCode": "WLF-1007",
+    "netEUR": 3710.28,
+    "agreementId": "OFR-02-007-V3",
+    "expectedOutcome": "unit_review",
+    "expectedVarianceEUR": null
+  },
+  {
+    "invoiceId": "INV-WLF-0018",
+    "lineNo": 1,
+    "productCode": "WLF-1008",
+    "netEUR": 3696.84,
+    "agreementId": null,
+    "expectedOutcome": "missing_agreement_review",
+    "expectedVarianceEUR": null
+  },
+  {
+    "invoiceId": "INV-WLF-0019",
+    "lineNo": 1,
+    "productCode": "WLF-1009",
+    "netEUR": 6635.2,
+    "agreementId": "OFR-02-009-V3",
+    "expectedOutcome": "matched",
+    "expectedVarianceEUR": 0.0
+  },
+  {
+    "invoiceId": "INV-WLF-0020",
+    "lineNo": 1,
+    "productCode": "WLF-1011",
+    "netEUR": 509.22,
+    "agreementId": "OFR-02-011-V3",
+    "expectedOutcome": "overcharge_review",
+    "expectedVarianceEUR": 74.06
+  },
+  {
+    "invoiceId": "INV-WLF-0021",
+    "lineNo": 1,
+    "productCode": "WLF-1012",
+    "netEUR": 2356.9,
+    "agreementId": "OFR-02-012-V3",
+    "expectedOutcome": "below_agreement_review",
+    "expectedVarianceEUR": -150.15
+  },
+  {
+    "invoiceId": "INV-WLF-0022",
+    "lineNo": 1,
+    "productCode": null,
+    "netEUR": 360.6,
+    "agreementId": "OFR-02-014-V3",
+    "expectedOutcome": "missing_article_review",
+    "expectedVarianceEUR": null
+  },
+  {
+    "invoiceId": "INV-WLF-0023",
+    "lineNo": 1,
+    "productCode": "WLF-1015",
+    "netEUR": 5722.2,
+    "agreementId": "OFR-02-015-V3",
+    "expectedOutcome": "unit_review",
+    "expectedVarianceEUR": null
+  },
+  {
+    "invoiceId": "INV-WLF-0024",
+    "lineNo": 1,
+    "productCode": "WLF-1016",
+    "netEUR": 3088.0,
+    "agreementId": null,
+    "expectedOutcome": "missing_agreement_review",
+    "expectedVarianceEUR": null
+  },
+  {
+    "invoiceId": "INV-WLF-0025",
+    "lineNo": 1,
+    "productCode": "WLF-1018",
+    "netEUR": 1053.6,
+    "agreementId": "OFR-02-018-V3",
+    "expectedOutcome": "matched",
+    "expectedVarianceEUR": 0.0
+  },
+  {
+    "invoiceId": "INV-WLF-0026",
+    "lineNo": 1,
+    "productCode": "WLF-1019",
+    "netEUR": 8485.12,
+    "agreementId": "OFR-02-019-V3",
+    "expectedOutcome": "overcharge_review",
+    "expectedVarianceEUR": 1233.12
+  },
+  {
+    "invoiceId": "INV-WLF-0027",
+    "lineNo": 1,
+    "productCode": "WLF-1021",
+    "netEUR": 999.0,
+    "agreementId": "OFR-02-021-V3",
+    "expectedOutcome": "below_agreement_review",
+    "expectedVarianceEUR": -63.9
+  },
+  {
+    "invoiceId": "INV-WLF-0028",
+    "lineNo": 1,
+    "productCode": null,
+    "netEUR": 2327.76,
+    "agreementId": "OFR-03-001-V3",
+    "expectedOutcome": "missing_article_review",
+    "expectedVarianceEUR": null
+  },
+  {
+    "invoiceId": "INV-WLF-0029",
+    "lineNo": 1,
+    "productCode": "WLF-1003",
+    "netEUR": 1525.04,
+    "agreementId": "OFR-03-003-V3",
+    "expectedOutcome": "unit_review",
+    "expectedVarianceEUR": null
+  },
+  {
+    "invoiceId": "INV-WLF-0030",
+    "lineNo": 1,
+    "productCode": "WLF-1004",
+    "netEUR": 3039.12,
+    "agreementId": null,
+    "expectedOutcome": "missing_agreement_review",
+    "expectedVarianceEUR": null
+  },
+  {
+    "invoiceId": "INV-WLF-0031",
+    "lineNo": 1,
+    "productCode": "WLF-1006",
+    "netEUR": 2701.65,
+    "agreementId": "OFR-03-006-V3",
+    "expectedOutcome": "matched",
+    "expectedVarianceEUR": 0.0
+  },
+  {
+    "invoiceId": "INV-WLF-0032",
+    "lineNo": 1,
+    "productCode": "WLF-1007",
+    "netEUR": 3332.56,
+    "agreementId": "OFR-03-007-V3",
+    "expectedOutcome": "overcharge_review",
+    "expectedVarianceEUR": 484.33
+  },
+  {
+    "invoiceId": "INV-WLF-0033",
+    "lineNo": 1,
+    "productCode": "WLF-1008",
+    "netEUR": 6477.67,
+    "agreementId": "OFR-03-008-V3",
+    "expectedOutcome": "below_agreement_review",
+    "expectedVarianceEUR": -413.03
+  },
+  {
+    "invoiceId": "INV-WLF-0034",
+    "lineNo": 1,
+    "productCode": null,
+    "netEUR": 2080.35,
+    "agreementId": "OFR-03-010-V3",
+    "expectedOutcome": "missing_article_review",
+    "expectedVarianceEUR": null
+  },
+  {
+    "invoiceId": "INV-WLF-0035",
+    "lineNo": 1,
+    "productCode": "WLF-1011",
+    "netEUR": 1034.88,
+    "agreementId": "OFR-03-011-V3",
+    "expectedOutcome": "unit_review",
+    "expectedVarianceEUR": null
+  },
+  {
+    "invoiceId": "INV-WLF-0036",
+    "lineNo": 1,
+    "productCode": "WLF-1013",
+    "netEUR": 270.86,
+    "agreementId": null,
+    "expectedOutcome": "missing_agreement_review",
+    "expectedVarianceEUR": null
+  }
+]

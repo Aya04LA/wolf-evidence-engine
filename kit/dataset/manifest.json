@@ -1,0 +1,31 @@
+{
+  "synthetic": true,
+  "seed": 9182029,
+  "generatedAsOf": "2026-09-18",
+  "client": "Wolf Automotive (fictional)",
+  "period": "2026-01 through 2026-08",
+  "currencies": {
+    "EUR": 1,
+    "SEK": 11.4,
+    "HUF": 394,
+    "PLN": 4.32,
+    "CZK": 24.8,
+    "RON": 5.08
+  },
+  "counts": {
+    "countries": 29,
+    "suppliers": 10,
+    "products": 21,
+    "transactions": 4872,
+    "offerVersions": 414,
+    "invoices": 36
+  },
+  "aggregateEUR": 34007590.31,
+  "source": "kit/scripts/generate.py",
+  "limitations": [
+    "Commercial values and relationships are synthetic; supplier names and the technical reference catalogue are source-backed.",
+    "Ingestion version exercises are separate from the clean canonical UI ledger; do not sum them into transactions.",
+    "Invoice payloads are JSON representations; separate PDF fixtures may be added.",
+    "Reference part descriptions are translated into English; no real invoices, prices, agreements or validated supplier offers are included."
+  ]
+}

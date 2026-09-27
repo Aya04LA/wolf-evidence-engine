@@ -1,0 +1,169 @@
+id,iso,month,date,productCode,supplierId,brand,description,cluster,qty,unit,unitPriceEUR,valueEUR,currency,valueLocal,source,matched,route
+TXN-004033,MY,2026-01,2026-01-11,WLF-1001,sup-arcus,SATA,Graduated mixing cup,lack,219,piece,35.83,7846.77,EUR,7846.77,synthetic-spend-MY.csv,True,indirect
+TXN-004034,MY,2026-02,2026-02-27,WLF-1001,sup-arcus,SATA,Graduated mixing cup,lack,107,piece,35.83,3833.81,EUR,3833.81,synthetic-spend-MY.csv,True,indirect
+TXN-004035,MY,2026-03,2026-03-02,WLF-1001,sup-arcus,SATA,Graduated mixing cup,lack,222,piece,35.83,7954.26,EUR,7954.26,synthetic-spend-MY.csv,True,indirect
+TXN-004036,MY,2026-04,2026-04-23,WLF-1001,sup-arcus,SATA,Graduated mixing cup,lack,69,piece,35.83,2472.27,EUR,2472.27,synthetic-spend-MY.csv,True,indirect
+TXN-004037,MY,2026-05,2026-05-27,WLF-1001,sup-arcus,SATA,Graduated mixing cup,lack,266,piece,35.83,9530.78,EUR,9530.78,synthetic-spend-MY.csv,True,indirect
+TXN-004038,MY,2026-06,2026-06-04,WLF-1001,sup-arcus,SATA,Graduated mixing cup,lack,270,piece,35.83,9674.1,EUR,9674.1,synthetic-spend-MY.csv,True,indirect
+TXN-004039,MY,2026-07,2026-07-16,WLF-1001,sup-arcus,SATA,Graduated mixing cup,lack,211,piece,35.83,7560.13,EUR,7560.13,synthetic-spend-MY.csv,True,indirect
+TXN-004040,MY,2026-08,2026-08-04,WLF-1001,sup-arcus,SATA,Graduated mixing cup,lack,252,piece,35.83,9029.16,EUR,9029.16,synthetic-spend-MY.csv,True,indirect
+TXN-004041,MY,2026-01,2026-01-19,WLF-1002,sup-cobalt,tesa,"Sanding discs 150 mm, coarse",schleif,310,piece,104.46,32382.6,EUR,32382.6,synthetic-spend-MY.csv,True,direct
+TXN-004042,MY,2026-02,2026-02-11,WLF-1002,sup-cobalt,tesa,"Sanding discs 150 mm, coarse",schleif,312,piece,104.46,32591.52,EUR,32591.52,synthetic-spend-MY.csv,True,direct
+TXN-004043,MY,2026-03,2026-03-03,WLF-1002,sup-cobalt,tesa,"Sanding discs 150 mm, coarse",schleif,171,piece,104.46,17862.66,EUR,17862.66,synthetic-spend-MY.csv,True,direct
+TXN-004044,MY,2026-04,2026-04-05,WLF-1002,sup-cobalt,tesa,"Sanding discs 150 mm, coarse",schleif,223,piece,104.46,23294.58,EUR,23294.58,synthetic-spend-MY.csv,True,direct
+TXN-004045,MY,2026-05,2026-05-17,WLF-1002,sup-cobalt,tesa,"Sanding discs 150 mm, coarse",schleif,272,piece,104.46,28413.12,EUR,28413.12,synthetic-spend-MY.csv,True,direct
+TXN-004046,MY,2026-06,2026-06-25,WLF-1002,sup-cobalt,tesa,"Sanding discs 150 mm, coarse",schleif,309,piece,104.46,32278.14,EUR,32278.14,synthetic-spend-MY.csv,True,direct
+TXN-004047,MY,2026-07,2026-07-11,WLF-1002,sup-cobalt,tesa,"Sanding discs 150 mm, coarse",schleif,317,piece,104.46,33113.82,EUR,33113.82,synthetic-spend-MY.csv,True,direct
+TXN-004048,MY,2026-08,2026-08-24,WLF-1002,sup-cobalt,tesa,"Sanding discs 150 mm, coarse",schleif,153,piece,104.46,15982.38,EUR,15982.38,synthetic-spend-MY.csv,True,direct
+TXN-004049,MY,2026-01,2026-01-15,WLF-1003,sup-solis,PPG / Nexa,Standard masking tape,kleb,226,piece,30.76,6951.76,EUR,6951.76,synthetic-spend-MY.csv,True,direct
+TXN-004050,MY,2026-02,2026-02-11,WLF-1003,sup-solis,PPG / Nexa,Standard masking tape,kleb,283,piece,30.76,8705.08,EUR,8705.08,synthetic-spend-MY.csv,True,direct
+TXN-004051,MY,2026-03,2026-03-04,WLF-1003,sup-solis,PPG / Nexa,Standard masking tape,kleb,248,piece,30.76,7628.48,EUR,7628.48,synthetic-spend-MY.csv,True,direct
+TXN-004052,MY,2026-04,2026-04-20,WLF-1003,sup-solis,PPG / Nexa,Standard masking tape,kleb,232,piece,30.76,7136.32,EUR,7136.32,synthetic-spend-MY.csv,True,direct
+TXN-004053,MY,2026-05,2026-05-01,WLF-1003,sup-solis,PPG / Nexa,Standard masking tape,kleb,239,piece,30.76,7351.64,EUR,7351.64,synthetic-spend-MY.csv,True,direct
+TXN-004054,MY,2026-06,2026-06-13,WLF-1003,sup-solis,PPG / Nexa,Standard masking tape,kleb,185,piece,30.76,5690.6,EUR,5690.6,synthetic-spend-MY.csv,True,direct
+TXN-004055,MY,2026-07,2026-07-21,WLF-1003,sup-solis,PPG / Nexa,Standard masking tape,kleb,255,piece,30.76,7843.8,EUR,7843.8,synthetic-spend-MY.csv,True,direct
+TXN-004056,MY,2026-08,2026-08-13,WLF-1003,sup-solis,PPG / Nexa,Standard masking tape,kleb,144,piece,30.76,4429.44,EUR,4429.44,synthetic-spend-MY.csv,True,direct
+TXN-004057,MY,2026-01,2026-01-09,WLF-1004,sup-orbit,Würth,Cutting compound (coarse/medium),polier,291,piece,19.32,5622.12,EUR,5622.12,synthetic-spend-MY.csv,True,indirect
+TXN-004058,MY,2026-02,2026-02-15,WLF-1004,sup-orbit,Würth,Cutting compound (coarse/medium),polier,78,piece,19.32,1506.96,EUR,1506.96,synthetic-spend-MY.csv,True,indirect
+TXN-004059,MY,2026-03,2026-03-11,WLF-1004,sup-orbit,Würth,Cutting compound (coarse/medium),polier,165,piece,19.32,3187.8,EUR,3187.8,synthetic-spend-MY.csv,True,indirect
+TXN-004060,MY,2026-04,2026-04-26,WLF-1004,sup-orbit,Würth,Cutting compound (coarse/medium),polier,151,piece,19.32,2917.32,EUR,2917.32,synthetic-spend-MY.csv,True,indirect
+TXN-004061,MY,2026-05,2026-05-22,WLF-1004,sup-orbit,Würth,Cutting compound (coarse/medium),polier,83,piece,19.32,1603.56,EUR,1603.56,synthetic-spend-MY.csv,True,indirect
+TXN-004062,MY,2026-06,2026-06-26,WLF-1004,sup-orbit,Würth,Cutting compound (coarse/medium),polier,305,piece,19.32,5892.6,EUR,5892.6,synthetic-spend-MY.csv,True,indirect
+TXN-004063,MY,2026-07,2026-07-09,WLF-1004,sup-orbit,Würth,Cutting compound (coarse/medium),polier,29,piece,19.32,560.28,EUR,560.28,synthetic-spend-MY.csv,True,indirect
+TXN-004064,MY,2026-08,2026-08-09,WLF-1004,sup-orbit,Würth,Cutting compound (coarse/medium),polier,144,piece,19.32,2782.08,EUR,2782.08,synthetic-spend-MY.csv,True,indirect
+TXN-004065,MY,2026-01,2026-01-25,WLF-1005,sup-helio,Kovax,Solvent-based silicone remover,kabine,256,piece,59.29,15178.24,EUR,15178.24,synthetic-spend-MY.csv,True,direct
+TXN-004066,MY,2026-02,2026-02-15,WLF-1005,sup-helio,Kovax,Solvent-based silicone remover,kabine,322,piece,59.29,19091.38,EUR,19091.38,synthetic-spend-MY.csv,True,direct
+TXN-004067,MY,2026-03,2026-03-11,WLF-1005,sup-helio,Kovax,Solvent-based silicone remover,kabine,110,piece,59.29,6521.9,EUR,6521.9,synthetic-spend-MY.csv,True,direct
+TXN-004068,MY,2026-04,2026-04-27,WLF-1005,sup-helio,Kovax,Solvent-based silicone remover,kabine,247,piece,59.29,14644.63,EUR,14644.63,synthetic-spend-MY.csv,True,direct
+TXN-004069,MY,2026-05,2026-05-20,WLF-1005,sup-helio,Kovax,Solvent-based silicone remover,kabine,24,piece,59.29,1422.96,EUR,1422.96,synthetic-spend-MY.csv,True,direct
+TXN-004070,MY,2026-06,2026-06-08,WLF-1005,sup-helio,Kovax,Solvent-based silicone remover,kabine,329,piece,59.29,19506.41,EUR,19506.41,synthetic-spend-MY.csv,True,direct
+TXN-004071,MY,2026-07,2026-07-25,WLF-1005,sup-helio,Kovax,Solvent-based silicone remover,kabine,52,piece,59.29,3083.08,EUR,3083.08,synthetic-spend-MY.csv,True,direct
+TXN-004072,MY,2026-08,2026-08-01,WLF-1005,sup-helio,Kovax,Solvent-based silicone remover,kabine,67,piece,59.29,3972.43,EUR,3972.43,synthetic-spend-MY.csv,True,direct
+TXN-004073,MY,2026-01,2026-01-23,WLF-1006,sup-vanta,Starcke,Half mask / spray-painting respirator,psa,242,piece,20.08,4859.36,EUR,4859.36,synthetic-spend-MY.csv,True,direct
+TXN-004074,MY,2026-02,2026-02-07,WLF-1006,sup-vanta,Starcke,Half mask / spray-painting respirator,psa,207,piece,20.08,4156.56,EUR,4156.56,synthetic-spend-MY.csv,True,direct
+TXN-004075,MY,2026-03,2026-03-14,WLF-1006,sup-vanta,Starcke,Half mask / spray-painting respirator,psa,190,piece,20.08,3815.2,EUR,3815.2,synthetic-spend-MY.csv,True,direct
+TXN-004076,MY,2026-04,2026-04-26,WLF-1006,sup-vanta,Starcke,Half mask / spray-painting respirator,psa,170,piece,20.08,3413.6,EUR,3413.6,synthetic-spend-MY.csv,True,direct
+TXN-004077,MY,2026-05,2026-05-13,WLF-1006,sup-vanta,Starcke,Half mask / spray-painting respirator,psa,186,piece,20.08,3734.88,EUR,3734.88,synthetic-spend-MY.csv,True,direct
+TXN-004078,MY,2026-06,2026-06-14,WLF-1006,sup-vanta,Starcke,Half mask / spray-painting respirator,psa,265,piece,20.08,5321.2,EUR,5321.2,synthetic-spend-MY.csv,True,direct
+TXN-004079,MY,2026-07,2026-07-19,WLF-1006,sup-vanta,Starcke,Half mask / spray-painting respirator,psa,314,piece,20.08,6305.12,EUR,6305.12,synthetic-spend-MY.csv,True,direct
+TXN-004080,MY,2026-08,2026-08-02,WLF-1006,sup-vanta,Starcke,Half mask / spray-painting respirator,psa,317,piece,20.08,6365.36,EUR,6365.36,synthetic-spend-MY.csv,True,direct
+TXN-004081,MY,2026-01,2026-01-14,WLF-1007,sup-aster,3M,"Random orbital sander 150 mm, 5 mm orbit",werkstatt,218,piece,60.19,13121.42,EUR,13121.42,synthetic-spend-MY.csv,True,indirect
+TXN-004082,MY,2026-02,2026-02-07,WLF-1007,sup-aster,3M,"Random orbital sander 150 mm, 5 mm orbit",werkstatt,121,piece,60.19,7282.99,EUR,7282.99,synthetic-spend-MY.csv,True,indirect
+TXN-004083,MY,2026-03,2026-03-07,WLF-1007,sup-aster,3M,"Random orbital sander 150 mm, 5 mm orbit",werkstatt,141,piece,60.19,8486.79,EUR,8486.79,synthetic-spend-MY.csv,True,indirect
+TXN-004084,MY,2026-04,2026-04-09,WLF-1007,sup-aster,3M,"Random orbital sander 150 mm, 5 mm orbit",werkstatt,228,piece,60.19,13723.32,EUR,13723.32,synthetic-spend-MY.csv,True,indirect
+TXN-004085,MY,2026-05,2026-05-08,WLF-1007,sup-aster,3M,"Random orbital sander 150 mm, 5 mm orbit",werkstatt,208,piece,60.19,12519.52,EUR,12519.52,synthetic-spend-MY.csv,True,indirect
+TXN-004086,MY,2026-06,2026-06-27,WLF-1007,sup-aster,3M,"Random orbital sander 150 mm, 5 mm orbit",werkstatt,169,piece,60.19,10172.11,EUR,10172.11,synthetic-spend-MY.csv,True,indirect
+TXN-004087,MY,2026-07,2026-07-06,WLF-1007,sup-aster,3M,"Random orbital sander 150 mm, 5 mm orbit",werkstatt,131,piece,60.19,7884.89,EUR,7884.89,synthetic-spend-MY.csv,True,indirect
+TXN-004088,MY,2026-08,2026-08-13,WLF-1007,sup-aster,3M,"Random orbital sander 150 mm, 5 mm orbit",werkstatt,120,piece,60.19,7222.8,EUR,7222.8,synthetic-spend-MY.csv,True,indirect
+TXN-004089,MY,2026-01,2026-01-18,WLF-1008,sup-velora,Glasurit (BASF),Paint cup for compressed-air spray gun,lack,125,piece,104.48,13060.0,EUR,13060.0,synthetic-spend-MY.csv,True,direct
+TXN-004090,MY,2026-02,2026-02-17,WLF-1008,sup-velora,Glasurit (BASF),Paint cup for compressed-air spray gun,lack,164,piece,104.48,17134.72,EUR,17134.72,synthetic-spend-MY.csv,True,direct
+TXN-004091,MY,2026-03,2026-03-20,WLF-1008,sup-velora,Glasurit (BASF),Paint cup for compressed-air spray gun,lack,110,piece,104.48,11492.8,EUR,11492.8,synthetic-spend-MY.csv,True,direct
+TXN-004092,MY,2026-04,2026-04-07,WLF-1008,sup-velora,Glasurit (BASF),Paint cup for compressed-air spray gun,lack,313,piece,104.48,32702.24,EUR,32702.24,synthetic-spend-MY.csv,True,direct
+TXN-004093,MY,2026-05,2026-05-26,WLF-1008,sup-velora,Glasurit (BASF),Paint cup for compressed-air spray gun,lack,321,piece,104.48,33538.08,EUR,33538.08,synthetic-spend-MY.csv,True,direct
+TXN-004094,MY,2026-06,2026-06-25,WLF-1008,sup-velora,Glasurit (BASF),Paint cup for compressed-air spray gun,lack,156,piece,104.48,16298.88,EUR,16298.88,synthetic-spend-MY.csv,True,direct
+TXN-004095,MY,2026-07,2026-07-18,WLF-1008,sup-velora,Glasurit (BASF),Paint cup for compressed-air spray gun,lack,137,piece,104.48,14313.76,EUR,14313.76,synthetic-spend-MY.csv,True,direct
+TXN-004096,MY,2026-08,2026-08-03,WLF-1008,sup-velora,Glasurit (BASF),Paint cup for compressed-air spray gun,lack,75,piece,104.48,7836.0,EUR,7836.0,synthetic-spend-MY.csv,True,direct
+TXN-004097,MY,2026-01,2026-01-02,WLF-1009,sup-lumen,Finixa,"Sanding discs 150 mm, intermediate",schleif,106,piece,70.81,7505.86,EUR,7505.86,synthetic-spend-MY.csv,True,direct
+TXN-004098,MY,2026-02,2026-02-25,WLF-1009,sup-lumen,Finixa,"Sanding discs 150 mm, intermediate",schleif,65,piece,70.81,4602.65,EUR,4602.65,synthetic-spend-MY.csv,True,direct
+TXN-004099,MY,2026-03,2026-03-21,WLF-1009,sup-lumen,Finixa,"Sanding discs 150 mm, intermediate",schleif,191,piece,70.81,13524.71,EUR,13524.71,synthetic-spend-MY.csv,True,direct
+TXN-004100,MY,2026-04,2026-04-27,WLF-1009,sup-lumen,Finixa,"Sanding discs 150 mm, intermediate",schleif,204,piece,70.81,14445.24,EUR,14445.24,synthetic-spend-MY.csv,True,direct
+TXN-004101,MY,2026-05,2026-05-27,WLF-1009,sup-lumen,Finixa,"Sanding discs 150 mm, intermediate",schleif,130,piece,70.81,9205.3,EUR,9205.3,synthetic-spend-MY.csv,True,direct
+TXN-004102,MY,2026-06,2026-06-14,WLF-1009,sup-lumen,Finixa,"Sanding discs 150 mm, intermediate",schleif,261,piece,70.81,18481.41,EUR,18481.41,synthetic-spend-MY.csv,True,direct
+TXN-004103,MY,2026-07,2026-07-17,WLF-1009,sup-lumen,Finixa,"Sanding discs 150 mm, intermediate",schleif,192,piece,70.81,13595.52,EUR,13595.52,synthetic-spend-MY.csv,True,direct
+TXN-004104,MY,2026-08,2026-08-07,WLF-1009,sup-lumen,Finixa,"Sanding discs 150 mm, intermediate",schleif,36,piece,70.81,2549.16,EUR,2549.16,synthetic-spend-MY.csv,True,direct
+TXN-004105,MY,2026-01,2026-01-25,WLF-1010,sup-novex,Mirka,Fine-line tape,kleb,271,piece,23.0,6233.0,EUR,6233.0,synthetic-spend-MY.csv,True,indirect
+TXN-004106,MY,2026-02,2026-02-09,WLF-1010,sup-novex,Mirka,Fine-line tape,kleb,55,piece,23.0,1265.0,EUR,1265.0,synthetic-spend-MY.csv,True,indirect
+TXN-004107,MY,2026-03,2026-03-14,WLF-1010,sup-novex,Mirka,Fine-line tape,kleb,29,piece,23.0,667.0,EUR,667.0,synthetic-spend-MY.csv,True,indirect
+TXN-004108,MY,2026-04,2026-04-27,WLF-1010,sup-novex,Mirka,Fine-line tape,kleb,307,piece,23.0,7061.0,EUR,7061.0,synthetic-spend-MY.csv,True,indirect
+TXN-004109,MY,2026-05,2026-05-13,WLF-1010,sup-novex,Mirka,Fine-line tape,kleb,163,piece,23.0,3749.0,EUR,3749.0,synthetic-spend-MY.csv,True,indirect
+TXN-004110,MY,2026-06,2026-06-18,WLF-1010,sup-novex,Mirka,Fine-line tape,kleb,240,piece,23.0,5520.0,EUR,5520.0,synthetic-spend-MY.csv,True,indirect
+TXN-004111,MY,2026-07,2026-07-05,WLF-1010,sup-novex,Mirka,Fine-line tape,kleb,101,piece,23.0,2323.0,EUR,2323.0,synthetic-spend-MY.csv,True,indirect
+TXN-004112,MY,2026-08,2026-08-13,WLF-1010,sup-novex,Mirka,Fine-line tape,kleb,146,piece,23.0,3358.0,EUR,3358.0,synthetic-spend-MY.csv,True,indirect
+TXN-004113,MY,2026-01,2026-01-25,WLF-1011,sup-arcus,SATA,Polish (fine / anti-hologram),polier,34,piece,14.08,478.72,EUR,478.72,synthetic-spend-MY.csv,True,direct
+TXN-004114,MY,2026-02,2026-02-02,WLF-1011,sup-arcus,SATA,Polish (fine / anti-hologram),polier,134,piece,14.08,1886.72,EUR,1886.72,synthetic-spend-MY.csv,True,direct
+TXN-004115,MY,2026-03,2026-03-10,WLF-1011,sup-arcus,SATA,Polish (fine / anti-hologram),polier,140,piece,14.08,1971.2,EUR,1971.2,synthetic-spend-MY.csv,True,direct
+TXN-004116,MY,2026-04,2026-04-26,WLF-1011,sup-arcus,SATA,Polish (fine / anti-hologram),polier,164,piece,14.08,2309.12,EUR,2309.12,synthetic-spend-MY.csv,True,direct
+TXN-004117,MY,2026-05,2026-05-10,WLF-1011,sup-arcus,SATA,Polish (fine / anti-hologram),polier,200,piece,14.08,2816.0,EUR,2816.0,synthetic-spend-MY.csv,True,direct
+TXN-004118,MY,2026-06,2026-06-07,WLF-1011,sup-arcus,SATA,Polish (fine / anti-hologram),polier,268,piece,14.08,3773.44,EUR,3773.44,synthetic-spend-MY.csv,True,direct
+TXN-004119,MY,2026-07,2026-07-02,WLF-1011,sup-arcus,SATA,Polish (fine / anti-hologram),polier,38,piece,14.08,535.04,EUR,535.04,synthetic-spend-MY.csv,True,direct
+TXN-004120,MY,2026-08,2026-08-09,WLF-1011,sup-arcus,SATA,Polish (fine / anti-hologram),polier,241,piece,14.08,3393.28,EUR,3393.28,synthetic-spend-MY.csv,True,direct
+TXN-004121,MY,2026-01,2026-01-09,WLF-1012,sup-cobalt,tesa,Water-based silicone remover,kabine,285,piece,42.68,12163.8,EUR,12163.8,synthetic-spend-MY.csv,True,direct
+TXN-004122,MY,2026-02,2026-02-24,WLF-1012,sup-cobalt,tesa,Water-based silicone remover,kabine,289,piece,42.68,12334.52,EUR,12334.52,synthetic-spend-MY.csv,True,direct
+TXN-004123,MY,2026-03,2026-03-16,WLF-1012,sup-cobalt,tesa,Water-based silicone remover,kabine,167,piece,42.68,7127.56,EUR,7127.56,synthetic-spend-MY.csv,True,direct
+TXN-004124,MY,2026-04,2026-04-06,WLF-1012,sup-cobalt,tesa,Water-based silicone remover,kabine,73,piece,42.68,3115.64,EUR,3115.64,synthetic-spend-MY.csv,True,direct
+TXN-004125,MY,2026-05,2026-05-02,WLF-1012,sup-cobalt,tesa,Water-based silicone remover,kabine,298,piece,42.68,12718.64,EUR,12718.64,synthetic-spend-MY.csv,True,direct
+TXN-004126,MY,2026-06,2026-06-26,WLF-1012,sup-cobalt,tesa,Water-based silicone remover,kabine,301,piece,42.68,12846.68,EUR,12846.68,synthetic-spend-MY.csv,True,direct
+TXN-004127,MY,2026-07,2026-07-20,WLF-1012,sup-cobalt,tesa,Water-based silicone remover,kabine,179,piece,42.68,7639.72,EUR,7639.72,synthetic-spend-MY.csv,True,direct
+TXN-004128,MY,2026-08,2026-08-19,WLF-1012,sup-cobalt,tesa,Water-based silicone remover,kabine,327,piece,42.68,13956.36,EUR,13956.36,synthetic-spend-MY.csv,True,direct
+TXN-004129,MY,2026-01,2026-01-12,WLF-1013,sup-solis,PPG / Nexa,A2 filter cartridges,psa,178,piece,5.67,1009.26,EUR,1009.26,synthetic-spend-MY.csv,True,indirect
+TXN-004130,MY,2026-02,2026-02-12,WLF-1013,sup-solis,PPG / Nexa,A2 filter cartridges,psa,230,piece,5.67,1304.1,EUR,1304.1,synthetic-spend-MY.csv,True,indirect
+TXN-004131,MY,2026-03,2026-03-05,WLF-1013,sup-solis,PPG / Nexa,A2 filter cartridges,psa,87,piece,5.67,493.29,EUR,493.29,synthetic-spend-MY.csv,True,indirect
+TXN-004132,MY,2026-04,2026-04-13,WLF-1013,sup-solis,PPG / Nexa,A2 filter cartridges,psa,90,piece,5.67,510.3,EUR,510.3,synthetic-spend-MY.csv,True,indirect
+TXN-004133,MY,2026-05,2026-05-04,WLF-1013,sup-solis,PPG / Nexa,A2 filter cartridges,psa,270,piece,5.67,1530.9,EUR,1530.9,synthetic-spend-MY.csv,True,indirect
+TXN-004134,MY,2026-06,2026-06-22,WLF-1013,sup-solis,PPG / Nexa,A2 filter cartridges,psa,300,piece,5.67,1701.0,EUR,1701.0,synthetic-spend-MY.csv,True,indirect
+TXN-004135,MY,2026-07,2026-07-18,WLF-1013,sup-solis,PPG / Nexa,A2 filter cartridges,psa,309,piece,5.67,1752.03,EUR,1752.03,synthetic-spend-MY.csv,True,indirect
+TXN-004136,MY,2026-08,2026-08-02,WLF-1013,sup-solis,PPG / Nexa,A2 filter cartridges,psa,307,piece,5.67,1740.69,EUR,1740.69,synthetic-spend-MY.csv,True,indirect
+TXN-004137,MY,2026-01,2026-01-23,WLF-1014,sup-orbit,Würth,Random orbital sander 77 mm,werkstatt,85,piece,32.63,2773.55,EUR,2773.55,synthetic-spend-MY.csv,True,direct
+TXN-004138,MY,2026-02,2026-02-09,WLF-1014,sup-orbit,Würth,Random orbital sander 77 mm,werkstatt,214,piece,32.63,6982.82,EUR,6982.82,synthetic-spend-MY.csv,True,direct
+TXN-004139,MY,2026-03,2026-03-01,WLF-1014,sup-orbit,Würth,Random orbital sander 77 mm,werkstatt,236,piece,32.63,7700.68,EUR,7700.68,synthetic-spend-MY.csv,True,direct
+TXN-004140,MY,2026-04,2026-04-06,WLF-1014,sup-orbit,Würth,Random orbital sander 77 mm,werkstatt,75,piece,32.63,2447.25,EUR,2447.25,synthetic-spend-MY.csv,True,direct
+TXN-004141,MY,2026-05,2026-05-06,WLF-1014,sup-orbit,Würth,Random orbital sander 77 mm,werkstatt,295,piece,32.63,9625.85,EUR,9625.85,synthetic-spend-MY.csv,True,direct
+TXN-004142,MY,2026-06,2026-06-06,WLF-1014,sup-orbit,Würth,Random orbital sander 77 mm,werkstatt,46,piece,32.63,1500.98,EUR,1500.98,synthetic-spend-MY.csv,True,direct
+TXN-004143,MY,2026-07,2026-07-03,WLF-1014,sup-orbit,Würth,Random orbital sander 77 mm,werkstatt,229,piece,32.63,7472.27,EUR,7472.27,synthetic-spend-MY.csv,True,direct
+TXN-004144,MY,2026-08,2026-08-02,WLF-1014,sup-orbit,Würth,Random orbital sander 77 mm,werkstatt,184,piece,32.63,6003.92,EUR,6003.92,synthetic-spend-MY.csv,True,direct
+TXN-004145,MY,2026-01,2026-01-23,WLF-1015,sup-helio,Kovax,Paint strainers 125 µ / 200 µ,lack,183,piece,52.92,9684.36,EUR,9684.36,synthetic-spend-MY.csv,True,direct
+TXN-004146,MY,2026-02,2026-02-01,WLF-1015,sup-helio,Kovax,Paint strainers 125 µ / 200 µ,lack,42,piece,52.92,2222.64,EUR,2222.64,synthetic-spend-MY.csv,True,direct
+TXN-004147,MY,2026-03,2026-03-11,WLF-1015,sup-helio,Kovax,Paint strainers 125 µ / 200 µ,lack,52,piece,52.92,2751.84,EUR,2751.84,synthetic-spend-MY.csv,True,direct
+TXN-004148,MY,2026-04,2026-04-17,WLF-1015,sup-helio,Kovax,Paint strainers 125 µ / 200 µ,lack,219,piece,52.92,11589.48,EUR,11589.48,synthetic-spend-MY.csv,True,direct
+TXN-004149,MY,2026-05,2026-05-03,WLF-1015,sup-helio,Kovax,Paint strainers 125 µ / 200 µ,lack,222,piece,52.92,11748.24,EUR,11748.24,synthetic-spend-MY.csv,True,direct
+TXN-004150,MY,2026-06,2026-06-15,WLF-1015,sup-helio,Kovax,Paint strainers 125 µ / 200 µ,lack,24,piece,52.92,1270.08,EUR,1270.08,synthetic-spend-MY.csv,True,direct
+TXN-004151,MY,2026-07,2026-07-14,WLF-1015,sup-helio,Kovax,Paint strainers 125 µ / 200 µ,lack,237,piece,52.92,12542.04,EUR,12542.04,synthetic-spend-MY.csv,True,direct
+TXN-004152,MY,2026-08,2026-08-25,WLF-1015,sup-helio,Kovax,Paint strainers 125 µ / 200 µ,lack,73,piece,52.92,3863.16,EUR,3863.16,synthetic-spend-MY.csv,True,direct
+TXN-004153,MY,2026-01,2026-01-13,WLF-1016,sup-vanta,Starcke,"Sanding discs 150 mm, fine",schleif,50,piece,47.32,2366.0,EUR,2366.0,synthetic-spend-MY.csv,True,indirect
+TXN-004154,MY,2026-02,2026-02-16,WLF-1016,sup-vanta,Starcke,"Sanding discs 150 mm, fine",schleif,279,piece,47.32,13202.28,EUR,13202.28,synthetic-spend-MY.csv,True,indirect
+TXN-004155,MY,2026-03,2026-03-18,WLF-1016,sup-vanta,Starcke,"Sanding discs 150 mm, fine",schleif,150,piece,47.32,7098.0,EUR,7098.0,synthetic-spend-MY.csv,True,indirect
+TXN-004156,MY,2026-04,2026-04-15,WLF-1016,sup-vanta,Starcke,"Sanding discs 150 mm, fine",schleif,39,piece,47.32,1845.48,EUR,1845.48,synthetic-spend-MY.csv,True,indirect
+TXN-004157,MY,2026-05,2026-05-04,WLF-1016,sup-vanta,Starcke,"Sanding discs 150 mm, fine",schleif,287,piece,47.32,13580.84,EUR,13580.84,synthetic-spend-MY.csv,True,indirect
+TXN-004158,MY,2026-06,2026-06-11,WLF-1016,sup-vanta,Starcke,"Sanding discs 150 mm, fine",schleif,159,piece,47.32,7523.88,EUR,7523.88,synthetic-spend-MY.csv,True,indirect
+TXN-004159,MY,2026-07,2026-07-18,WLF-1016,sup-vanta,Starcke,"Sanding discs 150 mm, fine",schleif,328,piece,47.32,15520.96,EUR,15520.96,synthetic-spend-MY.csv,True,indirect
+TXN-004160,MY,2026-08,2026-08-19,WLF-1016,sup-vanta,Starcke,"Sanding discs 150 mm, fine",schleif,259,piece,47.32,12255.88,EUR,12255.88,synthetic-spend-MY.csv,True,indirect
+TXN-004161,MY,2026-01,2026-01-27,WLF-1017,sup-aster,3M,Contour tape,kleb,327,piece,24.24,7926.48,EUR,7926.48,synthetic-spend-MY.csv,False,direct
+TXN-004162,MY,2026-02,2026-02-02,WLF-1017,sup-aster,3M,Contour tape,kleb,177,piece,24.24,4290.48,EUR,4290.48,synthetic-spend-MY.csv,False,direct
+TXN-004163,MY,2026-03,2026-03-05,WLF-1017,sup-aster,3M,Contour tape,kleb,119,piece,24.24,2884.56,EUR,2884.56,synthetic-spend-MY.csv,False,direct
+TXN-004164,MY,2026-04,2026-04-25,WLF-1017,sup-aster,3M,Contour tape,kleb,141,piece,24.24,3417.84,EUR,3417.84,synthetic-spend-MY.csv,False,direct
+TXN-004165,MY,2026-05,2026-05-08,WLF-1017,sup-aster,3M,Contour tape,kleb,246,piece,24.24,5963.04,EUR,5963.04,synthetic-spend-MY.csv,False,direct
+TXN-004166,MY,2026-06,2026-06-17,WLF-1017,sup-aster,3M,Contour tape,kleb,112,piece,24.24,2714.88,EUR,2714.88,synthetic-spend-MY.csv,False,direct
+TXN-004167,MY,2026-07,2026-07-22,WLF-1017,sup-aster,3M,Contour tape,kleb,155,piece,24.24,3757.2,EUR,3757.2,synthetic-spend-MY.csv,False,direct
+TXN-004168,MY,2026-08,2026-08-22,WLF-1017,sup-aster,3M,Contour tape,kleb,151,piece,24.24,3660.24,EUR,3660.24,synthetic-spend-MY.csv,False,direct
+TXN-004169,MY,2026-01,2026-01-12,WLF-1018,sup-velora,Glasurit (BASF),One-step cutting and polishing compound,polier,152,piece,38.78,5894.56,EUR,5894.56,synthetic-spend-MY.csv,False,direct
+TXN-004170,MY,2026-02,2026-02-15,WLF-1018,sup-velora,Glasurit (BASF),One-step cutting and polishing compound,polier,330,piece,38.78,12797.4,EUR,12797.4,synthetic-spend-MY.csv,False,direct
+TXN-004171,MY,2026-03,2026-03-05,WLF-1018,sup-velora,Glasurit (BASF),One-step cutting and polishing compound,polier,39,piece,38.78,1512.42,EUR,1512.42,synthetic-spend-MY.csv,False,direct
+TXN-004172,MY,2026-04,2026-04-20,WLF-1018,sup-velora,Glasurit (BASF),One-step cutting and polishing compound,polier,65,piece,38.78,2520.7,EUR,2520.7,synthetic-spend-MY.csv,False,direct
+TXN-004173,MY,2026-05,2026-05-26,WLF-1018,sup-velora,Glasurit (BASF),One-step cutting and polishing compound,polier,41,piece,38.78,1589.98,EUR,1589.98,synthetic-spend-MY.csv,False,direct
+TXN-004174,MY,2026-06,2026-06-25,WLF-1018,sup-velora,Glasurit (BASF),One-step cutting and polishing compound,polier,285,piece,38.78,11052.3,EUR,11052.3,synthetic-spend-MY.csv,False,direct
+TXN-004175,MY,2026-07,2026-07-12,WLF-1018,sup-velora,Glasurit (BASF),One-step cutting and polishing compound,polier,60,piece,38.78,2326.8,EUR,2326.8,synthetic-spend-MY.csv,False,direct
+TXN-004176,MY,2026-08,2026-08-08,WLF-1018,sup-velora,Glasurit (BASF),One-step cutting and polishing compound,polier,296,piece,38.78,11478.88,EUR,11478.88,synthetic-spend-MY.csv,False,direct
+TXN-004177,MY,2026-01,2026-01-05,WLF-1019,sup-lumen,Finixa,Pre-saturated cleaning wipes,kabine,232,piece,44.94,10426.08,EUR,10426.08,synthetic-spend-MY.csv,False,indirect
+TXN-004178,MY,2026-02,2026-02-10,WLF-1019,sup-lumen,Finixa,Pre-saturated cleaning wipes,kabine,213,piece,44.94,9572.22,EUR,9572.22,synthetic-spend-MY.csv,False,indirect
+TXN-004179,MY,2026-03,2026-03-07,WLF-1019,sup-lumen,Finixa,Pre-saturated cleaning wipes,kabine,81,piece,44.94,3640.14,EUR,3640.14,synthetic-spend-MY.csv,False,indirect
+TXN-004180,MY,2026-04,2026-04-28,WLF-1019,sup-lumen,Finixa,Pre-saturated cleaning wipes,kabine,308,piece,44.94,13841.52,EUR,13841.52,synthetic-spend-MY.csv,False,indirect
+TXN-004181,MY,2026-05,2026-05-26,WLF-1019,sup-lumen,Finixa,Pre-saturated cleaning wipes,kabine,299,piece,44.94,13437.06,EUR,13437.06,synthetic-spend-MY.csv,False,indirect
+TXN-004182,MY,2026-06,2026-06-19,WLF-1019,sup-lumen,Finixa,Pre-saturated cleaning wipes,kabine,213,piece,44.94,9572.22,EUR,9572.22,synthetic-spend-MY.csv,False,indirect
+TXN-004183,MY,2026-07,2026-07-16,WLF-1019,sup-lumen,Finixa,Pre-saturated cleaning wipes,kabine,240,piece,44.94,10785.6,EUR,10785.6,synthetic-spend-MY.csv,False,indirect
+TXN-004184,MY,2026-08,2026-08-19,WLF-1019,sup-lumen,Finixa,Pre-saturated cleaning wipes,kabine,154,piece,44.94,6920.76,EUR,6920.76,synthetic-spend-MY.csv,False,indirect
+TXN-004185,MY,2026-01,2026-01-10,WLF-1020,sup-novex,Mirka,P3 particulate filters,psa,323,piece,27.79,8976.17,EUR,8976.17,synthetic-spend-MY.csv,False,direct
+TXN-004186,MY,2026-02,2026-02-19,WLF-1020,sup-novex,Mirka,P3 particulate filters,psa,179,piece,27.79,4974.41,EUR,4974.41,synthetic-spend-MY.csv,False,direct
+TXN-004187,MY,2026-03,2026-03-25,WLF-1020,sup-novex,Mirka,P3 particulate filters,psa,163,piece,27.79,4529.77,EUR,4529.77,synthetic-spend-MY.csv,False,direct
+TXN-004188,MY,2026-04,2026-04-12,WLF-1020,sup-novex,Mirka,P3 particulate filters,psa,102,piece,27.79,2834.58,EUR,2834.58,synthetic-spend-MY.csv,False,direct
+TXN-004189,MY,2026-05,2026-05-21,WLF-1020,sup-novex,Mirka,P3 particulate filters,psa,265,piece,27.79,7364.35,EUR,7364.35,synthetic-spend-MY.csv,False,direct
+TXN-004190,MY,2026-06,2026-06-10,WLF-1020,sup-novex,Mirka,P3 particulate filters,psa,46,piece,27.79,1278.34,EUR,1278.34,synthetic-spend-MY.csv,False,direct
+TXN-004191,MY,2026-07,2026-07-07,WLF-1020,sup-novex,Mirka,P3 particulate filters,psa,165,piece,27.79,4585.35,EUR,4585.35,synthetic-spend-MY.csv,False,direct
+TXN-004192,MY,2026-08,2026-08-26,WLF-1020,sup-novex,Mirka,P3 particulate filters,psa,62,piece,27.79,1722.98,EUR,1722.98,synthetic-spend-MY.csv,False,direct
+TXN-004193,MY,2026-01,2026-01-11,WLF-1021,sup-arcus,SATA,Electric random orbital sander 150 mm,werkstatt,85,piece,20.8,1768.0,EUR,1768.0,synthetic-spend-MY.csv,False,direct
+TXN-004194,MY,2026-02,2026-02-27,WLF-1021,sup-arcus,SATA,Electric random orbital sander 150 mm,werkstatt,290,piece,20.8,6032.0,EUR,6032.0,synthetic-spend-MY.csv,False,direct
+TXN-004195,MY,2026-03,2026-03-11,WLF-1021,sup-arcus,SATA,Electric random orbital sander 150 mm,werkstatt,280,piece,20.8,5824.0,EUR,5824.0,synthetic-spend-MY.csv,False,direct
+TXN-004196,MY,2026-04,2026-04-27,WLF-1021,sup-arcus,SATA,Electric random orbital sander 150 mm,werkstatt,62,piece,20.8,1289.6,EUR,1289.6,synthetic-spend-MY.csv,False,direct
+TXN-004197,MY,2026-05,2026-05-18,WLF-1021,sup-arcus,SATA,Electric random orbital sander 150 mm,werkstatt,284,piece,20.8,5907.2,EUR,5907.2,synthetic-spend-MY.csv,False,direct
+TXN-004198,MY,2026-06,2026-06-05,WLF-1021,sup-arcus,SATA,Electric random orbital sander 150 mm,werkstatt,91,piece,20.8,1892.8,EUR,1892.8,synthetic-spend-MY.csv,False,direct
+TXN-004199,MY,2026-07,2026-07-27,WLF-1021,sup-arcus,SATA,Electric random orbital sander 150 mm,werkstatt,161,piece,20.8,3348.8,EUR,3348.8,synthetic-spend-MY.csv,False,direct
+TXN-004200,MY,2026-08,2026-08-16,WLF-1021,sup-arcus,SATA,Electric random orbital sander 150 mm,werkstatt,253,piece,20.8,5262.4,EUR,5262.4,synthetic-spend-MY.csv,False,direct

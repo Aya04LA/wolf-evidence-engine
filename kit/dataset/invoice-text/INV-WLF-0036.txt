@@ -1,0 +1,14 @@
+SYNTHETIC WOLF LAB INVOICE
+Invoice: INV-WLF-0036
+Date: 2026-09-13
+Supplier: sup-lumen
+Customer: Wolf Automotive (fictional)
+Country: PT
+Article: WLF-1013
+Description: A2 filter cartridges
+Quantity: 58 piece
+Unit price EUR: 4.67
+Net EUR: 270.86
+VAT EUR: 54.17
+Gross EUR: 325.03
+Agreement: NOT PROVIDED

@@ -1,0 +1,14 @@
+SYNTHETIC WOLF LAB INVOICE
+Invoice: INV-WLF-0030
+Date: 2026-09-17
+Supplier: sup-lumen
+Customer: Wolf Automotive (fictional)
+Country: AT
+Article: WLF-1004
+Description: Cutting compound (coarse/medium)
+Quantity: 126 piece
+Unit price EUR: 24.12
+Net EUR: 3039.12
+VAT EUR: 607.82
+Gross EUR: 3646.94
+Agreement: NOT PROVIDED

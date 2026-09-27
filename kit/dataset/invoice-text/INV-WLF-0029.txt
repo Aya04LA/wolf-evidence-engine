@@ -1,0 +1,14 @@
+SYNTHETIC WOLF LAB INVOICE
+Invoice: INV-WLF-0029
+Date: 2026-09-16
+Supplier: sup-lumen
+Customer: Wolf Automotive (fictional)
+Country: XK
+Article: WLF-1003
+Description: Standard masking tape
+Quantity: 88 pack
+Unit price EUR: 17.33
+Net EUR: 1525.04
+VAT EUR: 305.01
+Gross EUR: 1830.05
+Agreement: OFR-03-003-V3

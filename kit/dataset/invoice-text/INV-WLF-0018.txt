@@ -1,0 +1,14 @@
+SYNTHETIC WOLF LAB INVOICE
+Invoice: INV-WLF-0018
+Date: 2026-09-15
+Supplier: sup-velora
+Customer: Wolf Automotive (fictional)
+Country: BA
+Article: WLF-1008
+Description: Paint cup for compressed-air spray gun
+Quantity: 54 piece
+Unit price EUR: 68.46
+Net EUR: 3696.84
+VAT EUR: 739.37
+Gross EUR: 4436.21
+Agreement: NOT PROVIDED
