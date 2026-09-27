@@ -87,6 +87,33 @@ export interface RecordDto {
   corrected: boolean;
 }
 
+export interface CandidateDto {
+  supplierId: string;
+  invoiceLines: number;
+  invoiceQty: number;
+  avgUnitPriceEURCents: number;
+  minUnitPriceEURCents: number;
+  maxUnitPriceEURCents: number;
+  status: 'eligible' | 'unstable_price' | 'too_few_lines';
+}
+
+export type FactsDto =
+  | {
+      kind: 'spend_total';
+      market: string;
+      totalEURCents: number;
+      invoiceEURCents: number;
+      creditEURCents: number;
+      rows: number;
+    }
+  | {
+      kind: 'price_decision';
+      market: string;
+      productCode: string;
+      referencePriceEURCents: number | null;
+      candidates: CandidateDto[];
+    };
+
 export interface VersionDto {
   versionId: string;
   supersedes: string | null;
@@ -95,7 +122,7 @@ export interface VersionDto {
   reason: string | null;
   headline: string;
   detail: string | null;
-  facts: unknown;
+  facts: FactsDto;
   evidence: SourceRefDto[];
   contributingCount: number;
 }

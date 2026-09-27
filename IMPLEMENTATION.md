@@ -254,14 +254,20 @@ criterion), when the reviewer is empty, or when the finding value is an abstenti
 
 | Piece | File | Change |
 | --- | --- | --- |
-| Route | `frontend/src/app/dashboard/evidenz/page.tsx` | New, same pattern as `tiefenanalyse/page.tsx` |
-| Path + nav | `src/routes/paths.ts`, `src/layouts/nav-config-dashboard.tsx` | Add `Evidence` under "Tender 2026" with `<Label color="warning">Track 1</Label>` |
-| Screen | `src/sections/evidenz/view.tsx` | Event queue (labelled **simulated**), findings table with version + stale label |
-| Evidence drawer | `src/sections/evidenz/finding-drawer.tsx` | Contributing rows with `SourceRef`, superseded versions, diff; reuse `components/table`, `label`, `custom-dialog` |
-| Correction + approval | `src/sections/evidenz/approve-dialog.tsx` | Pinned `versionId` shown, reviewer field, reason required |
-| Adapter | `src/data/evidence.ts` | Only data entry point for the UI |
-| Push agent | `src/hooks/use-evidence-feed.ts` | Polls `GET /api/evidence/events` (labelled simulated polling, like `use-live-intake.ts`) |
-| Cross-link | `src/sections/tiefenanalyse/` | Optional "open evidence" link from the raw row explorer |
+| Route | `frontend/src/app/dashboard/evidenz/page.tsx` | Same pattern as `tiefenanalyse/page.tsx` |
+| Path + nav | `src/routes/paths.ts`, `src/layouts/nav-config-dashboard.tsx` | `Evidence` under "Tender 2026" with a `Track 1` label |
+| Screen | `src/sections/evidenz/view.tsx` | Stale-approval banner, command result notice, replay proof, audit trail |
+| Event queue | `src/sections/evidenz/event-queue.tsx` | Deliver or replay each lineage file; a "Mislabel" menu for the wrong-scope test |
+| Findings | `src/sections/evidenz/findings-table.tsx` | Per-market tabs, version tag, approval state; rows changed by the last command are highlighted |
+| Evidence drawer | `src/sections/evidenz/finding-drawer.tsx` | Explanation (with source refs) when a finding abstains, facts and candidates, diff, version history, contributing rows with origin labels |
+| Decisions | `src/sections/evidenz/decision-dialogs.tsx` | Approve (pins the version) and correct (reason required; euro amounts parsed without floats) |
+| Data hook | `src/hooks/use-evidence.ts` | Simulated push: polls `state/` every 5 s while the tab is visible; one funnel for command results |
+| Adapter | `src/data/evidence.ts` | The only UI entry point to the API |
+
+The screens reuse the starter's `DashboardContent`, `Label`, `Iconify`, theme tokens and card
+title style. The `table` and `custom-dialog` folders named in `COMPONENTS.md` are not in the kit,
+so MUI `Table` and `Dialog` are used directly. Checked in the browser at desktop and 375 px
+widths, and every control is reachable by keyboard.
 
 The ingestion fixtures stay out of the dashboard ledger, as `DATASET.md` requires.
 

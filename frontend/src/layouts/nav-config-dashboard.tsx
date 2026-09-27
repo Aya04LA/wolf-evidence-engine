@@ -61,6 +61,12 @@ export const navData: NavSectionProps['data'] = [
       { title: 'Demand intake', path: paths.dashboard.erhebung, icon: ICONS.chat },
       { title: 'Baseline', path: paths.dashboard.nullmessung, icon: ICONS.analytics },
       { title: 'Deep analysis', path: paths.dashboard.tiefenanalyse, icon: ICONS.analytics },
+      {
+        title: 'Evidence',
+        path: paths.dashboard.evidenz,
+        icon: ICONS.file,
+        info: <Label color="info">Track 1</Label>,
+      },
       { title: 'Products', path: paths.dashboard.produkte, icon: ICONS.product },
       { title: 'Abrasives test', path: paths.dashboard.systemvergleich, icon: ICONS.label },
       {

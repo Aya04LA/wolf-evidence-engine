@@ -17,11 +17,13 @@ import type {
 export type {
   AuditDto,
   StateDto,
+  FactsDto,
   RecordDto,
   ReplayDto,
   VersionDto,
   LineageDto,
   ApprovalDto,
+  CandidateDto,
   FindingDetailDto,
   CommandResultDto,
   FindingSummaryDto,

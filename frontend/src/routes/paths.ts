@@ -46,6 +46,7 @@ export const paths = {
     erhebung: `${ROOTS.DASHBOARD}/erhebung`,
     nullmessung: `${ROOTS.DASHBOARD}/nullmessung`,
     tiefenanalyse: `${ROOTS.DASHBOARD}/tiefenanalyse`,
+    evidenz: `${ROOTS.DASHBOARD}/evidenz`,
     produkte: `${ROOTS.DASHBOARD}/produkte`,
     systemvergleich: `${ROOTS.DASHBOARD}/systemvergleich`,
     lieferlinie: `${ROOTS.DASHBOARD}/lieferlinie`,
