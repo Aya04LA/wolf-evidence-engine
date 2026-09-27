@@ -141,6 +141,11 @@ export interface FindingDetailDto {
     unchangedRecords: number;
   };
   approvals: ApprovalDto[];
+  /** Why this version differs from the previous one. Numbers come from computed facts only. */
+  explanation: {
+    text: string;
+    source: 'template' | 'model' | 'model_rejected' | 'model_unavailable';
+  };
 }
 
 export interface CommandResultDto {

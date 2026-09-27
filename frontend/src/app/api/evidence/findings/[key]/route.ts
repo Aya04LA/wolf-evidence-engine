@@ -16,6 +16,6 @@ export const GET = guard<{ params: Promise<{ key: string }> }>(async (_req, { pa
   }
   const key = FindingKeyParam.safeParse(decoded);
   if (!key.success) return error(400, 'invalid finding key');
-  const detail = findingDetail(key.data);
+  const detail = await findingDetail(key.data);
   return detail ? json(detail) : error(404, 'finding not found');
 });

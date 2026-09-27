@@ -1,5 +1,7 @@
 import type { RecordDto, VersionDto, FindingDetailDto } from 'src/data/evidence';
 
+import { varAlpha } from 'minimal-shared/utils';
+
 import Box from '@mui/material/Box';
 import Alert from '@mui/material/Alert';
 import Stack from '@mui/material/Stack';
@@ -96,6 +98,25 @@ export function FindingDrawer({ open, detail, loading, error, onRetry, onClose, 
               )}
             </Alert>
           )}
+
+          <Box
+            sx={{
+              p: 2,
+              borderRadius: 1.5,
+              borderLeft: (t) => `4px solid ${t.vars.palette.primary.main}`,
+              bgcolor: (t) => varAlpha(t.vars.palette.primary.mainChannel, 0.08),
+            }}
+          >
+            <Stack direction="row" spacing={1} alignItems="center" sx={{ mb: 0.5 }}>
+              <Typography variant="subtitle2">What changed and why</Typography>
+              <Tooltip title={EXPLANATION_SOURCE[detail.explanation.source].tip}>
+                <Label variant="soft" sx={{ textTransform: 'none' }}>
+                  {EXPLANATION_SOURCE[detail.explanation.source].text}
+                </Label>
+              </Tooltip>
+            </Stack>
+            <Typography variant="body2">{detail.explanation.text}</Typography>
+          </Box>
 
           <Stack direction="row" spacing={2} alignItems="center">
             <Tooltip
@@ -251,6 +272,13 @@ function IdList({ label, ids }: { label: string; ids: string[] }) {
     </Typography>
   );
 }
+
+const EXPLANATION_SOURCE: Record<FindingDetailDto['explanation']['source'], { text: string; tip: string }> = {
+  template: { text: 'generated from computed facts', tip: 'Written by code from the version diff. No model involved.' },
+  model: { text: 'reworded by model · numbers verified', tip: 'A model rephrased the computed sentence; every number was checked against it.' },
+  model_rejected: { text: 'model output rejected', tip: 'The model introduced a number that is not in the computed facts, so the computed sentence is shown.' },
+  model_unavailable: { text: 'model unavailable', tip: 'The configured model did not answer; the computed sentence is shown.' },
+};
 
 const CANDIDATE = {
   eligible: { color: 'success', text: 'eligible' },

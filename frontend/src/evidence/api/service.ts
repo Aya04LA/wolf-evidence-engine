@@ -15,7 +15,9 @@ import type {
   FindingSummaryDto,
 } from './dto';
 
+import { polish } from '../explain/polish';
 import { formatEUR } from '../domain/money';
+import { explainChange } from '../explain/narrate';
 import { approvalStatus } from '../approval/approve';
 import { dispatch, replayCommands } from '../store/workspace';
 import { diffVersions, currentVersion } from '../provenance/graph';
@@ -143,7 +145,7 @@ export function replay(): ReplayDto {
   };
 }
 
-export function findingDetail(key: string): FindingDetailDto | null {
+export async function findingDetail(key: string): Promise<FindingDetailDto | null> {
   const s = session();
   const versions = s.ws.history.get(key);
   if (!versions || versions.length === 0) return null;
@@ -151,6 +153,8 @@ export function findingDetail(key: string): FindingDetailDto | null {
   const previous = versions.at(-2);
   const byId = new Map(s.ws.effective.map((r) => [r.id, r]));
   const correctedIds = new Set(s.ws.corrections.map((c) => c.recordId));
+  const diff = diffVersions(previous, current);
+  const supplierName = (id: string) => s.ctx.ref.suppliers.get(id)?.name ?? id;
   return {
     key,
     current: toVersion(current, s.ctx),
@@ -159,8 +163,9 @@ export function findingDetail(key: string): FindingDetailDto | null {
       .map((c) => byId.get(c.recordId))
       .filter((r): r is CanonicalRecord => r !== undefined)
       .map((r) => toRecord(r, correctedIds.has(r.id))),
-    diff: diffVersions(previous, current),
+    diff,
     approvals: s.ws.approvals.filter((a) => a.findingKey === key).map((a) => toApproval(a, s.ws)),
+    explanation: await polish(explainChange(previous, current, diff, supplierName)),
   };
 }
 
