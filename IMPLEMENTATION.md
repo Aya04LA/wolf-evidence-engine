@@ -335,6 +335,8 @@ Implemented in Phase 7 (tests: `security.test.ts`, `api.test.ts`):
 
 ## 9. Phases
 
+**Status: all phases complete** (one commit per phase, see `git log --oneline`). Phase 8 was built without a model, because DeepSeek access ended with the event.
+
 Each phase ends in a commit, and a phase is done only when its exit check passes. Phases 1–4
 are the engine and have no UI. You can stop after any phase and still have something working
 and tested.
