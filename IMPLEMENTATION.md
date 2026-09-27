@@ -304,6 +304,11 @@ numbers are proven.
 - **Model**: optional. The engine is fully correct without it. Narration is phrasing only.
 - **Tracks 2–6 and the GPU experiment**: not attempted.
 
+### Known fixture gaps (found in Phase 1)
+
+- **FR dates.** The raw FR sheet prints invoice dates of 5–10 Sept 2026 (Excel serial 46270–46275), but the expected records carry transaction dates of Jan–Aug 2026. The engine stores the date it can prove (the sheet's) and does not copy the fixture's. The findings group by product and supplier, not month, so totals are unaffected.
+- **FR supplier.** The FR sheet has no supplier column. `supplierId` comes from the event scope and `brand` from `suppliers.json`, and each record's `origins` field says so.
+
 ## 11. Demo script (the Phase 6 exit check)
 
 1. Load v1 for all four markets and show the FR preferred-supplier finding. The buyer approves it.
