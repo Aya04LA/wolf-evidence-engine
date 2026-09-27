@@ -3,6 +3,8 @@ import 'server-only';
 import path from 'node:path';
 import { readFileSync } from 'node:fs';
 
+import { parseCents } from '../domain/money';
+
 /**
  * The only way the engine touches the filesystem. Files are addressed by a fixed allowlist, so
  * no caller-supplied string ever becomes a path (no traversal surface).
@@ -50,6 +52,7 @@ export interface ProductRef {
   name: string;
   cluster: string;
   unit: string;
+  basePriceEUR?: number;
 }
 export interface SupplierRef {
   id: string;
@@ -72,4 +75,15 @@ export function loadReferenceData(): ReferenceData | null {
     suppliers: new Map(suppliers.map((s) => [s.id, s])),
     fx,
   };
+}
+
+/** Catalogue base prices in cents: context shown next to a price decision, never an input to it. */
+export function referencePrices(ref: ReferenceData): Map<string, number> {
+  const out = new Map<string, number>();
+  for (const p of ref.products.values()) {
+    if (typeof p.basePriceEUR !== 'number' || !Number.isFinite(p.basePriceEUR)) continue;
+    const cents = parseCents(p.basePriceEUR.toFixed(2));
+    if (cents !== null) out.set(p.code, cents);
+  }
+  return out;
 }

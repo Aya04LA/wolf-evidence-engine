@@ -207,12 +207,23 @@ affectedFindings(graph, changedRecordIds): string[]     // "what does this event
 
 Findings computed in `findings/compute.ts` (deterministic, integer cents):
 1. `{iso}:spend-total`: net spend per market, credits netted.
-2. `{iso}:{product}:preferred-supplier`: lowest volume-weighted unit price among suppliers with
-   ≥ 3 invoice lines. Fewer lines gives `abstain('insufficient_rows')`. Credit lines are excluded
-   from the price average but included in spend.
+2. `{iso}:{product}:price-decision`: the lowest volume-weighted unit price among *eligible*
+   suppliers. A supplier is eligible with ≥ 3 invoice lines and a price spread of ≤ 25%. If no
+   supplier is eligible, the finding abstains (`price_inconsistent` or `insufficient_rows`). An
+   exact tie is a `price_tie` conflict for a buyer to resolve. Credit lines are excluded from the
+   price average but included in spend. The policy (3 lines, 25%) is hashed into every version
+   id, so changing a threshold produces new versions and makes earlier approvals stale.
 
-This gives the demo its "decision changes" moment. FR v1 has invalid sup-aster prices (70.83 vs
-10.49 for the same part), so the recommendation shifts once v2 repairs them.
+This gives the demo its "decision changes" moment. In every v1 delivery a supplier's price for
+one product swings wildly (FR 3M paint cup: €10.49–€79.08), so v1 price decisions abstain. The
+repaired v2 prices are consistent: FR WLF-1008 becomes "3M at €50.16". For HU, Würth becomes the
+recommended supplier for WLF-1001 (€32.77); 3M stays listed as `unstable_price`.
+
+Approvals (`approval/approve.ts`) pin a version id. Corrections (`approval/corrections.ts`) pin
+the record content id the buyer reviewed. A correction whose record a later source delivery
+changed or removed is reported as stale instead of being applied. `store/workspace.ts` folds
+the three commands (`ingest`, `correct`, `approve`) into one workspace, so the full command log
+replays to an identical state.
 
 ---
 
