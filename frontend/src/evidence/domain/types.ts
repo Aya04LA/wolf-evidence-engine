@@ -11,7 +11,7 @@ export type MergeMode = 'replace_market' | 'add_supplier' | 'replace_supplier_su
 export type ContentId = string & { readonly __brand: 'ContentId' };
 
 /** Where a field value came from. Anything not read from the sheet is labelled. */
-export type FieldOrigin = 'sheet' | 'reference' | 'event_scope' | 'derived';
+export type FieldOrigin = 'sheet' | 'reference' | 'event_scope' | 'derived' | 'baseline_fixture';
 
 /** Pointer back to the exact physical location in a source file. */
 export interface SourceRef {
@@ -109,3 +109,6 @@ export interface SourceEvent {
   records: CanonicalRecord[];
   checks: IngestCheck[];
 }
+
+/** Any non-ok Outcome. It carries no value, so it is valid as an Outcome of every type. */
+export type Refusal = Exclude<Outcome<never>, { status: 'ok' }>;
