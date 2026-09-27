@@ -17,12 +17,75 @@ export const error = (status: number, message: string, issues?: string[]): Respo
 export const statusFor = (s: CommandStatus): number =>
   s === 'ok' || s === 'duplicate' ? 200 : s === 'conflict' ? 409 : 422;
 
+// ---------------------------------------------------------------------------------------------
+// Host allowlist (DNS-rebinding defence)
+
+const DEFAULT_HOSTS = ['127.0.0.1:8084', 'localhost:8084', '[::1]:8084'];
+
+/**
+ * Hosts this API answers for. Without it, a page on attacker.example that rebinds its DNS to
+ * 127.0.0.1 sends requests whose Origin and Host both say attacker.example, so a same-origin
+ * check alone passes. A deployment sets WOLF_ALLOWED_HOSTS (comma-separated host[:port]).
+ */
+function allowedHosts(): Set<string> {
+  const extra = (process.env.WOLF_ALLOWED_HOSTS ?? '')
+    .split(',')
+    .map((h) => h.trim().toLowerCase())
+    .filter(Boolean);
+  return new Set([...DEFAULT_HOSTS, ...extra]);
+}
+
+export function checkHost(req: Request): Response | null {
+  const host = (req.headers.get('host') ?? '').toLowerCase();
+  return allowedHosts().has(host) ? null : error(421, 'unrecognised host');
+}
+
+// ---------------------------------------------------------------------------------------------
+// Mutating requests
+
+/** Reads at most `limit` bytes; stops pulling from the stream as soon as the limit is passed. */
+async function readLimited(req: Request, limit: number): Promise<string | 'too_large' | 'unreadable'> {
+  if (!req.body) return '';
+  const reader = req.body.getReader();
+  const chunks: Uint8Array[] = [];
+  let size = 0;
+  try {
+    for (;;) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      size += value.byteLength;
+      if (size > limit) {
+        await reader.cancel();
+        return 'too_large';
+      }
+      chunks.push(value);
+    }
+  } catch {
+    return 'unreadable';
+  }
+  const all = new Uint8Array(size);
+  let offset = 0;
+  for (const c of chunks) {
+    all.set(c, offset);
+    offset += c.byteLength;
+  }
+  try {
+    return new TextDecoder('utf-8', { fatal: true }).decode(all);
+  } catch {
+    return 'unreadable';
+  }
+}
+
 /**
  * Parses a mutating request defensively:
- * - same-origin only (no auth exists, so this is the CSRF boundary);
- * - JSON content type, body capped at 16 KB, then validated by a strict zod schema.
+ * - same-origin only (no auth exists, so this is the CSRF boundary; the host allowlist in the
+ *   route guard covers DNS rebinding);
+ * - JSON content type, body streamed with a 16 KB cap, then validated by a strict zod schema.
  */
-export async function readCommand<T>(req: Request, schema: ZodType<T>): Promise<{ ok: true; data: T } | { ok: false; res: Response }> {
+export async function readCommand<T>(
+  req: Request,
+  schema: ZodType<T>
+): Promise<{ ok: true; data: T } | { ok: false; res: Response }> {
   const origin = req.headers.get('origin');
   if (origin !== null) {
     let sameHost = false;
@@ -39,15 +102,9 @@ export async function readCommand<T>(req: Request, schema: ZodType<T>): Promise<
   const declared = Number(req.headers.get('content-length') ?? '0');
   if (declared > MAX_BODY_BYTES) return { ok: false, res: error(413, 'request body too large') };
 
-  let text: string;
-  try {
-    text = await req.text();
-  } catch {
-    return { ok: false, res: error(400, 'unreadable body') };
-  }
-  if (new TextEncoder().encode(text).length > MAX_BODY_BYTES) {
-    return { ok: false, res: error(413, 'request body too large') };
-  }
+  const text = await readLimited(req, MAX_BODY_BYTES);
+  if (text === 'too_large') return { ok: false, res: error(413, 'request body too large') };
+  if (text === 'unreadable') return { ok: false, res: error(400, 'unreadable body') };
 
   let raw: unknown;
   try {

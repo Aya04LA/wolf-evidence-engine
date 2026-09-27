@@ -196,4 +196,69 @@ export default [
   ...eslintTs.configs.recommended,
   reactPlugin.configs.flat.recommended,
   customConfig,
+  ...evidenceLayerRules(),
 ];
+
+// ----------------------------------------------------------------------
+
+/**
+ * Track 1 layer boundaries (see IMPLEMENTATION.md §1). Dependencies point downward only:
+ * UI → src/data adapter → API → approval/provenance/findings → merge → ingest → domain.
+ * A violation is a lint error, so the architecture is enforced, not just documented.
+ */
+function evidenceLayerRules() {
+  const FRAMEWORK = [
+    { regex: '^(react|react-dom|next)(/.*)?$', message: 'The engine is framework-free; only src/evidence/api may touch Next.' },
+    { regex: '^@mui/', message: 'The engine has no UI dependencies.' },
+    { regex: '^src/(app|sections|hooks|components|layouts|data)/', message: 'The engine must not import UI layers.' },
+  ];
+  const upward = (layers, message) => ({ regex: `(^|/)(${layers.join('|')})(/|$)`, message });
+  const rule = (patterns) => ({
+    '@typescript-eslint/no-restricted-imports': [2, { patterns }],
+  });
+
+  return [
+    {
+      files: ['src/evidence/**/*.ts'],
+      ignores: ['src/evidence/api/**', 'src/evidence/__tests__/**'],
+      rules: rule([...FRAMEWORK, upward(['api'], 'The engine must not depend on its HTTP adapter.')]),
+    },
+    {
+      files: ['src/evidence/domain/**/*.ts'],
+      rules: rule([
+        ...FRAMEWORK,
+        upward(['api', 'ingest', 'merge', 'findings', 'provenance', 'approval', 'store'], 'domain/ is the bottom layer.'),
+      ]),
+    },
+    {
+      files: ['src/evidence/{ingest,merge}/**/*.ts'],
+      rules: rule([
+        ...FRAMEWORK,
+        upward(['api', 'findings', 'provenance', 'approval', 'store'], 'ingest/ and merge/ sit below findings, approvals and the store.'),
+      ]),
+    },
+    {
+      // UI may only see the wire types, never engine code (keeps server-only code out of bundles).
+      files: ['src/{app,sections,hooks,components,layouts,data}/**/*.{ts,tsx}'],
+      ignores: ['src/app/api/**'],
+      rules: {
+        '@typescript-eslint/no-restricted-imports': [
+          2,
+          {
+            patterns: [
+              {
+                regex: '^src/evidence/(?!api/dto$)',
+                message: 'UI code talks to the engine through src/data/evidence.ts only.',
+              },
+              {
+                regex: '^src/evidence/api/dto$',
+                allowTypeImports: true,
+                message: 'Import DTOs as types only.',
+              },
+            ],
+          },
+        ],
+      },
+    },
+  ];
+}

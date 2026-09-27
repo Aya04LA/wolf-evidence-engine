@@ -191,3 +191,12 @@ describe('input hardening', () => {
     }
   });
 });
+
+describe('finding key decoding', () => {
+  it('a malformed percent-encoding is a 400, not a 500', async () => {
+    const res = await getFinding(new Request('http://localhost:8084/x', { headers: { host: 'localhost:8084' } }), {
+      params: Promise.resolve({ key: '%E0%A4%A' }),
+    });
+    expect(res.status).toBe(400);
+  });
+});

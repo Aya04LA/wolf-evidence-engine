@@ -44,6 +44,18 @@ const BASELINE_MARKETS = ['FR', 'HU', 'XK', 'IT'] as const;
 
 export class ServiceUnavailable extends Error {}
 
+/**
+ * The in-memory log is bounded: without persistence or auth, an unbounded log is a memory
+ * exhaustion vector, and replay cost grows with it. Reset the demo to continue.
+ */
+export const MAX_AUDIT_ENTRIES = 1000;
+export class CapacityExceeded extends Error {}
+
+function withCapacity(s: Session): Session {
+  if (s.ws.audit.length >= MAX_AUDIT_ENTRIES) throw new CapacityExceeded();
+  return s;
+}
+
 function boot(): Session {
   const ref = loadReferenceData();
   const lineage = readFixtureJson<LineageEntry[]>('update-lineage.json');
@@ -87,7 +99,7 @@ export function getState(): StateDto {
 
 /** Push-agent entry point: a lineage event arrives, the service builds and applies it. */
 export function ingest(input: IngestInput): { result: AuditDto; state: StateDto } {
-  const s = session();
+  const s = withCapacity(session());
   const entry = s.lineage.find((l) => l.id === input.lineageId);
   if (!entry) {
     return { result: refusal('ingest', input.lineageId, 'rejected', `unknown_lineage: ${input.lineageId}`), state: toState(s) };
@@ -104,12 +116,12 @@ export function ingest(input: IngestInput): { result: AuditDto; state: StateDto 
 }
 
 export function approveFinding(input: ApproveInput): { result: AuditDto; state: StateDto } {
-  const s = session();
+  const s = withCapacity(session());
   return { result: run(s, { type: 'approve', input: { ...input, at: now() } }), state: toState(s) };
 }
 
 export function correctRecord(input: CorrectInput): { result: AuditDto; state: StateDto } {
-  const s = session();
+  const s = withCapacity(session());
   return { result: run(s, { type: 'correct', input: { ...input, at: now() } }), state: toState(s) };
 }
 
