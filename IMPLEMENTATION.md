@@ -65,15 +65,26 @@ frontend/src/evidence/
     narrate.ts            DeepSeek edge: FindingDiff in → text out, number-checked   (see §7)
   __tests__/              vitest, fixture-driven (see §8)
 
-frontend/src/app/api/evidence/            LAYER 5 — thin route handlers (zod in, JSON out)
-  events/route.ts         POST ingest a lineage event (by id) · GET event log
-  findings/route.ts       GET current findings + versions
-  findings/[key]/route.ts GET evidence: contributing rows, superseded versions, diff
-  approvals/route.ts      POST approve {findingKey, versionId, reviewer}
-  corrections/route.ts    POST correct one record {recordId, field, value, reason, reviewer}
-  replay/route.ts         POST replay the full log, return totals + hash to prove idempotency
+frontend/src/evidence/api/                LAYER 5a — adapter (server-only except dto.ts)
+  dto.ts                  wire types (types only; the one engine module the UI may import)
+  schemas.ts              strict zod request schemas (unknown keys rejected, bounded strings)
+  http.ts                 same-origin check, JSON content type, 16 KB cap, error shaping
+  route-guard.ts          503 when the dataset is missing, opaque 500 otherwise
+  service.ts              in-memory workspace + command log, DTO projection   [mock persistence]
 
-frontend/src/data/evidence.ts             typed client adapter (fetch + zod parse) — UI only reads this
+frontend/src/app/api/evidence/            LAYER 5b — thin route handlers (all trailing-slash URLs)
+  state/                  GET  findings, lineage queue, approvals, audit trail
+  events/                 POST {lineageId, asMode?}: a late file arrives (asMode = wrong-scope test)
+  findings/[key]/         GET  versions, contributing rows with source refs, diff
+  approvals/              POST {findingKey, versionId, reviewer, note?}
+  corrections/            POST {recordId, recordContentId, field, to, reason, reviewer}
+  replay/                 POST {}: rebuild from the command log once and twice, compare hashes
+  reset/                  POST {}: back to baseline (dev only unless WOLF_DEMO_RESET=1)
+
+The server sets timestamps, never the client. Refused commands return 409/422 with the audit
+entry, so the UI can show the reason.
+
+frontend/src/data/evidence.ts             typed client adapter — the only UI entry point
 frontend/src/sections/evidenz/            LAYER 6 — UI (see §6)
 ```
 
